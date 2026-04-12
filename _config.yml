@@ -19,9 +19,9 @@ plugins:
 navigation:
   main:
     - title: "Start"
-      url: /blog01/
+      url: /
     - title: "Über mich"
-      url: /blog01/about/
+      url: /about/
 
 # Defaults
 defaults:
