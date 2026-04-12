@@ -1,0 +1,19 @@
+<header class="site-header custom-header" role="banner">
+  <div class="wrapper">
+    <div class="brand-block">
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <p class="site-tagline">{{ site.description | escape }}</p>
+    </div>
+
+    <div class="header-actions">
+      <nav class="site-nav">
+        <a class="page-link" href="{{ '/' | relative_url }}">Start</a>
+        <a class="page-link" href="{{ '/about/' | relative_url }}">Über mich</a>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Farbmodus wechseln" title="Farbmodus wechseln">
+        <span class="theme-toggle-label">🌓</span>
+      </button>
+    </div>
+  </div>
+</header>

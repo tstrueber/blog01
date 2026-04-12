@@ -3,33 +3,15 @@ layout: home
 title: Start
 ---
 
-<section class="hero">
-  <p class="hero-kicker">Jekyll · GitHub Pages · Persönlicher Blog</p>
-  <h1>Willkommen auf meinem Blog</h1>
-  <p class="hero-copy">
-    Hier sammle ich Gedanken, Projekte, Notizen und Dinge, die ich festhalten möchte.
+<section class="intro-block">
+  <p class="intro-kicker">Persönlicher Blog</p>
+  <h1>Gedanken, Projekte, Notizen und Dinge, die es wert sind, festgehalten zu werden.</h1>
+  <p class="intro-copy">
+    Ich schreibe hier über Themen, die mich gerade beschäftigen, über Technik, kleine Learnings und alles, was ich spannend genug finde, um es nicht wieder zu vergessen.
   </p>
-  <div class="hero-actions">
-    <a class="button-primary" href="{{ '/about/' | relative_url }}">Über mich</a>
-  </div>
-</section>
-
-<section class="feature-grid">
-  <article class="feature-card">
-    <h2>Gedanken</h2>
-    <p>Kleine Ideen, Beobachtungen und Texte, die nicht verloren gehen sollen.</p>
-  </article>
-  <article class="feature-card">
-    <h2>Projekte</h2>
-    <p>Einblicke in Dinge, an denen ich gerade arbeite oder die ich ausprobieren will.</p>
-  </article>
-  <article class="feature-card">
-    <h2>Notizen</h2>
-    <p>Kurze Learnings, Links und Fundstücke, die später noch nützlich sind.</p>
-  </article>
+  <p class="intro-link"><a href="{{ '/about/' | relative_url }}">Mehr über mich</a></p>
 </section>
 
 <section class="section-intro">
   <h2>Neueste Beiträge</h2>
-  <p>Hier startet der Feed mit meinen neuesten Artikeln.</p>
 </section>
