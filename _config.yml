@@ -1,0 +1,13 @@
+title: Timos Blog
+description: Notizen, Ideen und Projekte.
+author: Timo
+lang: de
+url: "https://USERNAME.github.io"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-feed
+header_pages:
+  - about.md
+minima:
+  social_links: []
