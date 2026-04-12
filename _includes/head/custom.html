@@ -96,9 +96,9 @@
 <!-- Apply dark mode before first paint to avoid flash -->
 <script>
   (function () {
-    var stored = localStorage.getItem('darkMode');
+    var storedDarkMode = localStorage.getItem('darkMode');
     var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (stored === 'true' || (stored === null && prefersDark)) {
+    if (storedDarkMode === 'true' || (storedDarkMode === null && prefersDark)) {
       document.documentElement.classList.add('dark-mode');
     }
   })();
