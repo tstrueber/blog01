@@ -1,7 +1,7 @@
 ---
-layout: single
 title: Über mich
-permalink: /about/
+icon: fas fa-info-circle
+order: 4
 ---
 
 Hi, ich bin Timo.

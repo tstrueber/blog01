@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: post
 title: "Willkommen"
 date: 2026-04-12 00:00:00 +0000
-categories: blog
+categories: [Blog]
+tags: []
 ---
 
 Das ist der erste Beispiel-Post für meinen neuen Jekyll-Blog.

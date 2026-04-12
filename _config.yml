@@ -1,44 +1,39 @@
-title: Timos Blog
-description: Notizen, Ideen und Projekte.
-author:
-  name: Timo
+theme: jekyll-theme-chirpy
+
 lang: de
-locale: de-DE
+timezone: Europe/Berlin
+
+title: Timos Blog
+tagline: Notizen, Ideen und Projekte.
+description: Notizen, Ideen und Projekte.
+
 url: "https://tstrueber.github.io"
 baseurl: "/blog01"
 
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "air"
+github:
+  username: tstrueber
 
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-include-cache
+social:
+  name: Timo
+  email: ""
+  links: []
 
-# Navigation
-navigation:
-  main:
-    - title: "Start"
-      url: /
-    - title: "Über mich"
-      url: /about/
+avatar: ""
 
-# Defaults
+toc: true
+
+paginate: 10
+
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: false
-      read_time: false
-      share: false
-      related: false
-  # _pages
+      layout: post
+      comments: false
+      toc: true
   - scope:
-      path: "_pages"
-      type: pages
+      path: "_tabs"
     values:
-      layout: single
-      author_profile: false
+      layout: page
+      permalink: /:title/
