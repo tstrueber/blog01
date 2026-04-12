@@ -1,0 +1,53 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var nav = document.querySelector('.greedy-nav');
+  if (!nav) return;
+
+  /* ── Social media icon links ── */
+  var social = document.createElement('span');
+  social.className = 'custom-social-links';
+  social.innerHTML =
+    '<a href="https://www.youtube.com/@ModernWorkplaceDiaries" target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>' +
+    '<a href="https://www.instagram.com/timo_strueber/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>' +
+    '<a href="https://www.linkedin.com/in/timo-strueber/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>' +
+    '<a href="https://strueberit.de" target="_blank" rel="noopener noreferrer" title="Homepage" aria-label="Homepage"><i class="fas fa-globe" aria-hidden="true"></i></a>';
+
+  /* ── Dark-mode toggle button ── */
+  var btn = document.createElement('button');
+  btn.id = 'dm-toggle';
+  btn.setAttribute('aria-label', 'Dark Mode umschalten');
+  btn.title = 'Dark Mode umschalten';
+
+  function syncButton() {
+    var dark = document.documentElement.classList.contains('dark-mode');
+    btn.textContent = dark ? '☀️' : '🌙';
+    btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+  }
+
+  btn.addEventListener('click', function () {
+    var dark = document.documentElement.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', dark ? 'true' : 'false');
+    syncButton();
+  });
+
+  syncButton();
+
+  /* Insert both elements before the hamburger menu button */
+  var hamburger = nav.querySelector('.greedy-nav__toggle');
+  if (hamburger) {
+    nav.insertBefore(btn, hamburger);
+    nav.insertBefore(social, btn);
+  } else {
+    nav.appendChild(social);
+    nav.appendChild(btn);
+  }
+
+  /* Keep in sync with OS-level preference changes (only when no explicit choice stored) */
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+    if (localStorage.getItem('darkMode') === null) {
+      document.documentElement.classList.toggle('dark-mode', e.matches);
+      syncButton();
+    }
+  });
+});
+</script>
