@@ -2,8 +2,8 @@ title: Timos Blog
 description: Notizen, Ideen und Projekte.
 author: Timo
 lang: de
-url: "https://USERNAME.github.io"
-baseurl: ""
+url: "https://tstrueber.github.io"
+baseurl: "/blog01"
 theme: minima
 plugins:
   - jekyll-feed
