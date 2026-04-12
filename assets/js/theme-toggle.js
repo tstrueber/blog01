@@ -35,5 +35,12 @@
   document.addEventListener("DOMContentLoaded", function () {
     applyTheme(currentTheme());
     updateLabel();
+
+    const button = document.getElementById("theme-toggle");
+    if (button) {
+      button.addEventListener("click", function () {
+        window.toggleTheme();
+      });
+    }
   });
 })();

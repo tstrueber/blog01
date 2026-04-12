@@ -10,7 +10,7 @@ title: Start
     Hier sammle ich Gedanken, Projekte, Notizen und Dinge, die ich festhalten möchte.
   </p>
   <div class="hero-actions">
-    <a class="button-primary" href="/about/">Über mich</a>
+    <a class="button-primary" href="{{ '/about/' | relative_url }}">Über mich</a>
   </div>
 </section>
 
