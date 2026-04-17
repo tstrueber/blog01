@@ -22,33 +22,33 @@ Conditional Access Policies secure access to Microsoft Cloud services by enforci
 
 Since a change to a conditional access policy could lower your security posture (do not require MFA when not connected to the corporate network), you want to be notified when one of the policies is changed. We use the SIEM solution Microsoft Sentinel for this purpose. This document will not include instructions for creating a Conditional Access Policy or setting up Sentinel. I will demonstrate how to send logs to Sentinel to detect modifications to Conditional Access Policies and how to generate incidents automatically based on those changes.
 
-![]({{ '/assets/wordpress-import/2023/09/conditional-access-change-sentinel-1024x534.jpg' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/conditional-access-change-sentinel-1024x534.jpg)
 ## Conditional Access Policy Change Log
 
 Changes to conditional access policies are logged in the Entra ID audit logs. They can be easily accessed through the Entra portal by navigating to "Protection - Conditional Access - Audit Logs" and filtering for the Service "Conditional Access":
 
-![]({{ '/assets/wordpress-import/2023/09/image-5-1024x447.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-5-1024x447.png)
 
 You receive fundamental information about the activity, including the date and time of the change, the type of change made, and the person who performed the change:
 
-![]({{ '/assets/wordpress-import/2023/09/image-6-1024x672.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-6-1024x672.png)
 
 Changing tabs will provide additional information on the Conditional Access Policy changes, including the display name and JSON files detailing the modified properties and configuration before and after the change:
 
-![]({{ '/assets/wordpress-import/2023/09/image-9.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2023/09/image-8-812x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-9.png) ![Screenshot](/assets/wordpress-import/2023/09/image-8-812x1024.png)
 ## Setup data connector in Sentinel
 
 To bring the data from the Entra ID Audit Log into Sentinel, you need to set up a connector. You can find the connectors in your Sentinel instance under "Data Connectors". Microsoft has not yet renamed the connector in Sentinel, it is still referred to as "Azure Active Directory" here:
 
-![]({{ '/assets/wordpress-import/2023/09/image-10-1024x754.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-10-1024x754.png)
 
 Select "Audit Logs" on the connector page. You need to have both read and write permissions on the Workspace to begin ingesting the necessary logs. Note that I lack these permissions in the shown screenshot:
 
-![]({{ '/assets/wordpress-import/2023/09/image-11-1024x748.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-11-1024x748.png)
 
 Now you must wait a few minutes for the logs to be processed in the workspace. Your connector will switch from gray to green as soon as data is written, as shown here:
 
-![]({{ '/assets/wordpress-import/2023/09/image-13-1024x748.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-13-1024x748.png)
 
 As seen in the bottom right corner, the data is written to the "AuditLogs" table.
 
@@ -56,21 +56,21 @@ As seen in the bottom right corner, the data is written to the "AuditLogs" table
 
 To check for any available data, navigate to the "Logs" section and allow the system 20 to 30 minutes to generate the table. Once available, locate it under "LogManagement" and click to add it to the query on the right. From there, run the query without additional commands or choose the top 10 entries sorted by TimeGenerated:
 
-![]({{ '/assets/wordpress-import/2023/09/image-14-1024x749.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-14-1024x749.png)
 
 Since Sentinel only ingests new data, we won't be able to retrieve the previous change that was seen before setting up the connector. To find an entry in the AuditLog, please make another change to a Conditional Access Policy, which we will now try to query.
 
 Once the change has been made, we can try to locate the log entry. We've filtered the Entry ID by the "Conditional Access" service, which is a good starting point for building the query. So I'm searching for a term similar to "Service" and I come across "LoggedByService" in our current query output as I examine the initial entry.
 
-![]({{ '/assets/wordpress-import/2023/09/image-15-1024x742.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-15-1024x742.png)
 
 My initial filter will search for the term "Conditional" in the "LoggedByService" attribute. Additionally, I set the time frame to focus only on relevant logs and minimize results. After locating the appropriate log entry, I confirmed that the log was generated by "Conditional Access" service:
 
-![]({{ '/assets/wordpress-import/2023/09/image-16.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-16.png)
 
 I updated my query to search specifically for the "Conditional Access" service name. I am currently examining the results to find more useful information:
 
-![]({{ '/assets/wordpress-import/2023/09/image-17-662x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-17-662x1024.png)
 
 There is the admin's userPrincipalName who made the change under "InitiatedBy" and the displayName of the changed Conditional Access policy under "TargetResources". We use the "extend" operator to display the information at the top level of the result set:
 
@@ -89,16 +89,16 @@ The final query should look like this:
 
 The result appears as follows - we have included two critical pieces of information at the top level of the result set:
 
-![]({{ '/assets/wordpress-import/2023/09/image-18-792x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-18-792x1024.png)
 ## Create the analytics rule in Sentinel
 
 After identifying the relevant log entries, we want Sentinel to regularly monitor those events. Upon detecting any changes to a Conditional Access Policy, we aim to generate an incident. To implement this, we establish a scheduled query rule since we wish to execute the query on a regular basis.
 
-![]({{ '/assets/wordpress-import/2023/09/image-19-1024x754.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-19-1024x754.png)
 
 You must name the rule, determine the severity of the incident, and classify the tactics and techniques employed by the attackers in the attack. The list is based on the MITRE ATT&CK knowledge base: [MITRE ATT&CK®](https://attack.mitre.org/). In this example, I will use "Defensive Evasion":
 
-![]({{ '/assets/wordpress-import/2023/09/image-20-612x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-20-612x1024.png)
 
 On the following page, we will paste our previously created KQL query (without specifying the time range). To proceed with the analysis, it is recommended to map the entities from the retrieved logs to pre-defined entities. This aids in establishing connections between multiple alerts generated in Sentinel.
 
@@ -107,15 +107,15 @@ For additional information about entity types in Sentinel, please consult the pr
 
 Always aim for the most robust identifier possible. In this instance, we use the AADUserId for the user.
 
-![]({{ '/assets/wordpress-import/2023/09/image-21.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-21.png)
 
 To obtain this information from our query, we must refer back to it and locate the corresponding ID:
 
-![]({{ '/assets/wordpress-import/2023/09/image-22.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-22.png)
 
 I include the Id as the UserId in the result set and insert the query into the analytics rule query. Later, I link the UserId to the entity AadUserId:
 
-![]({{ '/assets/wordpress-import/2023/09/image-24-1024x730.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-24-1024x730.png)
 
 Here is the finaly quey:
 
@@ -130,18 +130,18 @@ I added the "ActivityDisplayName" attributes under "Custom details" to provide I
 Additionally, I included the name of the Conditional Access Policy that triggered the alert. I run the rule daily, with a search back into the previous day, which I find to be sufficient.
 The threshold is set to generate an alert whenever the query detects a result:
 
-![]({{ '/assets/wordpress-import/2023/09/image-25-1024x894.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-25-1024x894.png)
 
 On the following page, we will create an Incident in Sentinel and group related alerts into Incidents. Alerts will only be grouped when the entities match. Because we could only provide the user ID, there will be one Incident for multiple changes by the same user, and one Incident for every user who made a change:
 
-![]({{ '/assets/wordpress-import/2023/09/image-26-1024x666.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-26-1024x666.png)
 ## Test Sentinel Incident Creation
 
 I updated a Conditional Access Policy by adding my user to its exclusion list for testing. I made the change at 11:20 AM and set the rule to run at 11:45 AM for testing purposes. Later, I will modify the run time to 5:30 AM, so that an Incident analyst receives the Incident at the start of the day.
 
 The Incident page now indicates that an Incident has been created:
 
-![]({{ '/assets/wordpress-import/2023/09/image-28-1024x887.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-28-1024x887.png)
 
 We can observe that the user was mapped accurately and their ID is resolved to the Azure AD user under Entities. Additionally, we can view the custom information we provided, including Activity and CA Policy Name. In case there were more events that Sentinel could associate with the given entities, we could investigate the Incident further. However, in this case, we only had one change.
 

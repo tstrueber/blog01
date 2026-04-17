@@ -31,7 +31,7 @@ Upon unlocking your screen, the first thing you will see is your home screen. If
 
 To minimize distractions, I have moved all such apps to my second home screen.
 
-![]({{ '/assets/wordpress-import/2024/02/20240215_061659000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/20240215_061659000_iOS-473x1024.png)
 
 My first screen is mainly for apps I use on a daily basis:
 
@@ -52,7 +52,7 @@ My first screen is mainly for apps I use on a daily basis:
       - Shortcuts for my smart home
       - Settings
       - Fotos
-![]({{ '/assets/wordpress-import/2024/02/20240215_061837000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/20240215_061837000_iOS-473x1024.png)
 
 My second screen contains all the other frequently used apps:
 
@@ -71,7 +71,7 @@ I have removed every app that I don't need. Apps that I don't use regularly are 
 
 If you receive frequent notifications from an app and cannot disable them within the app, you can access the settings menu and turn off notifications for that specific app in the notifications center:
 
-![]({{ '/assets/wordpress-import/2024/02/image-3-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-1-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-2-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-3-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-1-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-2-473x1024.png)
 
 This is effective for apps from which you do not need notifications at all.
 
@@ -79,7 +79,7 @@ This is effective for apps from which you do not need notifications at all.
 
 iOS has a useful feature called scheduled summary. It allows you to select apps from which you don't want to receive instant notifications. Instead, notifications from these apps are captured and displayed in a single summary notification at a specific time. This feature reduces interruptions and gives you control over notification times.
 
-![]({{ '/assets/wordpress-import/2024/02/image-3-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-4-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-5-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-3-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-4-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-5-473x1024.png)
 
 The configuration for the scheduled summary is located within the notification center.
 
@@ -87,7 +87,7 @@ The configuration for the scheduled summary is located within the notification c
         2. Define a schedule for your summary.
 Determine the times at which you want to receive scheduled notifications.
 I have configured four times to get the summary.
-![]({{ '/assets/wordpress-import/2024/02/image-6-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-6-473x1024.png)
 
 To create a scheduled summary, select the apps you want to include. You get insights about their average weekly notification count. Once you choose an app to be part of the summary, you will no longer receive direct notifications from it. Instead, notifications will be shown in the summary at the designated times.
 
@@ -95,7 +95,7 @@ I have enabled this feature for the Outlook app since I primarily use my laptop 
 
 When it's time for a scheduled summary, you will receive a notification containing a summary that you can expand to view the included notifications. In the example on the right I received a summary containing notifications from my banking app and LinkedIn.
 
-![]({{ '/assets/wordpress-import/2024/02/image-7-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-7-473x1024.png)
 ### Downtime Feature
 
 The next feature, called 'Downtime,' is located under the Screen Time Setting. It disables all apps except for those you configure as always allowed. This feature allows you to take a break from notifications and reduce the risk of opening blocked apps during scheduled downtime as well.
@@ -104,19 +104,19 @@ You can use this feature to define a downtime for your off-work time and only al
 
 To set up the feature, first configure a list of always allowed apps.
 
-![]({{ '/assets/wordpress-import/2024/02/image-9-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-8-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240220_062047000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-9-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-8-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240220_062047000_iOS-473x1024.png)
 
 Define the apps that you want to allow at all times, then return to the Screen Time Settings.
 
 Next, configure your downtime times. You can set a different schedule for each day, as shown in the screenshot to the right. This is just an example.
 
-![]({{ '/assets/wordpress-import/2024/02/image-10-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240220_062226000_iOS-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-11-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240220_064250000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-10-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240220_062226000_iOS-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-11-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240220_064250000_iOS-473x1024.png)
 
 When a downtime period begins, you will receive a notification on your lock screen.
 
 Apps that are restricted by the downtime feature will display an hourglass icon next to their name on your home screen, and the brightness of the icon will be reduced.
 
-![]({{ '/assets/wordpress-import/2024/02/20240220_064257000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/20240220_064257000_iOS-473x1024.png)
 
 When you open an app that is currently limited, you receive a message informing you that you have reached your time limit on the app. You can either accept this message or ignore the limit and open the app anyway.
 
@@ -128,7 +128,7 @@ The 'Focus mode' feature is an excellent way to limit notifications. It can be f
 
 Additionally, you can share the mode across all your devices, including your iPad or Mac. Apps that support focus mode may also indicate to friends trying to contact you that you are currently in 'do not disturb' mode. This way they understand why you may not respond immediately.
 
-![]({{ '/assets/wordpress-import/2024/02/image-12-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240220_074400000_iOS-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240220_073852000_iOS-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240222_060423000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-12-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240220_074400000_iOS-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240220_073852000_iOS-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240222_060423000_iOS-473x1024.png)
 
 By configuring the focus mode, you can choose which people and apps you want to silence notifications from. Additionally, you can schedule the activation of this mode automatically. There are also focus filters available that allow you to filter specific areas within an app.
 
@@ -136,7 +136,7 @@ The screenshot on the left displays the 'people' configuration. You can choose t
 
 The screenshot on the right displays the 'apps' configuration. Again, you can choose to set a block or an allow list.
 
-![]({{ '/assets/wordpress-import/2024/02/20240220_074022000_iOS-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240220_073811000_iOS-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240222_060444000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/20240220_074022000_iOS-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240220_073811000_iOS-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240222_060444000_iOS-473x1024.png)
 
 With focus filters, you can filter the different calendars added in your calendar app. This way you can select to only receive notifications from your personal calendar when you are in 'leisure' focus mode. The same filter mechanism is possible for your mail app.
 
@@ -144,7 +144,7 @@ With focus filters, you can filter the different calendars added in your calenda
 
 In the Outlook app, you can configure quiet times to prevent notifications from popping up during specific periods. Since I use Outlook and Teams exclusively for my work account, I schedule notifications to be suspended outside of work hours and on weekends.
 
-![]({{ '/assets/wordpress-import/2024/02/image-13-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/image-14-473x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/02/20240222_062353000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-13-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/image-14-473x1024.png) ![Screenshot](/assets/wordpress-import/2024/02/20240222_062353000_iOS-473x1024.png)
 
 You can set silent hours for workdays and weekends.
 
@@ -152,7 +152,7 @@ A useful feature is that you can sync your quiet time automatically to Microsoft
 
 As you can see on the right side, my Outlook app currently has quiet time activated and notifications are suspended.
 
-![]({{ '/assets/wordpress-import/2024/02/20240222_062518000_iOS-473x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/20240222_062518000_iOS-473x1024.png)
 ## Summary
 
 In this article, I provide tips for designing your iPhone homescreen to minimize distractions. Additionally, I discuss tools that can be used to limit notifications, such as the notification summary feature. I do not personally use every tool mentioned. One example I would like to mention because I find it helpful is the sleep time configuration in Apple Health. This feature reminds me to wind down before going to bed. I have attached my 'sleep' focus mode to the sleep time in Apple Health, which automatically turns off all notifications except those from my fiancé ;-) To limit my work-related notifications, I have configured 'quiet time' in Outlook and Teams.

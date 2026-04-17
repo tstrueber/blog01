@@ -15,7 +15,7 @@ permalink: "/security-roadmap-for-companies/"
 ---
 I have just been listening to a very good Practical 365 podcast series about Cyber Security:
 
-[![]({{ '/assets/wordpress-import/2023/10/Bildschirmfoto-2023-10-31-um-07.11.03.png' | relative_url }})](https://spotify.link/6T26Waup8Db)
+[![Screenshot](/assets/wordpress-import/2023/10/Bildschirmfoto-2023-10-31-um-07.11.03.png)](https://spotify.link/6T26Waup8Db)
 
 They are discussing the following topics:
 

@@ -21,28 +21,28 @@ Just a heads-up: The website was last updated in July 2023. It's still a good ov
 
 This is the main page where you can choose a license plan and get all the details you need:
 
-![]({{ '/assets/wordpress-import/2024/08/image-25-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-25-1024x768.png)
 
 If you click on a license plan, you'll get an overview of the included services:
 
-![]({{ '/assets/wordpress-import/2024/08/image-24-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-24-1024x768.png)
 
 If you click on a service, you'll be taken to a Microsoft page with more details. In the top right corner, you'll find tools for marking services, drawing, and making notes. This can be really helpful when you're discussing a service plan with a client:
 
-![]({{ '/assets/wordpress-import/2024/08/image-26-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-26-1024x768.png)
 ## Feature Matrix
 
 The second tool you'll find useful on this page is the feature matrix. You'll see it in the lower left corner of the main page:
 
-![]({{ '/assets/wordpress-import/2024/08/image-27-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-27-1024x768.png)
 
 At the top of the page, you can choose which licenses you'd like to compare. Below, you'll find descriptions of each feature with icons showing you which licenses include that feature and which might be an add-on.
 
-![]({{ '/assets/wordpress-import/2024/08/image-28-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-28-1024x1024.png)
 
 This screenshot shows that Defender for Office Plan 1 is only included in the Microsoft 365 Business Premium license plan, compared to the Business Standard and Enterprise E3 license plans:
 
-![]({{ '/assets/wordpress-import/2024/08/image-29-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-29-1024x768.png)
 ## Conclusion
 
 That's all for today's article. I hope you can make use of this tool as well!

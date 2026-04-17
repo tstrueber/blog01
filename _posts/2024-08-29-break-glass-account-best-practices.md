@@ -48,7 +48,7 @@ If you have not yet checked out Merill's [entra.news](https://entra.news/p/this-
 So start ordering two FIDO2 keys to get started - I can recommend the security keys from Yubico:
 [Security Key C NFC by Yubico black](https://www.yubico.com/de/product/security-key-series/security-key-c-nfc-by-yubico-black/)
 
-![]({{ '/assets/wordpress-import/2024/08/image-31-660x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-31-660x1024.png)
 ### Create a group for the accounts & Protect it with Admin Units
 
 I suggest you create a group in Entra ID that includes both break glass accounts. You'll want to exclude this group from all normal conditional access policies so you can still log in with those accounts in case you make a mistake in your daily configuration of conditional access policies and you might lock yourself out. You'll also want to protect this group from being manipulated by other admin accounts with r[estricted management administrative units](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/admin-units-restricted-management). This is still a preview feature, but I recommend it anyway. The alternative option is to exclude the break glass accounts directly in all conditional access policies.

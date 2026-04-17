@@ -31,11 +31,11 @@ In this article, I'll walk you through setting up the service.
 Just go to the website and sign up in the upper-right corner.
 [Free DMARC Analyzer | DMARC Monitoring Service](https://powerdmarc.com/)
 
-![]({{ '/assets/wordpress-import/2025/01/image-12-2048x919.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-12-2048x919.png)
 
 I will create a account here and will not use my Microsoft account:
 
-![]({{ '/assets/wordpress-import/2025/01/image-13.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-13.png)
 
 After entering your information and creating your password you will receive a verification email - click on the link in the email and you can logon to the service.
 
@@ -43,44 +43,44 @@ After entering your information and creating your password you will receive a ve
 
 The setup wizard will guide you through the setup process:
 
-![]({{ '/assets/wordpress-import/2025/01/image-14-2048x1151.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-14-2048x1151.png)
 
 I start with a policy type of "None".
 
-![]({{ '/assets/wordpress-import/2025/01/image-15.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-15.png)
 
 Because I have SPF and DKIM in place and working I go with "Strict" alignment:
 
-![]({{ '/assets/wordpress-import/2025/01/image-16.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-16.png)
 
 I do not change the forensic options because I want to get insights about every issue:
 
-![]({{ '/assets/wordpress-import/2025/01/image-17.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-17.png)
 
 When publishing the DMARC CNAME record I get a hint that I shall remove the old record. This is right for me because I was using Valimail before.
 
-![]({{ '/assets/wordpress-import/2025/01/image-18.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-18.png)
 
 After adding the CNAME record to my DNS zone I can click on "Complete setup" and I'm done:
 
-![]({{ '/assets/wordpress-import/2025/01/image-19-2048x1164.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-19-2048x1164.png)
 ## Move to the DMARC Reject Policy
 
 Now you should wait a few days to see the reports coming in to your environment. You can check the reports in the portal and if everything is fine you can move forward to the "reject policy":
 
-![]({{ '/assets/wordpress-import/2025/01/image-20.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-20.png)
 
 You can also use the provided tools to check if your records are setup correctly:
 
-![]({{ '/assets/wordpress-import/2025/01/image-21.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-21.png)
 
 With the MailAuth Analyzer you can check if a sent email is correctly delivered. Just copy the target address (2) and send a test email from your mailbox. Afterwards click on "refresh" (3) to check the email DMARC Compliance status (4). For more details click on "View" (5):
 
-![]({{ '/assets/wordpress-import/2025/01/image-23.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-23.png)
 
 This gives you a overview of all your e-mail security measures currently in place:
 
-![]({{ '/assets/wordpress-import/2025/01/image-24.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-24.png)
 
 I have still some work to do regarding enabling MTA-STS, TLS-RPT and BIMI but I will cover those topics in separate articles.
 

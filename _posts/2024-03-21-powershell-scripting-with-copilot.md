@@ -40,7 +40,7 @@ The original txt file looked like this:
 
 My first step was to remove the blank spaces. I chose to use Copilot within Teams because it is the most convenient option for me. I asked Copilot the following:
 
-![]({{ '/assets/wordpress-import/2024/03/image-36-1024x452.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-36-1024x452.png)
 
 The command worked as intended. I exported the output to a new file for further use.
 
@@ -61,33 +61,33 @@ The command worked as intended. I exported the output to a new file for further 
 
 I imported the txt file using the import-csv command and set the delimiter option to 'space'. Then, I removed the port from the remote-endpoint column:
 
-![]({{ '/assets/wordpress-import/2024/03/image-37-1024x880.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-37-1024x880.png)
 
 The final result looks like this. It is displayed only in Powershell and has not been exported:
 
-![]({{ '/assets/wordpress-import/2024/03/image-38.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-38.png)
 ## Add up everytime you find a similar value
 
 I want to count hits for each IP address that occurs multiple times.
 
-![]({{ '/assets/wordpress-import/2024/03/image-39-1024x937.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-39-1024x937.png)
 ## Export the result
 
 And I was satisfied with the result:
 
-![]({{ '/assets/wordpress-import/2024/03/image-40.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-40.png)
 
 The export failed. I then verified the object's type:
 
-![]({{ '/assets/wordpress-import/2024/03/image-41-1024x478.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-41-1024x478.png)
 
 I asked Copilot for help because I am unfamiliar with working with this type of object.
 
-![]({{ '/assets/wordpress-import/2024/03/image-42.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-42.png)
 
 This was exactly what I needed. I was able to export the information to a CSV file:
 
-![]({{ '/assets/wordpress-import/2024/03/image-43.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-43.png)
 ## Conclusion
 
 Copilot assisted me in finding a solution to a problem I encountered. I had to make minor adjustments to the commandlets provided to make them fit into my complete script. But it helped me a lot to make progress. While there may have been alternative approaches to the solution, I am currently satisfied with the outcome.

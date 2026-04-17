@@ -13,16 +13,16 @@ This is a short article - I just wanted to share this with you. There is a Add-o
 The Add On:
 [Refined Microsoft Learn – Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/refined-microsoft-learn/ohjiccikicdhcdlophelgjppakkdlfmg?hl=de)
 
-![]({{ '/assets/wordpress-import/2024/07/image-33-1024x789.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-33-1024x789.png)
 
 Here is a example page before installing the Add-On:
 
 [How to set up a multifunction device or application to send emails using Microsoft 365 or Office 365 | Microsoft Learn](https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)
 
-![]({{ '/assets/wordpress-import/2024/07/image-34-1024x763.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-34-1024x763.png)
 
 And afterwards:
 
-![]({{ '/assets/wordpress-import/2024/07/image-35-1024x767.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-35-1024x767.png)
 
 Hope you like the Add-On :-)

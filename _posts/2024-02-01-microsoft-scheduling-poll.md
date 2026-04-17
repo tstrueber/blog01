@@ -21,7 +21,7 @@ This article is part of my productivity series where I go into detail about tech
 
 For meetings with colleagues in the same Exchange organization, you can usually access availability information to help you find a possible time slot for a meeting (see Megan Bowen's availability information in the screenshot below). For external attendees, you won't see their availability in the Schedule assistant (see timo.strueber@outlook.com in the screenshot below).
 
-![]({{ '/assets/wordpress-import/2024/01/image-4-1024x752.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-4-1024x752.png)
 
 In addition, just because a colleague does not have an appointment in their calendar does not guarantee that they will be available for the appointment you are asking them to attend.
 
@@ -52,7 +52,7 @@ With a tool like the Scheduling Poll, you reduce the total time you spend on sch
 
 To create a scheduling poll you compose a new E-Mail in your preferred client (Outlook / New Outlook or in this case the Outlook Web App):
 
-![]({{ '/assets/wordpress-import/2024/01/image-5-1024x631.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-5-1024x631.png)
   1. specify the recipient of the email, who will also be the voter in the appointment poll that we will create
   2. define a subject that will also be used for the appointment that will later be created automatically
   3. Find a place in your E-Mail to put the Link to the created scheduling poll
@@ -61,13 +61,13 @@ To create a scheduling poll you compose a new E-Mail in your preferred client (O
 
 The Scheduling Poll creation wizard opens and you start defining possible appointment times.
 
-![]({{ '/assets/wordpress-import/2024/01/image-6.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-6.png)
   1. define the duration for the appointment
   2. choose the date
   3. choose the possible appointment times on that day
 You can skip between the days and tick timeslots on different days to provide your recipient with enough options to choose from.
   4. click next when you have chosen enough suggestions
-![]({{ '/assets/wordpress-import/2024/01/image-7.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-7.png)
     1. as overview of the scheduled times
     2. specify a location for the meeting
     3. choose if the meeting should be a Teams meeting as well
@@ -82,19 +82,19 @@ Finally you create the poll and you are done!
 
 The poll is created and you can send the email:
 
-![]({{ '/assets/wordpress-import/2024/01/image-8-1024x921.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-8-1024x921.png)
 
 When I open my calendar, I see that the suggested times are blocked in my schedule:
 
-![]({{ '/assets/wordpress-import/2024/01/image-9-1024x615.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-9-1024x615.png)
 
 When I open the calendar item, I can find the link to view the actual poll:
 
-![]({{ '/assets/wordpress-import/2024/01/image-10-1024x793.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-10-1024x793.png)
 
 In the scheduling poll, I can see details about the poll. The participant has not yet voted:
 
-![]({{ '/assets/wordpress-import/2024/01/image-12.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-12.png)
     1. If there is no response from my participants, I can send a reminder email.
     2. I can cancel the poll
     3. I can adjust my own availability if my schedule changes
@@ -104,27 +104,27 @@ In the scheduling poll, I can see details about the poll. The participant has no
 
 Here is the view from the participant's perspective. First, the attendee clicks on Vote:
 
-![]({{ '/assets/wordpress-import/2024/01/image-13.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-13.png)
 
 Then the participant can choose his or her name (this is not necessary for a work or school account):
 
-![]({{ '/assets/wordpress-import/2024/01/image-14.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-14.png)
 
 Now the attendee can vote for the times they are available:
 
-![]({{ '/assets/wordpress-import/2024/01/image-16.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-16.png)
 
 Finally, he can cast his votes:
 
-![]({{ '/assets/wordpress-import/2024/01/image-17.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-17.png)
 
 The organizer receives a notification that the poll has reached consensus and that an appointment has been automatically created:
 
-![]({{ '/assets/wordpress-import/2024/01/image-18.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-18.png)
 
 The hold times in your calendar are removed and the meeting is scheduled:
 
-![]({{ '/assets/wordpress-import/2024/01/image-20.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/01/image-20.png)
 
 Since we had multiple accepted times (the organizer proposed five times and the attendee accepted three of them), the next available time will be chosen.
 

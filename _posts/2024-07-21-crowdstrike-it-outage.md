@@ -29,7 +29,7 @@ CrowdStrike dropped a new update for the Falcon platform endpoint sensor on Frid
 
 Since it was so deeply integrated into the operating system, you couldn't get the affected system to start up again afterwards. CrowdStrike got a fix out pretty quickly, but it has to be implemented by an administrator. You can either boot the system in safe mode and modify some files or use a prepared USB stick to boot from. Another thing to keep in mind is that Bitlocker—Microsoft's disk encryption technology—might get in the way of the administrator doing the workaround.
 
-![Image from freepik.com]({{ '/assets/wordpress-import/2024/07/3970289-1024x1024.jpg' | relative_url }})
+![Image from freepik.com](/assets/wordpress-import/2024/07/3970289-1024x1024.jpg)
 
 There is also a official information from the BSI regarding the incident: [BSI - Weltweite IT-Ausfälle (bund.de)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Analysen-und-Prognosen/Threat-Intelligence/Krisen-Grosslagen/Crowdstrike_Microsoft/Crowdstrike_Microsoft_node.html)
 

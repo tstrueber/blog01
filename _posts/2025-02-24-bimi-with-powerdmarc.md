@@ -25,15 +25,15 @@ https://www.youtube.com/watch?v=mANDP\_lSaK8
 
 Then you just need to log in to the PowerDMARC portal, upload the SVG file, and save the BIMI record:
 
-![]({{ '/assets/wordpress-import/2025/02/image.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/02/image.png)
 
 Go ahead and create the required CNAME record in your public DNS zone and validate the record:
 
-![]({{ '/assets/wordpress-import/2025/02/image-1.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/02/image-1.png)
 
 After that, I hit "Refresh" and saw the result:
 
-![]({{ '/assets/wordpress-import/2025/02/image-4-2048x1223.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/02/image-4-2048x1223.png)
 ## VMC Certificate
 
 The next step is to get a VMC certificate and upload it to PowerDMARC. The price for a certificate like this is between 850 and 1,500 euros per year. The cheapest option I found is from the PSW group, and the certificate will be issued by DigiCert:
@@ -67,7 +67,7 @@ You can see that Microsoft 365 doesn't support BIMI, and I haven't found any rec
 
 Implementing BIMI is pretty straightforward, as long as you follow this guide. I couldn't get my logo to show up in any email service I tested, like Apple Mail, Gmail, and Yahoo. So, if you want your BIMI logo to appear, you'll need a valid VMC certificate. I checked my Gmail app, and it looks like PayPal, InnoNature, and Dr. Flex have BIMI set up and their logos are showing (see the screenshot).
 
-![]({{ '/assets/wordpress-import/2025/02/image-6.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/02/image-6.png)
 
 So, if your target audience is made up of private users, then BIMI will probably have the most positive effect. But if you're a company and you want your logo to show up in other Microsoft 365 mailboxes, sorry, that's not possible right now. On the other hand, if you work with a bunch of other companies that use Google Suite, you'll get something out of it too.
 

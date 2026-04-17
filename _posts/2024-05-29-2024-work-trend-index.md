@@ -20,14 +20,14 @@ Microsoft recently released the 2024 Work Trend Index Annual Report, which is ti
 
 AI is already part of the daily work of a knowledge worker. In fact, 75% of knowledge workers are already using AI at work today. The users surveyed reported several benefits they get from using AI tools. For them, it's not just about working faster; they want to **work smarter**. They see AI as a way to improve their working speed and produce **higher-quality work**. The problem is that the leaders aren't keeping up with the pace of AI users. While they agree that AI is a necessity, the issue for leaders is that they're under pressure to show the immediate ROI for those new (and mostly expensive) solutions. Because there's not much guidance from the top, employees are looking for ways to use their AI tools ( **Bring Your Own AI - BYOAI** ). This is a topic for all company sizes, but it's more significant at small and medium-sized companies. BYOAI is a topic that affects everyone, regardless of age. It's something that declines from Gen Z to Boomers.
 
-![illustration from Microsoft]({{ '/assets/wordpress-import/2024/05/BYOAI_Annual_Work_Trend_Index_2024_663b216ef094b-1-1024x576.jpg' | relative_url }})
+![illustration from Microsoft](/assets/wordpress-import/2024/05/BYOAI_Annual_Work_Trend_Index_2024_663b216ef094b-1-1024x576.jpg)
 
 Another issue with using AI tools is that people are reluctant to admit using them for their most important tasks. This might be because they're afraid that using AI might make them look replaceable.
 BYOAI means missing out on the benefits that would come from **strategic AI use**. This includes having a clear vision for the tools, using the right tools, and training to get the most benefit from using the provided tools. On the other hand, BYOAI puts the **company's information at risk** because the users might be using publicly available AI tools that will use the provided data to further improve the model.
 
 Just to give you an idea of what we're talking about, here's an example from Open AIs, which is probably the most famous tool out there at the moment, [ChatGPT](https://help.openai.com/en/articles/6783457-what-is-chatgpt):
 
-![]({{ '/assets/wordpress-import/2024/05/image-10.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/05/image-10.png)
 
 Another reason for BYOI is that work has picked up speed faster than employees can keep up. They're overworked and feeling burned out. There's a lot of email, meetings, and after-hours work.
 
@@ -37,7 +37,7 @@ From my perspective, AI isn't the answer. Knowledge workers and companies should
 
 There's a shortage of leaders looking for qualified new employees. On the other hand, qualified professionals are still concerned that AI will replace their jobs. The survey also found that more employees are thinking about leaving their jobs to take advantage of new opportunities. Leaders are worried about filling the following roles:
 
-![illustration from Microsoft]({{ '/assets/wordpress-import/2024/05/Talent_Shortage_Annual_Work_Trend_Index_2024_663b21756e41b-1024x576.jpg' | relative_url }})
+![illustration from Microsoft](/assets/wordpress-import/2024/05/Talent_Shortage_Annual_Work_Trend_Index_2024_663b21756e41b-1024x576.jpg)
 
 The report shows that leaders have been hiring AI experts over the last few years. If you're applying for a new job, your chances are much higher if you can show you have AI skills. At the same time, leaders aren't showing the same level of commitment to training their own people. Professionals aren't waiting for their companies to provide them with training. They're getting trained anyway because they see the importance of the topic and want to stay competitive in the job market. LinkedIn is seeing a rise in users taking LinkedIn Learning courses on AI, and the data shows that users are adding AI skills to their profiles. For the majority of people, AI isn't replacing their job, it's transforming it. When it comes to hiring new employees, there's a better chance of finding new talent when you include AI in your job post.
 

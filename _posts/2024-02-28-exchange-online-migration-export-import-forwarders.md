@@ -23,7 +23,7 @@ There are two options for configuring forwarding: specifying another user in you
 
 When examining the example below, it is important to handle the ForwardingAddress differently. This is because it points to a user in Active Directory in a format that cannot be used in Exchange Online.
 
-![]({{ '/assets/wordpress-import/2024/02/image-15-1024x110.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/02/image-15-1024x110.png)
 ## Export the forwarders
 
 First, I export all the forwarders configured in the on-premises Exchange environment. The procedure depends on how you migrate the mailboxes. I suggest exporting the forwarders for a migration batch that you start.

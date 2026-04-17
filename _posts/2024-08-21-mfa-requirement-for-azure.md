@@ -25,7 +25,7 @@ After October 15, 2024, Microsoft will require admins to use multifactor authent
 In addition there is a techcommunity article getting into more detail about the change:
 [Update on MFA requirements for Azure sign-in - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/update-on-mfa-requirements-for-azure-sign-in/ba-p/4177584?WT.mc_id=M365-MVP-9501)
 
-![]({{ '/assets/wordpress-import/2024/08/image-30-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-30-1024x1024.png)
 
 [Image by storyset on Freepik](https://www.freepik.com/free-vector/two-factor-authentication-concept-illustration_12892978.htm#fromView=search&page=1&position=1&uuid=782f7a3a-9cd8-4bcf-9b29-d592f6821eb4)
 

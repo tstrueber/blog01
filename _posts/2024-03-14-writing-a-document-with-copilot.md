@@ -24,15 +24,15 @@ This blog post is part of my [Blog series](https://strueber-it-consulting.de/cop
 
 The draft feature is accessible in both Word online and the standard App for Windows or Mac. If your license has just been activated, it is recommended that you use the Web version as activation in the standard App may take some time. To access the feature, click on an empty line in the document or press 'ALT + I':
 
-![]({{ '/assets/wordpress-import/2024/03/image-13-1024x377.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-13-1024x377.png)
 
 This is just an example prompt:
 
-![]({{ '/assets/wordpress-import/2024/03/image-14-1024x535.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-14-1024x535.png)
 
 This is the initial output. You may approve it or refine the draft by providing Copilot with more prompts:
 
-![]({{ '/assets/wordpress-import/2024/03/image-15-941x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-15-941x1024.png)
 
 Clicking on the \< on top left of the prompt you get the commands to
 
@@ -41,24 +41,24 @@ Clicking on the \< on top left of the prompt you get the commands to
 3. delete the draft
 4. optimize the draft with additional prompts
 
-![]({{ '/assets/wordpress-import/2024/03/image-16.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-16.png)
 ## Draft based on a document in Word with Copilot
 
 To further enhance the outcome, consider referencing a related document:
 
-![]({{ '/assets/wordpress-import/2024/03/image-18-1024x667.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-18-1024x667.png)
 
 The document can be located in either your OneDrive account or SharePoint. You can reference PowerPoint presentations or Word files. Initially, I attempted to add a link to a OneNote page here, but it did not work. You can add up to three documents for Copilot to work with. Simply type the name of the document, and it will search all files to which you have access.
 
-![]({{ '/assets/wordpress-import/2024/03/image-19.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-19.png)
 
 Then, you can add your prompts and let it generate the next draft:
 
-![]({{ '/assets/wordpress-import/2024/03/image-20.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-20.png)
 
 This did not work -\> unfurtunately I do not get insights about why it did not work :-(
 
-![]({{ '/assets/wordpress-import/2024/03/image-21.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-21.png)
 
 I also tried the function in the Word web application, but encountered the same error.
 
@@ -72,11 +72,11 @@ Might be cool in the future to improve the quality of the generated texts.
 
 In addition to the drafting function, you can access the normal Copilot to gather important information for your writing. Simply click on the Copilot icon in the upper right corner and the sidebar will expand, similar to your Edge browser. Then, you can ask Copilot to gather information for you:
 
-![]({{ '/assets/wordpress-import/2024/03/image-22-1024x825.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-22-1024x825.png)
 
 The result is shown in the side pane:
 
-![]({{ '/assets/wordpress-import/2024/03/image-23-1024x828.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-23-1024x828.png)
 
 This reduces the need to switch between your document and your browser, which can be distracting ;-)
 

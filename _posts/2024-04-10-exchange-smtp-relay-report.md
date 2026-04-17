@@ -81,7 +81,7 @@ The complete script can be found on [GitHub](https://github.com/tstrueber/M365Pu
 
 The final CSV file can be imported and converted in Excel.
 
-![]({{ '/assets/wordpress-import/2024/04/image.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/04/image.png)
 
 The list can be used to update the systems to a new SMTP relay service before decommissioning the Exchange server. In this project, we used [MailJet](https://www.mailjet.com/products/email-api/smtp-relay/), but other services like [SendGrid](https://sendgrid.com/en-us/solutions/email-api/smtp-service), for example, can be purchased directly from an Azure Subscription for more convenience ([Azure Marketplace Link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/sendgrid.tsg-saas-offer?tab=overview)).
 

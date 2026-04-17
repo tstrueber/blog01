@@ -27,7 +27,7 @@ As a first step, the application sends a request to the Microsoft Identity Platf
 
 The image below illustrates the steps in the OAuth 2.0 client credentials flow:
 
-![]({{ '/assets/wordpress-import/2023/09/image-1024x737.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-1024x737.png)
 
 In the following Microsoft Learn article you can read more about the process:
 
@@ -79,7 +79,7 @@ Here you can read more about the process:
 
 When the token is successfully returned, it will be stored in the variable and we can proceed with checking it:
 
-![]({{ '/assets/wordpress-import/2023/09/image-1-1024x267.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-1-1024x267.png)
 
 What we will need for our final request to the resource is the access token found within the $TokenResponse variable shown in the screenshot above.
 
@@ -106,7 +106,7 @@ The access\_token will be included in the request header.
 
 The response is not very pretty:
 
-![]({{ '/assets/wordpress-import/2023/09/image-2-1024x244.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-2-1024x244.png)
 
 But we can easily access the values we are interested in:
 
@@ -115,7 +115,7 @@ But we can easily access the values we are interested in:
     $mails | select-object receivedDateTime,subject, `
         @{ label='sender'; expression={($_.sender.emailAddress.address)} }
 
-![]({{ '/assets/wordpress-import/2023/09/image-3.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/09/image-3.png)
 ### Summary
 
 In this article, I cover the usage of the Graph API to list E-Mail messages within a mailbox in Exchange Online.
@@ -123,4 +123,4 @@ The received token also allows sending, or modifying messages but this is not co
 
 The complete script is available on GitHub:
 
-[![]({{ '/assets/wordpress-import/2023/09/image-4.png' | relative_url }})](https://github.com/tstrueber/M365Public/blob/main/Exchange/ApplicationAccess/Graph-List-messages.ps1)
+[![Screenshot](/assets/wordpress-import/2023/09/image-4.png)](https://github.com/tstrueber/M365Public/blob/main/Exchange/ApplicationAccess/Graph-List-messages.ps1)

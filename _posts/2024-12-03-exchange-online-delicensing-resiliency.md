@@ -22,12 +22,12 @@ Fortunately, Microsoft has taken steps to address this risk. In a [recent announ
 This resiliency feature introduces a grace period that temporarily preserves the mailbox completely after a license is removed. When a user’s mailbox is delicensed, instead of being soft deleted immediately, it stays active for 30 days. During this time, administrators have the opportunity to reassign the license and the mailbox stays active even after the new 30-day grace period is over. After the new grace period the mailbox will we soft deleted and the default grace period of 30 days starts. In the soft deleted state the user cannot access the mailbox anymore. E-mails to the mailbox will result in non-delivery reports (NDRs). By reassigning the license during this period the mailbox becomes active again. When the default 30-day grace period expires the mailbox gets deleted and cannot be recovered.
 
 ### Default behavior
-![]({{ '/assets/wordpress-import/2024/12/Delic01.jpg' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/Delic01.jpg)
 
 Illustration by Microsoft
 
 ### Behavior with Exchange Online Delicensing Resiliency feature enabled
-![]({{ '/assets/wordpress-import/2024/12/Delic02.jpg' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/Delic02.jpg)
 
 Illustration by Microsoft
 

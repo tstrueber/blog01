@@ -36,16 +36,16 @@ To have more control over the change I export the information about the users to
 
 You must then imported the CSV file into Excel and manipulate it as needed. I prefere creating a new Excel file and then import the CSV file into the Excel file. This works in my experience better than opening the CSV file directly:
 
-![]({{ '/assets/wordpress-import/2023/08/image-1024x544.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/08/image-1024x544.png)
 
 You then have to change the separator to match the output csv file - in my example ";" or "Semikolon" in german:
 
-![]({{ '/assets/wordpress-import/2023/08/image-1.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/08/image-1.png)
 ## Add the new UPN to the table
 
 After that you must add a new colum to the table where you will fill in the new UPN for each user:
 
-![]({{ '/assets/wordpress-import/2023/08/image-2-1024x133.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/08/image-2-1024x133.png)
 
 As we will use each user's E-Mail address as the new UPN we can copy over the address where it is correctly set. On some users there is still some manual work to do. I recommend involving the customer in working on the table or at least let him check it after completion.
 
@@ -53,7 +53,7 @@ As we will use each user's E-Mail address as the new UPN we can copy over the ad
 
 When you are done you must export the Excel table to a CSV file again because you need this format to import it in Powershell:
 
-![]({{ '/assets/wordpress-import/2023/08/image-3-1024x512.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/08/image-3-1024x512.png)
 ## Import the CSV file to Powershell and change the UPN as set in the table
 
 Finally you import the CSV into Powershell again and change the UPN for the users as set in the table:
@@ -85,6 +85,6 @@ There may be an issues like:
 When working on a larger set of users to change I recommend doing some kind of export prior to changing anything. Also the implementation of additional exception handling to the script is key. But in my case the number of users to change was quite small. So the described procedure was sufficient and faster to write.
 
 ## Link to complete script on GitHub
-[![]({{ '/assets/wordpress-import/2023/08/2023-08-02-21_21_24-Window-1024x389.jpg' | relative_url }})](https://github.com/tstrueber/M365Public/blob/main/Change-UPN.ps1)
+[![Screenshot](/assets/wordpress-import/2023/08/2023-08-02-21_21_24-Window-1024x389.jpg)](https://github.com/tstrueber/M365Public/blob/main/Change-UPN.ps1)
 
 Thank you for reading!

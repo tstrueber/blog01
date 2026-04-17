@@ -31,15 +31,15 @@ The first feature is named "priority account protection" and is available to Mic
 
 If the feature is currently disabled, you need to enable it first. Usually, the feature is enabled by default. You can locate the configuration in the settings section of the Defender portal:
 
-![]({{ '/assets/wordpress-import/2023/12/image-13-1024x485.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-13-1024x485.png)
 
 The next step is to identify the priority accounts that require the feature's protection. The configuration can be found in the same section:
 
-![]({{ '/assets/wordpress-import/2023/12/image-14-1024x654.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-14-1024x654.png)
 
 Add the users you want to tag:
 
-![]({{ '/assets/wordpress-import/2023/12/image-16-1024x364.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-16-1024x364.png)
 
 To add the tag to the members of a specific group, use the script provided in the last section of this article. This is necessary because changes may occur to your priority accounts and it is not possible to specify a group in the web interface.
 
@@ -59,17 +59,17 @@ This technology is capable of identifying emails from external addresses that cl
 
 Impersonation protection can be enabled for up to 350 users in your tenant. The configuration can be found within the Defender for Office anti-phishing policies:
 
-![]({{ '/assets/wordpress-import/2023/12/image-17-1024x697.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-17-1024x697.png)
 
 Specify a display name and sender email address manually. These addresses can be internal or external:
 
-![]({{ '/assets/wordpress-import/2023/12/image-19.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2023/12/image-20.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-19.png) ![Screenshot](/assets/wordpress-import/2023/12/image-20.png)
 
 You cannot specify a group to automate protection for certain employees. At the end of this article, you will find a script to automate this process.
 
 It is recommended to enable additional features to protect against impersonation attacks from an address connected to an unprotected user (the address is not specified in the user impersonation protection section). Microsoft offers a mailbox intelligence and impersonation protection feature that uses AI to distinguish between legitimate and impersonated senders, providing automatic protection. To enable this feature, both "Enable mailbox intelligence" and "Enable intelligence for impersonation protection" must be enabled:
 
-![]({{ '/assets/wordpress-import/2023/12/image-18-1024x697.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-18-1024x697.png)
 ## Powershell Script
 
 To protect your executives using the mentioned technologies, you would typically need to add them manually through the web interface. However, since there are changes to the list of executives from time to time, it becomes necessary to update the list. This process can become complicated, especially for larger companies with up to 200 users on each list, as it can be time-consuming to remove old users and add new ones.
@@ -180,7 +180,7 @@ Finally, I must decide whether to add the users to the current list or overwrite
 
 As always here is the link to the complete script on GitHub:
 
-![]({{ '/assets/wordpress-import/2023/12/image-21-1024x604.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/12/image-21-1024x604.png)
 
 [Script on GitHub](https://github.com/tstrueber/M365Public/blob/main/Exchange/Set-PriorityAccounts_and_Impersonation_Users.ps1)
 

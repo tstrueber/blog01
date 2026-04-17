@@ -70,21 +70,21 @@ Here I assume that you are already a customer of PowerDMARC. If not you might wa
 
 You select the hosted MTA-STS service (2), then you select your domain (3) and you get shown the needed DNS record for setting up MTA-STS and TLS-RPT.
 
-![]({{ '/assets/wordpress-import/2025/01/image-26.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-26.png)
 
 After you have created the required CNAME records in your DNS zone you click on Validate -\> if everything is fine you get the confirmation that the hosted service can be deployed in PowerDMARC's backend. This will publish a MTA-STS policy file with a valid certificate. I will get into detail about this later.
 
-![]({{ '/assets/wordpress-import/2025/01/image-27.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-27.png)
 
 You'll get a confirmation and info that it'll take up to 48 hours to create the records. I only waited about 15 minutes for my activation.
 
 After that, I got a screen that said the DNS records have been published correctly and point to the PowerDMARC service. You can see below that the MTA-STS policy file is accessible and the certificate is valid. The initial mode is set to "Testing", which means that compatible systems will use MTA-STS when sending emails to your domain. If the process fails, they can fall back to less secure communication.
 
-![]({{ '/assets/wordpress-import/2025/01/image-28.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-28.png)
 
 Just click on the link under 'Store Policy file manually' to check your MTA-STS policy file.
 
-![]({{ '/assets/wordpress-import/2025/01/image-33.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-33.png)
 
 This will show your current policy file, which will be used by sending servers that support MTA-STS:
 
@@ -95,21 +95,21 @@ This will show your current policy file, which will be used by sending servers t
 
 Just a heads-up that you should leave the service in 'Testing' mode until you've checked the TLS-RPT reports to make sure MTA-STS is working fine. I had to wait a few days for a report to be delivered and made available in the portal. It's really important to set the date (3) correctly, as in my case it was set to a week in the past and no report showed. As you can see at (4), the Googlemail policy is in testing mode. If you click on 'Download' (5), you'll be able to take a look at the JSON file.
 
-![]({{ '/assets/wordpress-import/2025/01/image-29.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-29.png)
 
 But the JSON isn't formatted very well.
 
-![]({{ '/assets/wordpress-import/2025/01/image-30.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-30.png)
 
 But Github Copilot can help :-)
 
-![]({{ '/assets/wordpress-import/2025/01/image-31-2048x1299.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-31-2048x1299.png)
 
 Here you can see the full JSON.
 
 Next, you need to set the policy mode to "Enforce":
 
-![]({{ '/assets/wordpress-import/2025/01/image-32.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-32.png)
 
 This will change your MTA-STS policy file to "mode: enforce":
 
@@ -122,7 +122,7 @@ So, you've gone ahead and implemented MTA-STS & TLS-RPT, and you've shifted from
 
 This means I've got an A+ rating from the PowerDMARC perspective. :-)
 
-![]({{ '/assets/wordpress-import/2025/01/image-34.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2025/01/image-34.png)
 
 You might also want to take a look at the free tool for a quick check of your domains' email security status:
 

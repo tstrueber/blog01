@@ -29,11 +29,11 @@ The **first example** is when someone wants to share a file they've saved in One
 
 sharing of the file
 
-![]({{ '/assets/wordpress-import/2024/05/image-7-1024x518.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/05/image-7-1024x518.png)
 
 sharing of the whole folder
 
-![]({{ '/assets/wordpress-import/2024/05/image-8-1024x508.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/05/image-8-1024x508.png)
 
 The **second example** is a confidential document that someone sent via email. This email can be forwarded or the document saved in a SharePoint site where more users have access than initially intended by the sender.
 
@@ -52,11 +52,11 @@ To avoid any issues with Copilot for Microsoft 365 giving you confidential infor
 **Define a more restricted sharing type in Sharepoint / OneDrive**
 The default "anyone with a link" setting inevitably leads to oversharing because users won't [choose a more secure option](https://learn.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off#file-and-folder-links). In the below Screenshot you see the default configuration. My recommendation is to set this to "Specific people (only the people the user specifies)":
 
-![]({{ '/assets/wordpress-import/2024/05/image-6.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/05/image-6.png)
 
 **Implement Microsoft Information Protection (Azure RMS) to secure information**
 
-![]({{ '/assets/wordpress-import/2024/05/image-9.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/05/image-9.png)
 
 Use sensitivity labels and data encryption to label and encrypt sensitive data with [Microsoft Information Protection](https://learn.microsoft.com/en-us/purview/information-protection). For protecting E-Mail content use [Purview Message Encryption](https://learn.microsoft.com/en-us/purview/ome). The recommendation here is to use [Azure RMS](https://learn.microsoft.com/en-us/azure/information-protection/what-is-azure-rms) because it is fully compatible with Copilot for Microsoft 365.
 
@@ -64,7 +64,7 @@ Use sensitivity labels and data encryption to label and encrypt sensitive data w
 
 This is probably even more important than the above two technical steps. It's really important that your users know about the risks of confidential information leaking and know how to protect the organization from an incident.
 
-![]({{ '/assets/wordpress-import/2024/05/big_data14-edited-scaled.jpg' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/05/big_data14-edited-scaled.jpg)
 ## Conclusion
 
 If you're planning to use Copilot for Microsoft 365, it's a good idea to check your current Microsoft 365 tenant configuration regarding SharePoint / OneDrive sharing defaults and additionally think about implementing Information Protection (Azure RMS based). This will reduce the risk of a data protection incident a lot. Not only because you're planning to use Copilot for Microsoft 365 - it's always a good idea to think about implementing Information Protection.

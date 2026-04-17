@@ -19,7 +19,7 @@ As from the beginning of October, your customers will have the option of buying 
 
 You can disable the self-service purchase functionality in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/manageselfservicepurchase):
 
-![]({{ '/assets/wordpress-import/2024/12/image-3.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-3.png)
 
 If you want to disable all other products too, I'd suggest using the PowerShell module. It's compatible with PowerShell 7 at the moment.
 Here's a short script with all the required commands:
@@ -43,11 +43,11 @@ Here's a short script with all the required commands:
 
 Initial state:
 
-![]({{ '/assets/wordpress-import/2024/12/image-4.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-4.png)
 
 After executing the script:
 
-![]({{ '/assets/wordpress-import/2024/12/image-5.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-5.png)
 
 I want to be clear that I'm pro-Copilot. I love getting things done more efficiently with the use of AI tools. My view is that implementation has to happen in a structured way, rather than being down to users doing it themselves.
 

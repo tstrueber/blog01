@@ -20,7 +20,7 @@ In my last article, I talked about [why you need a 3rd party SMTP relay service]
 
 When I'm writing this article, there are a few different plans that Twilio SendGrid has that could be a good fit for you:
 
-![]({{ '/assets/wordpress-import/2024/07/image-37-1024x435.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-37-1024x435.png)
 
 [Pricing and Plans | SendGrid](https://sendgrid.com/en-us/pricing)
 
@@ -28,32 +28,32 @@ If you already have an Azure subscription, you can easily book the service from 
 
 You can find SendGrid in the Azure marketplace:
 
-![]({{ '/assets/wordpress-import/2024/07/image-38-1024x419.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-38-1024x419.png)
 
 You'll need to enter the required info, choose a subscription and a resource group, and then you can create the service:
 
-![]({{ '/assets/wordpress-import/2024/07/image-39-1024x892.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-39-1024x892.png)
 
 You can find your new subscription in the Azure portal. Just click on "Open SaaS Account on publisher's site" it to get started:
 
-![]({{ '/assets/wordpress-import/2024/07/image-40-1024x450.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-40-1024x450.png)
 ## Setup your first domain
 
 Once you've created your domain, you'll need to authorize it. To send from any address in your domain, you'll need to authenticate the whole thing. I'll just go over this method in more detail:
 
-![]({{ '/assets/wordpress-import/2024/07/image-41-1024x704.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-41-1024x704.png)
 
 Just enter your DNS provider, and then you can click "Next."
 
-![]({{ '/assets/wordpress-import/2024/07/image-42-1024x686.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-42-1024x686.png)
 
 Just enter your domain name and then click "Next."
 
-![]({{ '/assets/wordpress-import/2024/07/image-43-1024x722.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-43-1024x722.png)
 
 Next, you'll see a list of all the DNS records you'll need to set up to use the service.
 
-![]({{ '/assets/wordpress-import/2024/07/image-44-1024x656.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-44-1024x656.png)
 
 Once you've got all the DNS records set up, you can also create a free Valimail account to get insights into your DMARC results.
 
@@ -61,11 +61,11 @@ Once you've got all the DNS records set up, you can also create a free Valimail 
 
 Once you've verified your domain, you'll need to create an API key to authenticate and send emails through the service.
 
-![]({{ '/assets/wordpress-import/2024/07/image-45-1024x685.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-45-1024x685.png)
 
 You'll need to set the permissions for the new API.
 
-![]({{ '/assets/wordpress-import/2024/07/image-46-1024x695.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/07/image-47-1024x698.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-46-1024x695.png) ![Screenshot](/assets/wordpress-import/2024/07/image-47-1024x698.png)
 
 Once you've created your API key, you can only copy it once. Be sure to store it somewhere safe, like in a password manager.
 
@@ -73,12 +73,12 @@ Once you've created your API key, you can only copy it once. Be sure to store it
 
 You've got two ways to send emails through SendGrid. I'll show you both options here:
 
-![]({{ '/assets/wordpress-import/2024/07/image-48-1024x650.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-48-1024x650.png)
 ### Web API
 
 You can get guides to send emails via SendGrid from a variety of web services:
 
-![]({{ '/assets/wordpress-import/2024/07/image-49-1024x739.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-49-1024x739.png)
 
 Here is a example PowerShell Function I used to send a Test E-Mail:
 
@@ -88,7 +88,7 @@ Here is a example PowerShell Function I used to send a Test E-Mail:
 
 The other option is to send out the E-Mail via SMTP:
 
-![]({{ '/assets/wordpress-import/2024/07/image-50-1024x834.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-50-1024x834.png)
 
 You can access the service via smtp.sendgrid.net. Just authenticate with the username "apikey" and the API key you created in a recent step.
 

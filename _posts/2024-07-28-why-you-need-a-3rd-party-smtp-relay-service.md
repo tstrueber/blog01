@@ -50,7 +50,7 @@ Microsoft has a new service that's currently in public preview and is better for
 
 The only downside to this service is that it's mainly for internal mass communications, so it's not suitable if you want to send emails to external recipients:
 
-![]({{ '/assets/wordpress-import/2024/07/image-36-1024x552.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/07/image-36-1024x552.png)
 ## 3rd Party SMTP Relay Services
 
 If you want to send mass emails to internal and external recipients without any limits, you'll need an external SMTP relay service that's designed for that purpose. I know of three options that might be worth comparing:

@@ -47,7 +47,7 @@ Second, you'll need a licensed service account for Keepit Backup to process the 
 
 Go ahead and create a service account and assign a license.
 
-![]({{ '/assets/wordpress-import/2024/12/image-6.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-6.png)
 
 Just log in with the service account to set up MFA, and you're all set.
 
@@ -57,11 +57,11 @@ Keepit will authenticate to your Microsoft 365 environment using a managed ident
 
 Follow this guide: [Create an app registration in Entra ID : Help Center](https://help.keepit.com/support/solutions/articles/6000271640)
 
-![]({{ '/assets/wordpress-import/2024/12/image-7.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/12/image-8.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/12/image-9.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/12/image-10.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-7.png) ![Screenshot](/assets/wordpress-import/2024/12/image-8.png) ![Screenshot](/assets/wordpress-import/2024/12/image-9.png) ![Screenshot](/assets/wordpress-import/2024/12/image-10.png)
 
 Add Redirect URLs from the guide above until it looks like this:
 
-![]({{ '/assets/wordpress-import/2024/12/image-11.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-11.png)
 
 Create a certificate for secure authentication.
 
@@ -71,11 +71,11 @@ Download & run the provided script and it will create a \*.cer file for you.
 
 Upload the certificate for authentication.
 
-![]({{ '/assets/wordpress-import/2024/12/image-12.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-12.png)
 
 Add the listed permissions to the app registration & grant admin consent:
 
-![]({{ '/assets/wordpress-import/2024/12/image-13.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-13.png)
 ### Add a M365 Connector
 
 Now we will connect Keepit to your Microsoft 365 environment.
@@ -86,52 +86,52 @@ Logon to the Keepit portal with your account:
 
 Add a Microsoft 365 Connector:
 
-![]({{ '/assets/wordpress-import/2024/12/image-14.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/12/image-15.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-14.png) ![Screenshot](/assets/wordpress-import/2024/12/image-15.png)
 
 Sign in with your service account and approve the requested permissions:
 
-![]({{ '/assets/wordpress-import/2024/12/image-18.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-18.png)
 
 For me, the first try didn't work out, but I clicked "Try again" and it went through.
 
-![]({{ '/assets/wordpress-import/2024/12/image-17.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-17.png)
 ### Configure Backup
 
 I also turned on "Teams Chats." To start the backup, you'll need to add the app registration.
 
-![]({{ '/assets/wordpress-import/2024/12/image-19.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-19.png)
 
 Obtain the App ID from the app registration in the Entra ID portal:
 
-![]({{ '/assets/wordpress-import/2024/12/image-20.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-20.png)
 
 Now you can click next in the Keepit wizard:
 
-![]({{ '/assets/wordpress-import/2024/12/image-21.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-21.png)
 
 Go ahead and enter the App ID, then upload the certificate file and the private key. We created both of these with the script we ran a few steps ago.
 
-![]({{ '/assets/wordpress-import/2024/12/image-22.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-22.png)
 
 The app will ask for extra permissions from your service account, which you'll need to accept:
 
-![]({{ '/assets/wordpress-import/2024/12/image-23.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-23.png)
 
 When everything is fine you can click on Configure:
 
-![]({{ '/assets/wordpress-import/2024/12/image-24.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-24.png)
 
 You can check the settings for each service, but it should be on for all users by default. If you want to exclude some users, you can do that here. Finally, you can start the backup.
 
-![]({{ '/assets/wordpress-import/2024/12/image-25.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-25.png)
 
 You can check on the status of your backup in the "Job Monitor" pane.
 
-![]({{ '/assets/wordpress-import/2024/12/image-26-2048x720.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-26-2048x720.png)
 
 At last, I suggest getting rid of the global admin role from the backup service account since it's not needed anymore.
 
-![]({{ '/assets/wordpress-import/2024/12/image-27.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/12/image-27.png)
 ## Summary
 
 Today's article is all about why having a backup solution in Microsoft 365 is so important and how to set up Keepit Backup. If you have any questions about this or need help setting it up, [just let me know](https://strueber-it-consulting.de/how-to-get-in-touch-with-timo-struber/). I'd be happy to help!

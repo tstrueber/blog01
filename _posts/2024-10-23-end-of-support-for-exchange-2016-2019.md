@@ -20,7 +20,7 @@ The last few weeks have been stressful. I have been moving to a new home and the
 
 The current Exchange Server versions 2016 and 2019 will reach their end of support in 12 months from now, on **October 14, 2025**. That is still a year away, so there is plenty of time to prepare, but this should be on your list for 2025.
 
-![]({{ '/assets/wordpress-import/2024/10/Exchange-Server-2016-2019-End-of-Support.jpg' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/10/Exchange-Server-2016-2019-End-of-Support.jpg)
 
 There are two migration paths recommended by Microsoft. The first option is to **migrate to Exchange Online**. For organisations that have not yet started their cloud journey, this might be a big step and involves more than just an Exchange migration. Some organisations may have migrated the majority of their mailboxes to Exchange Online, but still have some legacy applications that cannot communicate with Exchange Online, forcing them to keep an Exchange Server running to host mailboxes for those applications. And, of course, there are organisations that have not and will not move to Exchange Online for a variety of reasons that rely on their Exchange Server. For those organisations that need an Exchange Server after October, 14 2025, Microsoft will release a new version of Exchange Server called Exchange Server Subscription Edition (SE). Microsoft's second migration path is to **migrate to Exchange Server SE** when it is released in the second half of 2025. There was a recent post with details on how to upgrade to Exchange Server SE:
 

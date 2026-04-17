@@ -45,7 +45,7 @@ https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authenti
 You need a "physical" connection between your device (Windows or Mac) and your mobile device that's done via Bluetooth. So one important thing you need for this process is that your mobile phone can set up a Bluetooth connection to your device.
 [List of Requirements](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-enable-authenticator-passkey#requirements)
 
-![]({{ '/assets/wordpress-import/2024/08/image-22.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-22.png)
 
 from [Microsoft](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless#passkeys-fido2)
 
@@ -56,15 +56,15 @@ Before you get started, you'll need to move your authentication methods from the
 
 First, you'll need to enable and configure the authentication method:
 
-![]({{ '/assets/wordpress-import/2024/08/image-1024x585.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-1024x585.png)
 
 Enable Passkey:
 
-![]({{ '/assets/wordpress-import/2024/08/image-1-1024x480.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-1-1024x480.png)
 
 Configure the method as shown here:
 
-![]({{ '/assets/wordpress-import/2024/08/image-3-1024x669.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-3-1024x669.png)
 
 The Authenticator App GUIDs (AAGUID) are for the Android or iOS App:
 
@@ -75,23 +75,23 @@ The Authenticator App GUIDs (AAGUID) are for the Android or iOS App:
 
 I've already set up the Authenticator App for MFA for my user. I just need to add an additional account to the authenticator app.
 
-![]({{ '/assets/wordpress-import/2024/08/image-6-1024x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/08/image-7-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-6-1024x1024.png) ![Screenshot](/assets/wordpress-import/2024/08/image-7-1024x1024.png)
 
 Next, you'll need to log in to your account using your username and password:
 
-![]({{ '/assets/wordpress-import/2024/08/image-8-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-8-1024x1024.png)
 
 Since I've enabled MFA for this user, I get a pop-up asking me to authenticate the process by entering a number. This will happen on the device. Finally, the authenticator app asks me to set the app as my preferred app for passkeys (in German, "Hauptschlüssel"):
 
-![]({{ '/assets/wordpress-import/2024/08/image-9-1024x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/08/image-10-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-9-1024x1024.png) ![Screenshot](/assets/wordpress-import/2024/08/image-10-1024x1024.png)
 
 Once you've got everything set up the way it should be, you'll see a confirmation and the final window will show you that the Passkey (Hauptschlüssel) is enabled:
 
-![]({{ '/assets/wordpress-import/2024/08/image-11-1024x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/08/image-12-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-11-1024x1024.png) ![Screenshot](/assets/wordpress-import/2024/08/image-12-1024x1024.png)
 
 After checking the account in the Microsoft Authenticator app, I can see that the passkey (hash key) is activated:
 
-![]({{ '/assets/wordpress-import/2024/08/image-13-1024x1024.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/08/image-14-1024x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-13-1024x1024.png) ![Screenshot](/assets/wordpress-import/2024/08/image-14-1024x1024.png)
 
 You're all set to authenticate your account with the passkey!
 
@@ -99,31 +99,31 @@ You're all set to authenticate your account with the passkey!
 
 Before you get started, make sure that Bluetooth is enabled on your mobile phone as well as on your device and that your mobile phone has an active internet connection. To authenticate with Passkey, just browse to the intended site. In my case, it is https://admin.microsoft.com. I've selected my account here:
 
-![]({{ '/assets/wordpress-import/2024/08/image-15-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-15-1024x768.png)
 
 Now I have to choose an "other way to sign in":
 
-![]({{ '/assets/wordpress-import/2024/08/image-16-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-16-1024x768.png)
 
 I can choose between my recently configured Passkey or the Authenticator app. I go with "security key," which is basically Passkey:
 
-![]({{ '/assets/wordpress-import/2024/08/image-17-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-17-1024x768.png)
 
 You'll see a pop-up asking where you want to take the passkey from. In this case, you can choose to take it from your phone:
 
-![]({{ '/assets/wordpress-import/2024/08/image-18-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-18-1024x768.png)
 
 Next, you'll need to open the camera app on your phone and scan the QR code shown:
 
-![]({{ '/assets/wordpress-import/2024/08/image-19-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-19-1024x768.png)
 
 On your phone you must tap on "logon with passkey":
 
-![]({{ '/assets/wordpress-import/2024/08/image-20-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-20-1024x768.png)
 
 Then you'll be redirected to the Microsoft Authenticator app, where you can authorize the authentication:
 
-![]({{ '/assets/wordpress-import/2024/08/image-21-1024x768.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/08/image-21-1024x768.png)
 
 Once you've done that, you just have to authorize the process with Face ID and you're all set :-)
 

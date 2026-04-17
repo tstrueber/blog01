@@ -27,15 +27,15 @@ To use Microsoft Bookings, you need a mailbox in Exchange Online and a license t
 
 To begin using Bookings with me, open the Outlook web app, switch to your calendar view, and click on 'Go to my booking page':
 
-![]({{ '/assets/wordpress-import/2024/03/image-24-1024x534.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-24-1024x534.png)
 
 It is recommended to create a new meeting type instead of altering the initial one. I encountered an issue when trying to modify the initial meeting type, which resulted in an inconsistent state. The issue was resolved only after deleting the initial meeting type. Please create a new meeting type:
 
-![]({{ '/assets/wordpress-import/2024/03/image-25-1024x417.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-25-1024x417.png)
 
 Configure your new meeting type settings:
 
-![]({{ '/assets/wordpress-import/2024/03/image-26-1024x616.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-26-1024x616.png)
 1. The name of the new meeting type will also serve as the title of the appointment that will be created.
 Consider including your name in the title to ensure that the customer knows they have a meeting with you.
 2. Provide a brief description of the meeting type and its duration.
@@ -44,15 +44,15 @@ Consider including your name in the title to ensure that the customer knows they
 
 You can customize the time window for scheduling meetings:
 
-![]({{ '/assets/wordpress-import/2024/03/image-27-1024x693.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-27-1024x693.png)
 
 You can specify buffer time before and after the meeting or limit the start time for scheduled appointments to 30-minute intervals or full hours. With a lead time of one day, you have enough time to prepare for a created appointment. Click 'Save' in the top right corner when you're done:
 
-![]({{ '/assets/wordpress-import/2024/03/image-28-1024x690.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-28-1024x690.png)
 
 This brings you back to your Bookings with me page. From here, you can choose to share a link to your specific meeting type or your entire Bookings with me page. Here, I am sharing the link to my newly created meeting type:
 
-![]({{ '/assets/wordpress-import/2024/03/image-29-1024x441.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/03/image-30.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-29-1024x441.png) ![Screenshot](/assets/wordpress-import/2024/03/image-30.png)
 
 Now you can share the link with someone you want to schedule a meeting with.
 
@@ -60,25 +60,25 @@ Now you can share the link with someone you want to schedule a meeting with.
 
 When a customer clicks on the provided link, they are directed to the following site. They can choose to log in with their M365 account or continue as a guest if they are not an M365 user:
 
-![]({{ '/assets/wordpress-import/2024/03/image-31-1024x693.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-31-1024x693.png)
 
 Choose the meeting type and select a day and time that suits you, then click continue:
 
-![]({{ '/assets/wordpress-import/2024/03/image-32-1024x811.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-32-1024x811.png)
 
 To schedule the appointment, please provide your name, email address, and a brief description:
 
-![]({{ '/assets/wordpress-import/2024/03/image-33.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-33.png)
 
 Before scheduling the appointment, you must enter a verification code sent to your email address. If you use an M365 account, you can eliminate the need for additional verification because it uses your authentication.
 
 The owner of the Bookings with me page receives an email verification for the successful booking. (Apologies for booking an appointment with the same name as the page owner.)
 
-![]({{ '/assets/wordpress-import/2024/03/image-34.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-34.png)
 
 The appointment is scheduled in the calendar, and an invitation is sent out to the attendee with a link to a Teams meeting. As the organizer, you can directly cancel the meeting from your inbox or edit it:
 
-![]({{ '/assets/wordpress-import/2024/03/image-35-1024x686.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-35-1024x686.png)
 ## Conclusion
 
 The Booking service plan is included in almost every license, allowing you to use this service without any additional cost. This service reduces the back and forth of emails or Teams messages when finding an appointment, providing your customer with a link to book an appointment themselves. Recently, I received positive feedback from my customers regarding the usage of Bookings, indicating that they also benefit from this tool.

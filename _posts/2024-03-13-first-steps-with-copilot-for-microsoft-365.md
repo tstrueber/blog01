@@ -30,33 +30,33 @@ It is important to differentiate between the Copilot products. On one hand, we h
 
 When you have the license assigned, you can access both versions of Copilot in your Edge browser. You can switch between them at the top of the sidebar. 'Work (Arbeit)' refers to Copilot for Microsoft 365, and 'Web' refers to 'Copilot' (formerly known as Bing Chat).
 
-![]({{ '/assets/wordpress-import/2024/03/image-4-1024x837.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-4-1024x837.png)
 
 Or you can access Copliot by browsing [https://copilot.microsoft.com](https://copilot.microsoft.com)
 You can switch between both versions at the top of the page:
 
-![]({{ '/assets/wordpress-import/2024/03/image-5-1024x841.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-5-1024x841.png)
 
 The third option that I find most accessible in my daily work is accessing Copilot for Microsoft 365 from New Teams:
 
-![]({{ '/assets/wordpress-import/2024/03/image-7-1024x650.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-7-1024x650.png)
 ## Drafting in Outlook
 
 One use case I heard about in a podcast is the drafting functionality in Outlook.
 
-![]({{ '/assets/wordpress-import/2024/03/image-8-1024x404.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-8-1024x404.png)
 
 Drafting creates an email draft for you. You can either compose a new email or reply to an existing conversation. You have the option to set the tone and length of the message. I typically choose the default 'direct' tone and switch to the 'medium' length, as the short version omits the usual email greetings and farewells.
 
-![]({{ '/assets/wordpress-import/2024/03/image-12-1024x474.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-12-1024x474.png)
 
 Here is the prompt I used to create a draft of an email:
 
-![]({{ '/assets/wordpress-import/2024/03/image-9-1024x186.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-9-1024x186.png)
 
 This is the result:
 
-![]({{ '/assets/wordpress-import/2024/03/image-10-1024x343.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2024/03/image-11-1024x192.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/03/image-10-1024x343.png) ![Screenshot](/assets/wordpress-import/2024/03/image-11-1024x192.png)
 
 Since I did not create a contact for the recipient's address, Copilot is unable to call them. However, in a conversation, Copilot can extract the correct recipient information.
 

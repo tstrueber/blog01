@@ -17,7 +17,7 @@ In a recent customer project, the customer's documents must be migrated from an 
 
 The classification level of the documents was stored not only on the metadata level of the files, but also on the visual level in the footer within Word and PowerPoint documents, as you can see here for example in a Word document:
 
-![]({{ '/assets/wordpress-import/2023/07/image-1-955x1024.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-1-955x1024.png)
 ## Show classification information
 
 To show the classification level of a document you have two options:
@@ -39,7 +39,7 @@ To show the classification level of a document you have two options:
 
 The output shows information like the document-ID, the classification client version and the classification level:
 
-![]({{ '/assets/wordpress-import/2023/07/image.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image.png)
 ## Custom configurations for the AIP unified labeling client
 
 For the migration of the documents to Microsoft Information Protection one part of the migration is the removal of the label on the visual layer. Microsoft provides a functionality in the Azure Information Protection (AIP) unified labeling client to remove those markings from Word and Powerpoint:
@@ -52,11 +52,11 @@ For the migration of the documents to Microsoft Information Protection one part 
 
 For using the function mentioned in the above article "WordShapeNameToRemove" you must first find the name of the shape used for inserting the label. You must enable the "selection pane" within the editing section in the "Home" pane of Word:
 
-![]({{ '/assets/wordpress-import/2023/07/image-2-1024x356.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-2-1024x356.png)
 
 Because the label is inserted into the footer you must switch to the "Header & Footer" configuration pane where you will then find the corresponding shape - in this example "novaPathWDBox\_1\_0":
 
-![]({{ '/assets/wordpress-import/2023/07/image-3.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-3.png)
 
 Checking documents with other classification level I noticed that they all use the same shape name. So I will be able to use the function "WordShapeNameToRemove" for documents of all classification levels.
 
@@ -74,7 +74,7 @@ We will test the result in a later step!
 
 The function for removing the visual markings in PowerPoint documents used in this situation is called "PowerPointRemoveAllShapesByShapeName". It works in a similar way like the function for Word documents. In an example PowerPoint Presentation you must first find the shape that is used to insert the label. In my case the label was was set in the slide master of the documents:
 
-![]({{ '/assets/wordpress-import/2023/07/image-4-1024x605.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-4-1024x605.png)
 
 Then you can again adjust the custom configuration for the AIP unified labeling client in the label policy:
 
@@ -92,7 +92,7 @@ There is a policy file with your username that includes the custom configuration
 
 After starting Word your client will pull the new configuration from the cloud and create a new configuration file. Look for the following lines that will show the policy changes performed with PowerShell:
 
-![]({{ '/assets/wordpress-import/2023/07/image-6.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-6.png)
 
 Maybe you have to repeat the removal and download of the configuration file a few times because it can take some time to populate the new configuration file. In my case it took about 10 minutes.
 
@@ -100,15 +100,15 @@ Maybe you have to repeat the removal and download of the configuration file a fe
 
 Now I want to test the removal of the old label. I open a Word document with the "Internal" label set and assigning the new sensitivity label "General" with the AIP unified labeling client:
 
-![]({{ '/assets/wordpress-import/2023/07/image-7-1024x749.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-7-1024x749.png)
 
 After clicking on "General" the "Internal" marking in the footer of the document disappears:
 
-![]({{ '/assets/wordpress-import/2023/07/image-8-1024x744.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-8-1024x744.png)
 
 PowerPoint behaves exactly the same - after assigning the "General" label the "Internal" label diappears:
 
-![]({{ '/assets/wordpress-import/2023/07/image-9-1024x745.png' | relative_url }}) ![]({{ '/assets/wordpress-import/2023/07/image-10-1024x745.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2023/07/image-9-1024x745.png) ![Screenshot](/assets/wordpress-import/2023/07/image-10-1024x745.png)
 ## Limitations of the solution
 
 1. the removal only works when assigning the label while the document is opened

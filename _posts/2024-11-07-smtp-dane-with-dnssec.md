@@ -46,7 +46,7 @@ The first thing you should look at is whether DNSSEC is turned on for your domai
 
 Just enter your domain name and click "Test."
 
-![]({{ '/assets/wordpress-import/2024/10/image-2048x1058.png' | relative_url }})
+![Screenshot](/assets/wordpress-import/2024/10/image-2048x1058.png)
 
 I won't go into the specifics of how to enable DNSSEC here. Once you're all done, you can move on to the next part of the guide.
 
