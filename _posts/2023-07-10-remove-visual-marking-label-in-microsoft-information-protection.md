@@ -11,7 +11,7 @@ This post was originally published on my old blog and has been migrated here for
 
 How to remove a visual label inside the header or footer of a Word document with the `WordShapeNameToRemove` function in the AIP Unified Labeling client.
 
-![Article header image]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/hero.jpeg)
+![Article header image]({{ '/assets/img/posts/mip-visual-marking/hero.jpeg' | relative_url }})
 
 ## Introduction
 
@@ -19,7 +19,7 @@ In a recent customer project, documents had to be migrated from an older informa
 
 The classification level of the documents was stored not only in file metadata, but also visually in the footer of Word and PowerPoint documents. During the migration, those legacy visual markings needed to be removed when applying the new Microsoft Information Protection labels.
 
-![Example of a legacy visual classification marking in Word]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/classification-example.png)
+![Example of a legacy visual classification marking in Word]({{ '/assets/img/posts/mip-visual-marking/classification-example.png' | relative_url }})
 
 ## Show classification information
 
@@ -46,7 +46,7 @@ $zip.Dispose()
 
 The output shows details such as the document ID, the classification client version, and the classification level.
 
-![Example output showing classification metadata]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/metadata-output.png)
+![Example output showing classification metadata]({{ '/assets/img/posts/mip-visual-marking/metadata-output.png' | relative_url }})
 
 ## Custom configurations for the AIP unified labeling client
 
@@ -61,13 +61,13 @@ To use `WordShapeNameToRemove`, you first need to determine the name of the shap
 
 In Word, open the **Selection Pane** from the **Home** tab and then switch into the **Header & Footer** area if the label was inserted there. In my example, the relevant shape name was:
 
-![Word selection pane showing where to inspect the inserted shape]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/word-selection-pane.png)
+![Word selection pane showing where to inspect the inserted shape]({{ '/assets/img/posts/mip-visual-marking/word-selection-pane.png' | relative_url }})
 
 ```text
 novaPathWDBox_1_0
 ```
 
-![Word header and footer view showing the legacy shape name]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/word-shape-name.png)
+![Word header and footer view showing the legacy shape name]({{ '/assets/img/posts/mip-visual-marking/word-shape-name.png' | relative_url }})
 
 After checking documents with different classification levels, I found that the same shape name was used consistently. That meant the same setting could be applied across all affected documents.
 
@@ -87,7 +87,7 @@ The corresponding PowerPoint function is `PowerPointRemoveAllShapesByShapeName`.
 
 In my case, the label was placed in the slide master, so I first identified the shape name used there. After that, I updated the same label policy with the PowerPoint-specific setting:
 
-![PowerPoint slide master showing the legacy shape name]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/powerpoint-shape-name.png)
+![PowerPoint slide master showing the legacy shape name]({{ '/assets/img/posts/mip-visual-marking/powerpoint-shape-name.png' | relative_url }})
 
 ```powershell
 Connect-IPPSSession
@@ -114,23 +114,23 @@ There is a user-specific policy file in that folder. After deleting it and start
 
 In my case, it took around 10 minutes until the updated configuration was reflected on the client.
 
-![Client-side policy cache showing the updated configuration]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/client-policy-cache.png)
+![Client-side policy cache showing the updated configuration]({{ '/assets/img/posts/mip-visual-marking/client-policy-cache.png' | relative_url }})
 
 ## Test the removal of the visual markings
 
 To verify the result, I opened a Word document that still had the old `Internal` marking and then assigned a new sensitivity label such as `General` using the AIP Unified Labeling client.
 
-![Word document before applying the new sensitivity label]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/word-before.png)
+![Word document before applying the new sensitivity label]({{ '/assets/img/posts/mip-visual-marking/word-before.png' | relative_url }})
 
 After applying the new label, the old footer marking disappeared immediately.
 
-![Word document after applying the new sensitivity label]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/word-after.png)
+![Word document after applying the new sensitivity label]({{ '/assets/img/posts/mip-visual-marking/word-after.png' | relative_url }})
 
 PowerPoint behaved the same way: as soon as the new label was assigned, the legacy visual marking was removed.
 
-![PowerPoint presentation before applying the new sensitivity label]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/powerpoint-before.png)
+![PowerPoint presentation before applying the new sensitivity label]({{ '/assets/img/posts/mip-visual-marking/powerpoint-before.png' | relative_url }})
 
-![PowerPoint presentation after applying the new sensitivity label]({{ site.baseurl }}/assets/img/posts/mip-visual-marking/powerpoint-after.png)
+![PowerPoint presentation after applying the new sensitivity label]({{ '/assets/img/posts/mip-visual-marking/powerpoint-after.png' | relative_url }})
 
 ## Limitations of the solution
 
