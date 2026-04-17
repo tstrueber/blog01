@@ -3,9 +3,9 @@ theme: jekyll-theme-chirpy
 lang: de
 timezone: Europe/Berlin
 
-title: Timos Blog
-tagline: Notizen, Ideen und Projekte.
-description: Notizen, Ideen und Projekte.
+title: Modern Workplace Diaries Blog
+tagline: Gedanken, Guides und Erfahrungen rund um Modern Work.
+description: Modern Workplace Diaries Blog mit Praxiserfahrungen zu Microsoft 365, Security, AI und produktivem Arbeiten.
 
 url: "https://tstrueber.github.io"
 baseurl: "/blog01"
@@ -18,7 +18,7 @@ social:
   email: ""
   links: []
 
-avatar: ""
+avatar: "/assets/img/site/profilbild-timo.jpg"
 
 toc: true
 

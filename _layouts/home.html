@@ -113,6 +113,12 @@ layout: default
     margin-bottom: 1.75rem;
   }
 
+  .welcome-logo {
+    width: min(100%, 28rem);
+    margin: 0 0 1.4rem;
+    display: block;
+  }
+
   .welcome-primary,
   .welcome-secondary {
     display: inline-flex;
@@ -204,15 +210,21 @@ layout: default
 <section class="welcome-hero">
   <div class="welcome-kicker">
     <i class="fas fa-sparkles"></i>
-    Willkommen auf meinem Blog
+    Modern Workplace Diaries Blog
   </div>
 
-  <h1 class="welcome-title">Ideen, Wissen und echte Praxiserfahrungen.</h1>
+  <img
+    class="welcome-logo"
+    src="{{ '/assets/img/site/modern-workplace-diaries-logo.png' | relative_url }}"
+    alt="Modern Workplace Diaries Logo"
+  >
+
+  <h1 class="welcome-title">Modern Work, klar gedacht und praxisnah erzählt.</h1>
 
   <p class="welcome-copy">
-    Schön, dass du da bist. Hier schreibe ich über Microsoft 365, Security, Produktivität und Projekte,
-    die mir im Alltag wirklich begegnen. Kein Marketing-Blabla, sondern verständliche Notizen,
-    praktische Anleitungen und Gedanken, die beim Arbeiten helfen sollen.
+    Modern Workplace Diaries ist mein Ort für Erfahrungen aus Beratung, Projekten und täglicher Arbeit mit
+    Microsoft 365, Security, AI und modernen Arbeitsumgebungen. Ich teile hier keine Hochglanz-Storys,
+    sondern konkrete Learnings, Einordnungen und Lösungen, die Teams in der Praxis wirklich weiterbringen.
   </p>
 
   <div class="welcome-actions">
@@ -231,15 +243,15 @@ layout: default
   <div class="welcome-grid">
     <div class="welcome-card">
       <div class="welcome-card-label">Was dich erwartet</div>
-      <div class="welcome-card-value">Konkrete How-tos, Einordnungen und hilfreiche Abkürzungen für die Praxis.</div>
+      <div class="welcome-card-value">Praxisnahe Guides, ehrliche Einordnungen und hilfreiche Abkürzungen aus echten Projekten.</div>
     </div>
     <div class="welcome-card">
       <div class="welcome-card-label">Schwerpunkte</div>
-      <div class="welcome-card-value">Microsoft 365, Exchange, Entra ID, Security, AI und produktives Arbeiten.</div>
+      <div class="welcome-card-value">Microsoft 365, Exchange, Entra ID, Security, AI, Produktivität und Modern Work Strategy.</div>
     </div>
     <div class="welcome-card">
-      <div class="welcome-card-label">Im Blog</div>
-      <div class="welcome-card-value">{{ post_count }} veröffentlichte Beiträge mit stetig wachsender Sammlung.</div>
+      <div class="welcome-card-label">Mein Anspruch</div>
+      <div class="welcome-card-value">{{ post_count }} Beiträge mit Fokus auf Klarheit, Relevanz und echter Umsetzbarkeit.</div>
     </div>
   </div>
 </section>
