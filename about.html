@@ -3,218 +3,45 @@ layout: page
 title: Über mich
 permalink: /about/
 ---
+<p>
+  Hi, ich bin Timo. Ich arbeite an der Schnittstelle von Modern Work, Microsoft 365, Security und klarer
+  Kommunikation. Modern Workplace Diaries ist mein persönlicher Ort, um Erfahrungen aus Kundenprojekten,
+  Beratung, Content-Arbeit und täglicher Praxis verständlich weiterzugeben.
+</p>
 
-<style>
-  .about-shell {
-    display: grid;
-    gap: 1.5rem;
-  }
+<p>
+  Mich interessieren vor allem Lösungen, die nicht nur technisch funktionieren, sondern den Arbeitsalltag
+  wirklich besser machen. Deshalb schreibe ich über Microsoft 365, Exchange Online, Entra ID, Security,
+  AI und Workflows mit einem klaren Blick auf Nutzen, Verständlichkeit und Umsetzung.
+</p>
 
-  .about-hero {
-    position: relative;
-    overflow: hidden;
-    padding: 2rem;
-    border: 1px solid rgba(148, 163, 184, 0.18);
-    border-radius: 1.75rem;
-    background:
-      radial-gradient(circle at top left, rgba(249, 115, 22, 0.24), transparent 30%),
-      radial-gradient(circle at right center, rgba(56, 189, 248, 0.16), transparent 24%),
-      linear-gradient(135deg, #0f172a 0%, #111827 50%, #1e293b 100%);
-    box-shadow: 0 24px 60px rgba(2, 6, 23, 0.32);
-  }
+<p>
+  Der Stil des Blogs ist bewusst direkt, persönlich und praxisnah. Ich teile hier Learnings, Entscheidungen,
+  Stolperfallen und Beobachtungen so, wie ich sie selbst gerne lesen würde, wenn ich mitten in einem Projekt,
+  einer Migration oder einer strategischen Entscheidung stecke.
+</p>
 
-  .about-kicker {
-    margin-bottom: 0.85rem;
-    color: #f97316;
-    font-size: 0.85rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
+<p>
+  Gleichzeitig ist der Blog auch die inhaltliche Heimat von Modern Workplace Diaries als Marke: nah an meiner
+  Beratung, nah an meinem YouTube-Kanal und immer mit dem Anspruch, hilfreiche Inhalte statt nur Reichweite
+  zu produzieren.
+</p>
 
-  .about-title {
-    margin-bottom: 1rem;
-    color: #f8fafc;
-    font-size: clamp(2rem, 5vw, 3.4rem);
-    font-weight: 800;
-    letter-spacing: -0.04em;
-    line-height: 0.95;
-    text-wrap: balance;
-  }
+<p>
+  <img src="{{ '/assets/img/site/profilbild-timo.jpg' | relative_url }}" alt="Timo Strüber">
+</p>
 
-  .about-lead {
-    max-width: 50rem;
-    margin-bottom: 0;
-    color: rgba(226, 232, 240, 0.9);
-    font-size: 1.08rem;
-    line-height: 1.88;
-  }
+<h2>Wofür dieser Blog steht</h2>
 
-  .about-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-    gap: 1.5rem;
-    align-items: stretch;
-  }
+<ul>
+  <li><strong>Praxis vor Theorie:</strong> Ich zeige lieber erprobte Wege und echte Stolperfallen als abstrakte Best Practices.</li>
+  <li><strong>Modern Work mit Substanz:</strong> Technologie, Security, Adoption und Produktivität gehören für mich immer zusammen.</li>
+  <li><strong>Persönliche Marke mit Haltung:</strong> Modern Workplace Diaries steht für verständliche Inhalte, klare Perspektiven und echte Projektnähe.</li>
+</ul>
 
-  .about-card {
-    padding: 1.5rem;
-    border: 1px solid rgba(148, 163, 184, 0.14);
-    border-radius: 1.5rem;
-    background: linear-gradient(180deg, #111827 0%, #0f172a 100%);
-    box-shadow: 0 16px 40px rgba(2, 6, 23, 0.26);
-  }
-
-  .about-photo {
-    width: 100%;
-    border-radius: 1.2rem;
-    object-fit: cover;
-    aspect-ratio: 4 / 5;
-    margin-bottom: 1rem;
-  }
-
-  .about-logo {
-    width: min(100%, 28rem);
-    margin-top: 0.25rem;
-  }
-
-  .about-section-title {
-    margin-bottom: 0.9rem;
-    color: #f8fafc;
-    font-size: 1.08rem;
-    font-weight: 800;
-    letter-spacing: 0.01em;
-  }
-
-  .about-copy p {
-    margin-bottom: 1rem;
-    color: rgba(226, 232, 240, 0.88);
-    line-height: 1.85;
-  }
-
-  .about-points {
-    display: grid;
-    gap: 0.85rem;
-    margin: 1.2rem 0 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .about-points li {
-    padding: 0.95rem 1rem;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    color: #e2e8f0;
-    line-height: 1.7;
-  }
-
-  .about-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    margin-top: 1.4rem;
-  }
-
-  .about-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.55rem;
-    padding: 0.8rem 1.05rem;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.06);
-    color: #f8fafc;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .about-link:hover {
-    color: #fff;
-    background: rgba(249, 115, 22, 0.18);
-    border-color: rgba(249, 115, 22, 0.34);
-  }
-
-  @media (max-width: 900px) {
-    .about-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .about-hero,
-    .about-card {
-      padding: 1.25rem;
-      border-radius: 1.25rem;
-    }
-  }
-</style>
-
-<section class="about-shell">
-  <div class="about-hero">
-    <div class="about-kicker">Modern Workplace Diaries</div>
-    <h1 class="about-title">Hi, ich bin Timo.</h1>
-    <p class="about-lead">
-      Ich arbeite an der Schnittstelle von Modern Work, Microsoft 365, Security und klarer Kommunikation.
-      Modern Workplace Diaries ist mein persönlicher Ort, um Erfahrungen aus Kundenprojekten, Beratung,
-      Content-Arbeit und täglicher Praxis verständlich weiterzugeben.
-    </p>
-  </div>
-
-  <div class="about-grid">
-    <div class="about-card">
-      <img
-        class="about-photo"
-        src="{{ '/assets/img/site/profilbild-timo.jpg' | relative_url }}"
-        alt="Timo Strüber"
-      >
-      <img
-        class="about-logo"
-        src="{{ '/assets/img/site/modern-workplace-diaries-logo.png' | relative_url }}"
-        alt="Modern Workplace Diaries Logo"
-      >
-    </div>
-
-    <div class="about-card about-copy">
-      <h2 class="about-section-title">Worum es hier geht</h2>
-      <p>
-        Mich interessieren vor allem Lösungen, die nicht nur technisch funktionieren, sondern Arbeitsalltag
-        wirklich besser machen. Deshalb schreibe ich über Microsoft 365, Exchange Online, Entra ID, Security,
-        AI und Workflows mit einem klaren Blick auf Nutzen, Verständlichkeit und Umsetzung.
-      </p>
-      <p>
-        Der Stil des Blogs ist bewusst direkt, persönlich und praxisnah. Ich teile hier Learnings,
-        Entscheidungen, Stolperfallen und Beobachtungen so, wie ich sie selbst gerne lesen würde,
-        wenn ich mitten in einem Projekt, einer Migration oder einer strategischen Entscheidung stecke.
-      </p>
-      <p>
-        Gleichzeitig ist der Blog auch die inhaltliche Heimat von Modern Workplace Diaries als Marke:
-        nah an meiner Beratung, nah an meinem YouTube-Kanal und immer mit dem Anspruch, hilfreiche Inhalte
-        statt nur Reichweite zu produzieren.
-      </p>
-
-      <ul class="about-points">
-        <li><strong>Praxis vor Theorie:</strong> Ich zeige lieber erprobte Wege und echte Stolperfallen als abstrakte Best Practices.</li>
-        <li><strong>Modern Work mit Substanz:</strong> Technologie, Security, Adoption und Produktivität gehören für mich immer zusammen.</li>
-        <li><strong>Persönliche Marke mit Haltung:</strong> Modern Workplace Diaries steht für verständliche Inhalte, klare Perspektiven und echte Projektnähe.</li>
-      </ul>
-
-      <div class="about-links">
-        <a class="about-link" href="https://strueberit.de/" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-globe"></i>
-          Website
-        </a>
-        <a class="about-link" href="https://www.linkedin.com/in/timo-strueber/" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-linkedin"></i>
-          LinkedIn
-        </a>
-        <a class="about-link" href="https://www.youtube.com/@ModernWorkplaceDiaries" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-youtube"></i>
-          YouTube
-        </a>
-        <a class="about-link" href="https://www.instagram.com/timo_strueber/" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-instagram"></i>
-          Instagram
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<p>
+  <a href="https://strueberit.de/" target="_blank" rel="noopener noreferrer">Website</a> ·
+  <a href="https://www.linkedin.com/in/timo-strueber/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+  <a href="https://www.youtube.com/@ModernWorkplaceDiaries" target="_blank" rel="noopener noreferrer">YouTube</a> ·
+  <a href="https://www.instagram.com/timo_strueber/" target="_blank" rel="noopener noreferrer">Instagram</a>
+</p>
