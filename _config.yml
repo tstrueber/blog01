@@ -7,8 +7,8 @@ title: Modern Workplace Diaries Blog
 tagline: Gedanken, Guides und Erfahrungen rund um Modern Work.
 description: Modern Workplace Diaries Blog mit Praxiserfahrungen zu Microsoft 365, Security, AI und produktivem Arbeiten.
 
-url: "https://tstrueber.github.io"
-baseurl: "/blog01"
+url: "https://modernworkplacediaries.de"
+baseurl: ""
 
 github:
   username: tstrueber
