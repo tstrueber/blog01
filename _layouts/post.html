@@ -63,15 +63,17 @@ script_includes:
           <em>
             {% if authors %}
               {% for author in authors %}
-                {% if site.data.authors[author].url -%}
-                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+                {% assign author_profile = site.data.authors[author] %}
+                {% assign author_url = author_profile.url | default: site.author.about_url %}
+                {% if author_url -%}
+                  <a href="{{ author_url | relative_url }}">{{ author_profile.name }}</a>
                 {%- else -%}
-                  {{ site.data.authors[author].name }}
+                  {{ author_profile.name }}
                 {%- endif %}
                 {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
               {% endfor %}
             {% else %}
-              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+              <a href="{{ site.author.about_url | relative_url }}">{{ site.author.name }}</a>
             {% endif %}
           </em>
         </span>

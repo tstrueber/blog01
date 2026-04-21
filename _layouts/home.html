@@ -49,23 +49,53 @@ layout: default
 {% assign latest_post = site.posts.first %}
 {% assign post_count = site.posts | size %}
 <section class="mb-5">
-  <h1 class="mb-2">Modern Work, klar gedacht und praxisnah erzählt.</h1>
-  <p class="mb-3">
-    Modern Workplace Diaries ist mein Ort für Erfahrungen aus Beratung, Projekten und täglicher Arbeit mit
-    Microsoft 365, Security, AI und modernen Arbeitsumgebungen. Ich teile hier konkrete Learnings,
-    Einordnungen und Lösungen, die Teams in der Praxis wirklich weiterbringen.
-  </p>
-  <p class="mb-0">
-    {% if latest_post %}
-      <a href="{{ latest_post.url | relative_url }}">Neuester Beitrag</a>
-      <span class="mx-2">·</span>
-    {% endif %}
-    <a href="https://www.youtube.com/@ModernWorkplaceDiaries" target="_blank" rel="noopener noreferrer">YouTube</a>
-    <span class="mx-2">·</span>
-    <a href="{{ '/about/' | relative_url }}">Mehr über mich</a>
-    <span class="mx-2">·</span>
-    <span>{{ post_count }} Beiträge</span>
-  </p>
+  <div class="row g-4 align-items-center">
+    <div class="col-lg-6">
+      <p class="text-uppercase text-muted small mb-2">Modern Workplace Diaries</p>
+      <h1 class="mb-3">Praxiswissen für Microsoft 365, Security und modernes Arbeiten.</h1>
+      <p class="mb-3">
+        Hier findest du konkrete Learnings aus Beratung, Projekten und täglicher Umsetzung. Neben dem Blog ist
+        mein YouTube-Kanal der schnellste Weg, neue Gedanken, Einordnungen und persönliche Updates von mir zu
+        sehen.
+      </p>
+      <p class="mb-4">
+        Wenn du lieber Video statt Fließtext magst, findest du hier direkt den Einstieg in meinen Kanal mit dem
+        aktuellsten Upload aus meiner YouTube-Playlist.
+      </p>
+      <div class="d-flex flex-wrap gap-2">
+        <a
+          class="btn btn-primary"
+          href="{{ site.youtube.channel_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Zum YouTube-Kanal
+        </a>
+        {% if latest_post %}
+          <a class="btn btn-outline-secondary" href="{{ latest_post.url | relative_url }}">Neuester Blogbeitrag</a>
+        {% endif %}
+        <a class="btn btn-link ps-0" href="{{ '/about/' | relative_url }}">Mehr über mich</a>
+      </div>
+      <p class="text-muted small mb-0 mt-3">{{ post_count }} Beiträge im Blog · neue Videos auf {{ site.youtube.channel_handle }}</p>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+        <iframe
+          src="https://www.youtube.com/embed/videoseries?list={{ site.youtube.uploads_playlist_id }}"
+          title="Aktuellstes YouTube-Video von Modern Workplace Diaries"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p class="small text-muted mt-2 mb-0">
+        Das eingebettete Video wird über die Uploads-Playlist des Kanals geladen und zieht dadurch automatisch
+        neue Veröffentlichungen nach.
+      </p>
+    </div>
+  </div>
 </section>
 
 <h2 class="h5 mb-3 text-muted text-uppercase">Neu im Blog</h2>

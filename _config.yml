@@ -21,6 +21,7 @@ github:
 author:
   name: Timo Strüber
   url: https://strueberit.de/
+  about_url: /about/
 
 social:
   name: Modern Workplace Diaries
@@ -29,6 +30,12 @@ social:
     - https://www.linkedin.com/in/timo-strueber/
     - https://www.youtube.com/@ModernWorkplaceDiaries
     - https://www.instagram.com/timo_strueber/
+
+youtube:
+  channel_url: https://www.youtube.com/@ModernWorkplaceDiaries
+  channel_handle: "@ModernWorkplaceDiaries"
+  channel_id: UCnOcy6GtK1Q2i9QrAWyqjIw
+  uploads_playlist_id: UUnOcy6GtK1Q2i9QrAWyqjIw
 
 logo: "/assets/img/site/modern-workplace-diaries-logo.png"
 social_preview_image: "/assets/img/site/modern-workplace-diaries-logo.png"
