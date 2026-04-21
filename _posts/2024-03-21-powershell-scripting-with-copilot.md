@@ -20,7 +20,7 @@ image:
 
 Recently, I was decommissioning an Exchange Server that had several devices configured to relay emails through it. To identify the devices connecting to the server and sending emails, I checked the SMTP receive logs. I will provide more details about this process in a separate article. I used [Log Parser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) to extract the relevant data from the log files. The result was a poorly formatted text file. I aimed to extract the necessary information using Powershell, but I faced difficulties with the appropriate commands. Since LLMs are well-versed in scripting, I decided to rely on Copilot for Microsoft 365 instead of searching the web for useful commandlets.
 
-This article is part of my [Copilot Blog series](https://strueber-it-consulting.de/copilot-blog-series/). You can find additional use cases for Copilot for Microsoft 365 [here](https://strueber-it-consulting.de/copilot-for-microsoft-365-use-cases/).
+This article is part of my [Copilot Blog series](https://modernworkplacediaries.de/copilot-blog-series/). You can find additional use cases for Copilot for Microsoft 365 [here](https://modernworkplacediaries.de/copilot-for-microsoft-365-use-cases/).
 
 ## The csv file
 

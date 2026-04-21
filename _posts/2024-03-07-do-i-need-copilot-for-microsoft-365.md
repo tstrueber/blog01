@@ -19,7 +19,7 @@ image:
 ---
 ## Introduction
 
-Yesterday, my company announced the availability of Microsoft Copilot licenses. These licenses will be only available to one-third of all employees on a first-come, first-served basis and will be limited to three months. The purpose of this initiative is to familiarize consultants like myself with this new tool and enable us to assist customers in implementing and utilizing it more efficiently. I promptly ordered one of the licenses. After ordering the license for Microsoft 365 Copilot, I questioned whether I truly needed it and how it could benefit my daily practices. I plan to document my journey of discovering the tool in a [blog series](https://strueber-it-consulting.de/copilot-blog-series/). Additionally I will maintain a list of [use cases](https://strueber-it-consulting.de/copilot-for-microsoft-365-use-cases/) I discover.
+Yesterday, my company announced the availability of Microsoft Copilot licenses. These licenses will be only available to one-third of all employees on a first-come, first-served basis and will be limited to three months. The purpose of this initiative is to familiarize consultants like myself with this new tool and enable us to assist customers in implementing and utilizing it more efficiently. I promptly ordered one of the licenses. After ordering the license for Microsoft 365 Copilot, I questioned whether I truly needed it and how it could benefit my daily practices. I plan to document my journey of discovering the tool in a [blog series](https://modernworkplacediaries.de/copilot-blog-series/). Additionally I will maintain a list of [use cases](https://modernworkplacediaries.de/copilot-for-microsoft-365-use-cases/) I discover.
 
 ## How do I use M365 Copilot?
 
@@ -33,7 +33,7 @@ Before I get into specific use cases, I will first read the documentation:
 
 At the time of writing this article, Microsoft has provided comprehensive documentation. As a consultant, it is essential to have a deep understanding of the tool's architecture and to be able to address customer concerns regarding data privacy and security.
 
-I will try to discover possible use cases for my daily work and create a list of them on this blog, which I will link [here](https://strueber-it-consulting.de/copilot-for-microsoft-365-use-cases/).
+I will try to discover possible use cases for my daily work and create a list of them on this blog, which I will link [here](https://modernworkplacediaries.de/copilot-for-microsoft-365-use-cases/).
 
 ## Conclusion
 

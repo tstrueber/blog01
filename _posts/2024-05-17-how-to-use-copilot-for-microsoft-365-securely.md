@@ -20,7 +20,7 @@ image:
 ## Introduction
 
 In almost every discussion about Copilot, people bring up the possibility that Copilot for Microsoft 365 might show users content that isn't meant for them. This could be Copilot giving an answer that includes confidential information, like referencing a file so the user can access the document. In today's article, I'll dive into the potential risks of using Copilot without implementing sufficient data security controls in advance. Also, I'll give you some tips on how to reduce the chance of confidential data being shown and how you can securely use Copilot for Microsoft 365 in your company.
-This article is part of my [Copilot blog series](https://strueber-it-consulting.de/copilot-blog-series/). You can check out the other articles as well if you like!
+This article is part of my [Copilot blog series](https://modernworkplacediaries.de/copilot-blog-series/). You can check out the other articles as well if you like!
 
 ## What is oversharing?
 
@@ -46,7 +46,7 @@ If you want to learn more about oversharing, check out [this article](https://ww
 
 ## What has Copilot to do with oversharing?
 
-You might be wondering what Copilot has to do with the oversharing issue. Check out my article that explains [how Copilot for Microsoft 365 is working](https://strueber-it-consulting.de/copilot-for-microsoft-365/) to learn more. With oversharing, Copilot might create chapters of a word document or provide answers based on documents it has indexed. If you take the two oversharing examples above, it might take information from a shared folder you should not have access to and show you confidential information. This isn't a problem with Copilot for Microsoft 365. It's more a problem with bad or none data protection.
+You might be wondering what Copilot has to do with the oversharing issue. Check out my article that explains [how Copilot for Microsoft 365 is working](https://modernworkplacediaries.de/copilot-for-microsoft-365/) to learn more. With oversharing, Copilot might create chapters of a word document or provide answers based on documents it has indexed. If you take the two oversharing examples above, it might take information from a shared folder you should not have access to and show you confidential information. This isn't a problem with Copilot for Microsoft 365. It's more a problem with bad or none data protection.
 
 ## How to avoid those issues?
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Warum ich jetzt YouTube mache \U0001F3A5 – und was dich erwartet"
 date: 2025-08-31 17:21:29.000000000 +02:00
+description: Warum ich mit Modern Workplace Diaries auf YouTube starte und welche Inhalte zu Microsoft 365, Selbstständigkeit und Produktivität dich dort erwarten.
 categories:
 - YouTube
 permalink: "/warum-ich-jetzt-youtube-mache-%f0%9f%8e%a5-und-was-dich-erwartet/"

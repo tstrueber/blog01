@@ -42,10 +42,10 @@ If you're wondering who might be affected by the change, there's a [Powershell m
 
 ## You did not hear about the change?
 
-Then now is the time to implement a process in your organization to [stay up to date](https://strueber-it-consulting.de/evergreen-management/) about the changes Microsoft is rolling out. This might be implementing a process to sync message center notifications into a planner board and deal with them in a structured way or to follow for example [entra.news](https://entra.news/p/this-week-in-entra-57).
+Then now is the time to implement a process in your organization to [stay up to date](https://modernworkplacediaries.de/evergreen-management/) about the changes Microsoft is rolling out. This might be implementing a process to sync message center notifications into a planner board and deal with them in a structured way or to follow for example [entra.news](https://entra.news/p/this-week-in-entra-57).
 
 ## Conclusion
 
 It's still a big worry that admin accounts aren't protected with MFA. Microsoft said that [99.9% of the accounts that got hacked weren't protected with MFA](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/microsoft-will-require-mfa-for-all-azure-users/ba-p/4140391). Now is the time to step up your security!
 
-If you have any questions about this change or need help, please don't hesitate to [reach out to me](https://strueber-it-consulting.de/how-to-get-in-touch-with-timo-struber/)!
+If you have any questions about this change or need help, please don't hesitate to [reach out to me](https://modernworkplacediaries.de/how-to-get-in-touch-with-timo-struber/)!

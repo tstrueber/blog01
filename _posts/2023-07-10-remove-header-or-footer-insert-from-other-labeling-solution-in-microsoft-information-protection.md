@@ -2,6 +2,7 @@
 layout: post
 title: Remove visual marking label in Microsoft Information Protection
 date: 2023-07-10 20:58:38.000000000 +02:00
+description: Anleitung zum Entfernen alter visueller Kennzeichnungen in Word- und PowerPoint-Dateien bei einer Migration zu Microsoft Information Protection.
 categories:
 - How To Guides
 tags:

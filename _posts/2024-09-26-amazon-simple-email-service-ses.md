@@ -20,7 +20,7 @@ image:
 ---
 ## Introduction
 
-The question of how to send email from applications when a customer moves to the cloud is a common one. As a result, I've covered this topic in [several posts](https://strueber-it-consulting.de/why-you-need-a-3rd-party-smtp-relay-service/). I have implemented [SendGrid](https://strueber-it-consulting.de/how-to-set-up-sendgrid-smtp-relay-service/) for some customers, but recently I was looking for a better alternative. I think Amazon Simple Email Service (SES) has some advantages over other services, especially for smaller companies. So here is a guide that covers the most important topics and I will show you how to set up the service.
+The question of how to send email from applications when a customer moves to the cloud is a common one. As a result, I've covered this topic in [several posts](https://modernworkplacediaries.de/why-you-need-a-3rd-party-smtp-relay-service/). I have implemented [SendGrid](https://modernworkplacediaries.de/how-to-set-up-sendgrid-smtp-relay-service/) for some customers, but recently I was looking for a better alternative. I think Amazon Simple Email Service (SES) has some advantages over other services, especially for smaller companies. So here is a guide that covers the most important topics and I will show you how to set up the service.
 
 ## The service
 

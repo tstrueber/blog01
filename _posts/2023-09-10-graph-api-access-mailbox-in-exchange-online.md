@@ -22,7 +22,7 @@ This is the second article in this two part series. In the previous article, I e
 
 ### OAuth 2.0 Authentication
 
-In this example, we will authenticate directly to the application using the application's identity. In the previous article, we opted for application authentication instead of delegated authentication during the application creation process (s. [article](https://strueber-it-consulting.de/exo-configure-graph-api-app-access/#Difference_between_delegated_application_access)).&nbsp;
+In this example, we will authenticate directly to the application using the application's identity. In the previous article, we opted for application authentication instead of delegated authentication during the application creation process (s. [article](https://modernworkplacediaries.de/exo-configure-graph-api-app-access/#Difference_between_delegated_application_access)).&nbsp;
 
 Because we granted administrative consent to the application, there is no need for an additional request for consent. So here is the authentication procedure:
 

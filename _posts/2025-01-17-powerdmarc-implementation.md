@@ -91,4 +91,4 @@ I have still some work to do regarding enabling MTA-STS, TLS-RPT and BIMI but I 
 
 In this article, I showed you how to set up the PowerDMARC service, which lets you implement the basic email security services SPF, DKIM, and DMARC the right way. PowerDMARC also offers assistance with advanced services like TLS-RPT, MTA-STS, and BIMI. I'll go into more detail about those technologies in future articles, so stay tuned!
 
-If you need help implementing SPF, DKIM, and DMARC, feel free to [reach out](https://strueber-it-consulting.de/how-to-get-in-touch-with-timo-struber/). I'm happy to help!
+If you need help implementing SPF, DKIM, and DMARC, feel free to [reach out](https://modernworkplacediaries.de/how-to-get-in-touch-with-timo-struber/). I'm happy to help!

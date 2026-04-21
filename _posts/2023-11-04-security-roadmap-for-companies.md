@@ -2,6 +2,7 @@
 layout: post
 title: Security Roadmap for Companies
 date: 2023-11-04 14:09:46.000000000 +01:00
+description: Meine wichtigsten Learnings aus einem Practical-365-Podcast zu Cybersecurity, MFA, privilegierten Konten und einem pragmatischen Security-Fahrplan für Unternehmen.
 categories:
 - Podcast Insights
 tags:

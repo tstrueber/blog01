@@ -144,4 +144,4 @@ I initially ran into an issue where the client was installed, but not enabled co
 
 Original article:
 
-- [Remove Header or Footer insert from other Labeling Solution in Microsoft Information Protection](https://strueberit.de/remove-header-or-footer-insert-from-other-labeling-solution-in-microsoft-information-protection/)
+- [Remove Header or Footer insert from other Labeling Solution in Microsoft Information Protection](https://modernworkplacediaries.de/remove-header-or-footer-insert-from-other-labeling-solution-in-microsoft-information-protection/)

@@ -19,7 +19,7 @@ image:
 ---
 ## Introduction
 
-I have been using Copilot for two weeks and I will share my first impressions and tips with you. This article is part of my [blog series](https://strueber-it-consulting.de/copilot-blog-series/) documenting my Copilot for Microsoft 365 journey. I am collecting [use cases](https://strueber-it-consulting.de/copilot-for-microsoft-365-use-cases/) and sharing them with you to help you get started with the tool faster.
+I have been using Copilot for two weeks and I will share my first impressions and tips with you. This article is part of my [blog series](https://modernworkplacediaries.de/copilot-blog-series/) documenting my Copilot for Microsoft 365 journey. I am collecting [use cases](https://modernworkplacediaries.de/copilot-for-microsoft-365-use-cases/) and sharing them with you to help you get started with the tool faster.
 
 ## Where do I start?
 

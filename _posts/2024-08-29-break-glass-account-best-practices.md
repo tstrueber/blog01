@@ -44,7 +44,7 @@ It's important to create a strong password for the account and keep it somewhere
 
 ### Protect the accounts with a strong second factor
 
-Beginning October 15 Microsoft will tighten their security measures to [force every administrative account to use multi factor authentication](https://strueber-it-consulting.de/mfa-requirement-for-azure/). So you must protect the two break glass accounts with a second factor as well. I really like the idea of protecting your break-glass accounts with FIDO2 keys, as Merill Fernando suggests. You will get a passwordless & phishing resistant authentication solution for the accounts that [only depends on the Entra Authentication service](https://learn.microsoft.com/en-us/entra/architecture/resilience-in-credentials).
+Beginning October 15 Microsoft will tighten their security measures to [force every administrative account to use multi factor authentication](https://modernworkplacediaries.de/mfa-requirement-for-azure/). So you must protect the two break glass accounts with a second factor as well. I really like the idea of protecting your break-glass accounts with FIDO2 keys, as Merill Fernando suggests. You will get a passwordless & phishing resistant authentication solution for the accounts that [only depends on the Entra Authentication service](https://learn.microsoft.com/en-us/entra/architecture/resilience-in-credentials).
 
 If you have not yet checked out Merill's [entra.news](https://entra.news/p/this-week-in-entra-57) page and get the newsletter now is the time to subscribe!
 
@@ -89,6 +89,6 @@ Once you've got everything set up, it's a good idea to create a full documentati
 
 ## Conclusion
 
-That's all for today. I've shared my current best practices for setting up and maintaining break-glass accounts in a Microsoft 365 tenant. The Microsoft security area is always changing, so my current best practices might not be the best in the long run. That is why you should always [stay informed about changes Microsoft is implementing](https://strueber-it-consulting.de/evergreen-management/).
+That's all for today. I've shared my current best practices for setting up and maintaining break-glass accounts in a Microsoft 365 tenant. The Microsoft security area is always changing, so my current best practices might not be the best in the long run. That is why you should always [stay informed about changes Microsoft is implementing](https://modernworkplacediaries.de/evergreen-management/).
 
 I hope you liked the article!

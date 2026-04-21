@@ -107,6 +107,6 @@ As always, here are the links to the scripts on GitHub:
 
 You might as well check out other Exchange migration related articles:
 
-[Bulk change AD User's UPN (strueber-it-consulting.de)](https://strueber-it-consulting.de/change-ad-users-upn-prep-sync-to-azure-ad/)
+[Bulk change AD User's UPN (strueber-it-consulting.de)](https://modernworkplacediaries.de/change-ad-users-upn-prep-sync-to-azure-ad/)
 
-[Exchange Online Configure Graph API Application Access (strueber-it-consulting.de)](https://strueber-it-consulting.de/exo-configure-graph-api-app-access/)
+[Exchange Online Configure Graph API Application Access (strueber-it-consulting.de)](https://modernworkplacediaries.de/exo-configure-graph-api-app-access/)

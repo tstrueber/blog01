@@ -17,7 +17,7 @@ image:
 ---
 ## Introduction
 
-In my last article, I talked about [why you need a 3rd party SMTP relay service](https://strueber-it-consulting.de/why-you-need-a-3rd-party-smtp-relay-service/). Today, I want to go over how to set up the SendGrid SMTP Relay Service. There are [other options](https://strueber-it-consulting.de/why-you-need-a-3rd-party-smtp-relay-service/#3rd_Party_SMTP_Relay_Services) out there, but the process should be pretty similar to what I'm about to describe. First, you have to subscribe to the service. Then, you have to set up some DNS records for your custom domain. Finally, you need to know how to access the service.
+In my last article, I talked about [why you need a 3rd party SMTP relay service](https://modernworkplacediaries.de/why-you-need-a-3rd-party-smtp-relay-service/). Today, I want to go over how to set up the SendGrid SMTP Relay Service. There are [other options](https://modernworkplacediaries.de/why-you-need-a-3rd-party-smtp-relay-service/#3rd_Party_SMTP_Relay_Services) out there, but the process should be pretty similar to what I'm about to describe. First, you have to subscribe to the service. Then, you have to set up some DNS records for your custom domain. Finally, you need to know how to access the service.
 
 ## Subscribe to the SendGrid service
 

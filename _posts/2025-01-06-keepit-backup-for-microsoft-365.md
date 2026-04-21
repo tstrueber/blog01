@@ -137,4 +137,4 @@ At last, I suggest getting rid of the global admin role from the backup service 
 ![Screenshot](/assets/wordpress-import/2024/12/image-27.png)
 ## Summary
 
-Today's article is all about why having a backup solution in Microsoft 365 is so important and how to set up Keepit Backup. If you have any questions about this or need help setting it up, [just let me know](https://strueber-it-consulting.de/how-to-get-in-touch-with-timo-struber/). I'd be happy to help!
+Today's article is all about why having a backup solution in Microsoft 365 is so important and how to set up Keepit Backup. If you have any questions about this or need help setting it up, [just let me know](https://modernworkplacediaries.de/how-to-get-in-touch-with-timo-struber/). I'd be happy to help!

@@ -78,7 +78,7 @@ The list includes the source TCP Port used to initiate the connection, resulting
     10.100.101.48:62959 14
     ...
 
-I wrote an article describing the process of using a PowerShell script to remove the port and summarize the hits. If you're interested in the process, feel free to check it out -\> [Article](https://strueber-it-consulting.de/powershell-scripting-with-copilot/)
+I wrote an article describing the process of using a PowerShell script to remove the port and summarize the hits. If you're interested in the process, feel free to check it out -\> [Article](https://modernworkplacediaries.de/powershell-scripting-with-copilot/)
 
 The complete script can be found on [GitHub](https://github.com/tstrueber/M365Public/blob/main/Exchange/Report-SMTP-Senders.ps1). Please note that the steps in the script must be executed sequentially, and there is a manual step involved due to time constraints. Additionally, the author admits to occasional laziness ;-)
 

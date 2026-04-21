@@ -49,4 +49,4 @@ This screenshot shows that Defender for Office Plan 1 is only included in the Mi
 ## Conclusion
 
 That's all for today's article. I hope you can make use of this tool as well!
-If you found this article useful you might as well be interested in the article describing how to [create a Microsoft 365 tenant](https://strueber-it-consulting.de/create-a-microsoft-365-tenant/).
+If you found this article useful you might as well be interested in the article describing how to [create a Microsoft 365 tenant](https://modernworkplacediaries.de/create-a-microsoft-365-tenant/).

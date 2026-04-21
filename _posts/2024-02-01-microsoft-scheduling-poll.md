@@ -49,7 +49,7 @@ This is the process in a perfect situation where everything went well. The atten
 
 Each step you take to schedule a meeting in the process described above takes a few minutes of your workday. On the one hand, the time adds up, and it gets complicated when you schedule many meetings with different attendees. On the other hand, every e-mail you receive and every step you have to take takes you away from what you are doing. This has a negative impact on your productivity because it takes time for your mind to switch from one task to another.
 
-With a tool like the Scheduling Poll, you reduce the total time you spend on scheduling and reduce the time you are interrupted in the process. This results in more time for focused work. As I described in the review article of the book Deep Work, an important step in reducing interruptions is to [put more effort into composing your emails](https://strueber-it-consulting.de/deep-work/#put_more_effort_in_composing_your_emails). The scheduling query helps you with this process and automates the steps involved in the classic process of scheduling an appointment by e-mail.
+With a tool like the Scheduling Poll, you reduce the total time you spend on scheduling and reduce the time you are interrupted in the process. This results in more time for focused work. As I described in the review article of the book Deep Work, an important step in reducing interruptions is to [put more effort into composing your emails](https://modernworkplacediaries.de/deep-work/#put_more_effort_in_composing_your_emails). The scheduling query helps you with this process and automates the steps involved in the classic process of scheduling an appointment by e-mail.
 
 ## How to use the scheduling poll
 

@@ -18,7 +18,7 @@ image:
 ---
 ## Introduction
 
-This is the second in the series on setting up a new Microsoft 365 tenant. In the [first article](https://strueber-it-consulting.de/create-a-microsoft-365-tenant/), I showed you how to create the tenant. This article will walk you through the first steps you need to take in a brand new tenant. First, we'll set up a separate admin account. Then, we'll get MFA up and running. Finally, we'll add our custom domain to the tenant.
+This is the second in the series on setting up a new Microsoft 365 tenant. In the [first article](https://modernworkplacediaries.de/create-a-microsoft-365-tenant/), I showed you how to create the tenant. This article will walk you through the first steps you need to take in a brand new tenant. First, we'll set up a separate admin account. Then, we'll get MFA up and running. Finally, we'll add our custom domain to the tenant.
 
 ## Why you should use separate administrative Accounts
 

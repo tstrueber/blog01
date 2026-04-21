@@ -18,7 +18,7 @@ image:
 ---
 ## Introduction
 
-BIMI, or Brand Indicators for Message Identification, is another feature that might come up when you're working as an email admin.While other features like SPF, DKIM, and [DMARC](https://strueber-it-consulting.de/powerdmarc-implementation/)help secure your domain from spoofing and email manipulation, BIMI aims to boost the chances that your customers will click on your emails, especially those marketing emails. It does this by showing a brand logo next to the email, making customers more likely to identify with your brand and open it.You can find more info about BIMI on the [Orgs website](https://bimigroup.org/).
+BIMI, or Brand Indicators for Message Identification, is another feature that might come up when you're working as an email admin.While other features like SPF, DKIM, and [DMARC](https://modernworkplacediaries.de/powerdmarc-implementation/)help secure your domain from spoofing and email manipulation, BIMI aims to boost the chances that your customers will click on your emails, especially those marketing emails. It does this by showing a brand logo next to the email, making customers more likely to identify with your brand and open it.You can find more info about BIMI on the [Orgs website](https://bimigroup.org/).
 
 ## Create the SVG File
 

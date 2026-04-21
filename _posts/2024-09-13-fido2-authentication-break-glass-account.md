@@ -21,7 +21,7 @@ image:
 ---
 ## Introduction
 
-Microsoft is enforcing MFA for administrative accounts accessing Azure (including Entra ID) as of 10/15/2024. I wrote about this change in a [separate article](https://strueber-it-consulting.de/mfa-requirement-for-azure/). It is important to have a second factor for your Break Glass accounts - otherwise you will no longer be able to use them. In today's article, I will walk you through the steps necessary to enable FIDO2 authentication in your tenant, enforce it for your break glass account with a conditional access policy, and register the key.
+Microsoft is enforcing MFA for administrative accounts accessing Azure (including Entra ID) as of 10/15/2024. I wrote about this change in a [separate article](https://modernworkplacediaries.de/mfa-requirement-for-azure/). It is important to have a second factor for your Break Glass accounts - otherwise you will no longer be able to use them. In today's article, I will walk you through the steps necessary to enable FIDO2 authentication in your tenant, enforce it for your break glass account with a conditional access policy, and register the key.
 
 ## Enable FIDO2 authentication
 

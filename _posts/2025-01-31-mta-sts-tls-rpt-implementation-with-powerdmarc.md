@@ -17,7 +17,7 @@ image:
 ---
 ## Introduction
 
-SPF, DKIM, and DMARC are fundamental to email security—but they alone are not enough to fully protect your emails. Without additional measures like **MTA-STS** (Mail Transfer Agent Strict Transport Security) and **TLS-RPT** (SMTP TLS Reporting), attackers can still exploit weaknesses in email encryption and delivery. In this post, I’ll explain these security mechanisms and give you a guide how to implement them with [PowerDMARC](https://powerdmarc.com/hosted-mta-sts-services/). If you are interested in PowerDMARC check out my last blog post about [how to implement the service](https://strueber-it-consulting.de/powerdmarc-implementation/).
+SPF, DKIM, and DMARC are fundamental to email security—but they alone are not enough to fully protect your emails. Without additional measures like **MTA-STS** (Mail Transfer Agent Strict Transport Security) and **TLS-RPT** (SMTP TLS Reporting), attackers can still exploit weaknesses in email encryption and delivery. In this post, I’ll explain these security mechanisms and give you a guide how to implement them with [PowerDMARC](https://powerdmarc.com/hosted-mta-sts-services/). If you are interested in PowerDMARC check out my last blog post about [how to implement the service](https://modernworkplacediaries.de/powerdmarc-implementation/).
 
 ## What is MTA-STS?
 
@@ -69,7 +69,7 @@ Implementing **MTA-STS without TLS-RPT** is like setting up a security system wi
 
 ## Enabling MTA-STS
 
-Here I assume that you are already a customer of PowerDMARC. If not you might want to check out my guide [how to set up the service](https://strueber-it-consulting.de/powerdmarc-implementation/).
+Here I assume that you are already a customer of PowerDMARC. If not you might want to check out my guide [how to set up the service](https://modernworkplacediaries.de/powerdmarc-implementation/).
 
 You select the hosted MTA-STS service (2), then you select your domain (3) and you get shown the needed DNS record for setting up MTA-STS and TLS-RPT.
 
@@ -138,4 +138,4 @@ So, if you really want to boost your email security beyond SPF, DKIM and DMARC, 
 Using a hosted service like PowerDMARC makes setting up MTA-STS and TLS-RPT a lot easier, getting rid of the hassle of manual configuration while making sure you're following the best security practices. Investing in these protocols improves email deliverability, data integrity, and protection against interception, making them essential for any organisation that values secure email communication.
 
 If this article was useful, please let me know by leaving a comment.
-If you have any questions about MTA-STS or email security in general, please [get in touch](https://strueber-it-consulting.de/how-to-get-in-touch-with-timo-struber/). I'm happy to help!
+If you have any questions about MTA-STS or email security in general, please [get in touch](https://modernworkplacediaries.de/how-to-get-in-touch-with-timo-struber/). I'm happy to help!

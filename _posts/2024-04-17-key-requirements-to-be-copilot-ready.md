@@ -19,7 +19,7 @@ image:
 ---
 ## Introduction
 
-Everyone's talking about Copilot these days. I've heard a lot of people talking about the need to have information protection in place to be ready for Copilot and let it crawl your data securely. My [blog series](https://strueber-it-consulting.de/copilot-blog-series/) started with [first impressions](https://strueber-it-consulting.de/do-i-need-copilot-for-microsoft-365/) and then I gave some practical [use cases](https://strueber-it-consulting.de/copilot-for-microsoft-365-use-cases/) with Copilot for Microsoft 365, but now I want to focus more on the technical aspects for implementing the service. In this post, I'll share the main things a company needs to do to get ready for Copilot for Microsoft 365.
+Everyone's talking about Copilot these days. I've heard a lot of people talking about the need to have information protection in place to be ready for Copilot and let it crawl your data securely. My [blog series](https://modernworkplacediaries.de/copilot-blog-series/) started with [first impressions](https://modernworkplacediaries.de/do-i-need-copilot-for-microsoft-365/) and then I gave some practical [use cases](https://modernworkplacediaries.de/copilot-for-microsoft-365-use-cases/) with Copilot for Microsoft 365, but now I want to focus more on the technical aspects for implementing the service. In this post, I'll share the main things a company needs to do to get ready for Copilot for Microsoft 365.
 
 ## The Requirements
 

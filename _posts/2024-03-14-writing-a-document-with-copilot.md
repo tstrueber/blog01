@@ -21,7 +21,7 @@ image:
 
 I am currently in the first phase of a new project, where I am writing a technical concept document. Firstly, I gathered all relevant information about the current technical readiness level. Secondly, I worked with the customer to define the objective. I captured all the information on a [whiteboard](https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app), mostly with post-its, because it helps to see the overall picture. Now that the overall structure for the concept is defined, I need to write the actual document that describes the topics in detail. As technical concept documents involve describing the technology involved, I decided to try using Copilot for Microsoft 365 to improve my efficiency.
 
-This blog post is part of my [Blog series](https://strueber-it-consulting.de/copilot-blog-series/) regarding Copilot for Microsoft 365. [Here](https://strueber-it-consulting.de/copilot-for-microsoft-365-use-cases/)you can find a list of my discovered use-cases.
+This blog post is part of my [Blog series](https://modernworkplacediaries.de/copilot-blog-series/) regarding Copilot for Microsoft 365. [Here](https://modernworkplacediaries.de/copilot-for-microsoft-365-use-cases/)you can find a list of my discovered use-cases.
 
 ## Draft with Copilot in Word
 

@@ -1,22 +1,37 @@
 theme: jekyll-theme-chirpy
 
-lang: de
+lang: de-DE
 timezone: Europe/Berlin
+permalink: /:title/
 
-title: Modern Workplace Diaries Blog
+title: Modern Workplace Diaries
 tagline: Gedanken, Guides und Erfahrungen rund um Modern Work.
-description: Modern Workplace Diaries Blog mit Praxiserfahrungen zu Microsoft 365, Security, AI und produktivem Arbeiten.
+description: Praxisnahe Artikel zu Microsoft 365, Security, AI und produktivem Arbeiten aus Beratung, Projekten und dem Alltag moderner Arbeitsumgebungen.
 
 url: "https://modernworkplacediaries.de"
 baseurl: ""
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 github:
   username: tstrueber
 
+author:
+  name: Timo Strüber
+  url: https://strueberit.de/
+
 social:
-  name: Timo
-  email: ""
-  links: []
+  name: Modern Workplace Diaries
+  links:
+    - https://strueberit.de/
+    - https://www.linkedin.com/in/timo-strueber/
+    - https://www.youtube.com/@ModernWorkplaceDiaries
+    - https://www.instagram.com/timo_strueber/
+
+logo: "/assets/img/site/modern-workplace-diaries-logo.png"
+social_preview_image: "/assets/img/site/modern-workplace-diaries-logo.png"
 
 avatar: "/assets/img/site/profilbild-timo.jpg"
 
@@ -27,11 +42,27 @@ paginate: 10
 defaults:
   - scope:
       path: ""
+    values:
+      seo: true
+  - scope:
+      path: ""
       type: posts
     values:
       layout: post
+      author: timo
       comments: false
       toc: true
+      seo: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      author: timo
+      image:
+        path: "/assets/img/site/modern-workplace-diaries-logo.png"
+        alt: "Modern Workplace Diaries Logo"
+      seo: true
   - scope:
       path: "_tabs"
     values:
