@@ -36,6 +36,14 @@ youtube:
   channel_handle: "@ModernWorkplaceDiaries"
   channel_id: UCnOcy6GtK1Q2i9QrAWyqjIw
   uploads_playlist_id: UUnOcy6GtK1Q2i9QrAWyqjIw
+  latest_long_video:
+    id: 5FiSO0wKdnQ
+    title: "M365 Copilot im Realitätscheck: Hype oder Hilfe?"
+    url: https://www.youtube.com/watch?v=5FiSO0wKdnQ
+  latest_short_video:
+    id: p5krHp6qhEo
+    title: "Exchange Public Folder: Mails gezielt löschen? Geht nicht nativ!"
+    url: https://www.youtube.com/shorts/p5krHp6qhEo
 
 logo: "/assets/img/site/modern-workplace-diaries-logo.png"
 social_preview_image: "/assets/img/site/modern-workplace-diaries-logo.png"
