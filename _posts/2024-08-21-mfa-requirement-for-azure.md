@@ -14,6 +14,9 @@ permalink: "/mfa-requirement-for-azure/"
 excerpt: Learn about the upcoming mandatory multi-factor authentication (MFA) for
   Azure admins starting October 15, 2024. Ensure your admin accounts are secure and
   compliant with Microsoft’s new security measures.
+image:
+  path: "/assets/wordpress-import/featured/2024/08/ed-hardie-RMIsZlv8qv4-unsplash-scaled.jpg"
+  alt: MFA Requirement for Azure
 ---
 ## The Change
 

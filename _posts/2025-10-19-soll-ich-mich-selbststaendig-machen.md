@@ -9,6 +9,9 @@ tags:
 permalink: "/soll-ich-mich-selbststaendig-machen/"
 excerpt: "\"Soll ich mich selbständig machen?“ – Diese Frage stellen sich viele IT-Profis.
   In diesem Beitrag teile ich meine Erfahrungen und Denkanstöße zur Entscheidung."
+image:
+  path: "/assets/wordpress-import/featured/2025/10/thumbnail.png"
+  alt: Soll ich mich selbstständig machen?
 ---
 [Video ansehen](https://www.youtube.com/watch?v=KHbi4fifrPQ)
 

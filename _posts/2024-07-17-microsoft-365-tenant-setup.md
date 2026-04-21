@@ -12,6 +12,9 @@ permalink: "/microsoft-365-tenant-setup/"
 excerpt: Learn the essential first steps to set up a new Microsoft 365 tenant, including
   creating separate admin accounts, enabling MFA, and adding a custom domain. Ensure
   a secure and efficient IT environment with these best practices.
+image:
+  path: "/assets/wordpress-import/featured/2024/07/Flat-vector-illustration-of-stock-trader-working-on-computer-1-scaled.jpg"
+  alt: Microsoft 365 Tenant First Steps
 ---
 ## Introduction
 

@@ -12,6 +12,9 @@ tags:
 permalink: "/graph-api-access-mailbox-in-exchange-online/"
 excerpt: In this article I show you how you can access an Exchange Online Mailbox
   through the Graph API. We will list the messages in the mailbox.
+image:
+  path: "/assets/wordpress-import/featured/2023/09/2023-09-10-20_21_41-Microsoft-Whiteboard.jpg"
+  alt: Graph API Access Mailbox in Exchange Online
 ---
 ### Introduction
 

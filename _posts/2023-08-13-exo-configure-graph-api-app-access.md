@@ -13,6 +13,9 @@ tags:
 permalink: "/exo-configure-graph-api-app-access/"
 excerpt: How to create an Azure AD App Registration to access a shared mailbox in
   Exchange Online with the Graph API interface.
+image:
+  path: "/assets/wordpress-import/featured/2023/08/2023-08-13-15_04_00-Microsoft-Whiteboard.jpg"
+  alt: Exchange Online Configure Graph API Application Access
 ---
 ## Introduction
 

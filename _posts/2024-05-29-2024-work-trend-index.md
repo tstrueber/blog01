@@ -11,6 +11,9 @@ tags:
 - Microsoft 365
 - Productivity
 permalink: "/2024-work-trend-index/"
+image:
+  path: "/assets/wordpress-import/featured/2024/05/DALL·E-2024-05-29-08.45.30-extend-the-image-e1721329632228.png"
+  alt: 2024 Work Trend Index Annual Report regarding AI at Work
 ---
 ## Introduction
 

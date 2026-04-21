@@ -13,6 +13,9 @@ permalink: "/why-you-need-a-3rd-party-smtp-relay-service/"
 excerpt: Discover why your company might need a 3rd party SMTP relay service for sending
   emails from applications. Explore options like SendGrid, MailJet, and Azure Communications
   Service to overcome Exchange Online limitations.
+image:
+  path: "/assets/wordpress-import/featured/2024/07/wooden-desk-with-mouse-scaled.jpg"
+  alt: Why you need a 3rd Party SMTP Relay Service
 ---
 ## Introduction
 

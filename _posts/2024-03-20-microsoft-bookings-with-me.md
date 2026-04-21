@@ -12,6 +12,9 @@ tags:
 permalink: "/microsoft-bookings-with-me/"
 excerpt: How to guide describing setting up a Microsoft Bookings with me page and
   showing how the booking process looks from a customer perspective.
+image:
+  path: "/assets/wordpress-import/featured/2024/03/bookings-with-me.png"
+  alt: Microsoft Bookings with me
 ---
 ## Introduction
 

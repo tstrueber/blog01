@@ -12,6 +12,9 @@ permalink: "/crowdstrike-it-outage/"
 excerpt: Learn about the recent global IT outage caused by a CrowdStrike update. Discover
   key principles to avoid such incidents in the future and ensure your company’s IT
   resilience.
+image:
+  path: "/assets/wordpress-import/featured/2024/07/2205_w046_n004_125b_p1_125-scaled.jpg"
+  alt: CrowdStrike Update leads to global IT-Outage
 ---
 ## Introduction
 

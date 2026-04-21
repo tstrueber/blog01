@@ -15,6 +15,9 @@ permalink: "/fido2-authentication-break-glass-account/"
 excerpt: Learn how to enable and enforce FIDO2 authentication for your break glass
   accounts in Microsoft 365. Follow this step-by-step guide to be prepared for an
   upcoming change from Microsoft!
+image:
+  path: "/assets/wordpress-import/featured/2024/09/IMG_8503.jpeg"
+  alt: FIDO2 Authentication Break Glass Account
 ---
 ## Introduction
 

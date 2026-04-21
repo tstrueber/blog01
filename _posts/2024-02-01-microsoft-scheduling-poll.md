@@ -12,6 +12,9 @@ tags:
 permalink: "/microsoft-scheduling-poll/"
 excerpt: Description of the benefits of the Microsoft Scheduling Poll Tool over the
   scheduling assistant inlcuding a How To Guide.
+image:
+  path: "/assets/wordpress-import/featured/2024/01/scheduling-poll.jpg"
+  alt: Microsoft Scheduling Poll
 ---
 ## Introduction
 

@@ -13,6 +13,9 @@ tags:
 permalink: "/do-i-need-copilot-for-microsoft-365/"
 excerpt: Follow me on my journey discovering the power of Copilot for Microsoft 365
   to boost my productivity as a consultant.
+image:
+  path: "/assets/wordpress-import/featured/2024/03/copilot.jpg"
+  alt: Do I need Copilot for Microsoft 365?
 ---
 ## Introduction
 

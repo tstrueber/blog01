@@ -14,6 +14,9 @@ permalink: "/defender-for-office-set-priority-accounts-user-impersonation-protec
 excerpt: I describe the Security Features Priority Accounts and User Impersonation
   Protection in Microsoft Defender for Office. Additionally I provide a script to
   activate the features for a specific group of users with a powershell script.
+image:
+  path: "/assets/wordpress-import/featured/2024/01/user-impersonation-protection-1.jpeg"
+  alt: Defender for Office - Set Priority Accounts & User Impersonation Protection
 ---
 ## Introduction
 

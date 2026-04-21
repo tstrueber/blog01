@@ -13,6 +13,9 @@ tags:
 permalink: "/key-requirements-to-be-copilot-ready/"
 excerpt: A quick summary of the main things a company should think about before they
   start using Copilot for Microsoft 365.
+image:
+  path: "/assets/wordpress-import/featured/2024/04/Key-requirements-to-be-Copilot-ready.png"
+  alt: Key requirements to be Copilot ready
 ---
 ## Introduction
 

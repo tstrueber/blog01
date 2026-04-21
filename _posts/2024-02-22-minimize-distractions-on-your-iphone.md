@@ -12,6 +12,9 @@ tags:
 permalink: "/minimize-distractions-on-your-iphone/"
 excerpt: In depth article about techniques and tools to minimize distractions on your
   iPhone. From making the home screen less distracting to intelligently limiting notifications.
+image:
+  path: "/assets/wordpress-import/featured/2024/02/minimize-distractions-phone.jpg"
+  alt: Minimize Distractions on your iPhone
 ---
 ## Introduction
 

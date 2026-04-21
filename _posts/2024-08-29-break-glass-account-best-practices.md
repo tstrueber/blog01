@@ -12,6 +12,9 @@ tags:
 permalink: "/break-glass-account-best-practices/"
 excerpt: Learn the best practices for creating and maintaining Break Glass Accounts
   in Microsoft 365. Ensure your tenant’s security with these recommendations.
+image:
+  path: "/assets/wordpress-import/featured/2024/08/455839-PFJKKH-95.jpg"
+  alt: Break Glass Account Best Practices
 ---
 ## Introduction
 

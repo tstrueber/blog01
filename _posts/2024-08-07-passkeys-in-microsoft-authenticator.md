@@ -13,6 +13,9 @@ permalink: "/passkeys-in-microsoft-authenticator/"
 excerpt: Learn how to enhance your security with Passkeys in Microsoft Authenticator.
   This guide covers the setup process, benefits, and how to use passkeys for phishing-resistant
   authentication. Perfect for IT professionals looking to improve their security measures.
+image:
+  path: "/assets/wordpress-import/featured/2024/08/2303_i605_012_s_m005_c13_cyber_crime_illustration-scaled.jpg"
+  alt: Passkeys in Microsoft Authenticator
 ---
 ## Introduction
 

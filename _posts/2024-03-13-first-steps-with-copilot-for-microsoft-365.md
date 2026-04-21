@@ -13,6 +13,9 @@ tags:
 permalink: "/first-steps-with-copilot-for-microsoft-365/"
 excerpt: This post gives advice how to start using Copilot for Microsoft 365. Also
   the Drafting functionality in Outlook is described.
+image:
+  path: "/assets/wordpress-import/featured/2024/03/first-steps-with-copilot.png"
+  alt: First steps with Copilot for Microsoft 365
 ---
 ## Introduction
 

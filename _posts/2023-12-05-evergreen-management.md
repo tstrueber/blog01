@@ -12,6 +12,9 @@ tags:
 permalink: "/evergreen-management/"
 excerpt: Introduction to the Evergreen Management Process in Microsoft 365 to deal
   with new changes in the suite using a planner board.
+image:
+  path: "/assets/wordpress-import/featured/2023/11/image.png"
+  alt: Evergreen Management
 ---
 Microsoft updates its Microsoft 365 suite regularly, including changes like replacing the "Bing Icon" in your Edge browser with a "Copilot Icon." The following day, there may be more substantial updates, such as enrolling new Microsoft-managed Conditional Access Policies. Organizations must decide whether to prepare for these changes or take a risk. Preparing requires staying up-to-date with Microsoft's changes, which can be a challenge due to the vast amount of available information.
 

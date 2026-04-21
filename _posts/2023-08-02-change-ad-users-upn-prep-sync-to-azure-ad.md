@@ -13,6 +13,9 @@ tags:
 permalink: "/change-ad-users-upn-prep-sync-to-azure-ad/"
 excerpt: How to bulk change Active Directory user's UPN to a new one for preparation
   of a synchronization to Azure Active Directory.
+image:
+  path: "/assets/wordpress-import/featured/2023/08/2023-08-13-14_15_55-Microsoft-Whiteboard.jpg"
+  alt: Bulk change AD User's UPN
 ---
 ## Introduction
 

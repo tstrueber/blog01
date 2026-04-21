@@ -15,6 +15,9 @@ tags:
 permalink: "/monitor-conditional-access-policy-changes-with-sentinel/"
 excerpt: Identify Conditional Access Change in Entra ID Audit Log. Ingest the Log
   into the SIEM solution Microsoft Sentinel and create an Incident.
+image:
+  path: "/assets/wordpress-import/featured/2023/09/conditional-access-change-sentinel.jpg"
+  alt: Monitor Conditional Access Policy Changes with Sentinel
 ---
 ## Introduction
 

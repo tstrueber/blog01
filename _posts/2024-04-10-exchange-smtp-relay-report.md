@@ -11,6 +11,9 @@ tags:
 permalink: "/exchange-smtp-relay-report/"
 excerpt: How to report all systems that relay emails over a Microsoft Exchange Server
   with Log Parser 2.0 and normalize the list with PowerShell.
+image:
+  path: "/assets/wordpress-import/featured/2024/04/exchange-smtp-relay.png"
+  alt: Exchange SMTP Relay Report
 ---
 ## Introduction
 

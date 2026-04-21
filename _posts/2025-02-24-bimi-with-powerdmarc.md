@@ -12,6 +12,9 @@ permalink: "/bimi-with-powerdmarc/"
 excerpt: Learn how to implement BIMI with PowerDMARC to enhance your email marketing
   strategy. This guide covers creating SVG files, obtaining VMC certificates, and
   testing your BIMI logo for better brand visibility.
+image:
+  path: "/assets/wordpress-import/featured/2025/02/Designer-2.png"
+  alt: BIMI with PowerDMARC
 ---
 ## Introduction
 

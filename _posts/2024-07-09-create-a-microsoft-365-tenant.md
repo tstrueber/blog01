@@ -10,6 +10,9 @@ permalink: "/create-a-microsoft-365-tenant/"
 excerpt: Learn how to create a Microsoft 365 Tenant using a free trial. This step-by-step
   guide covers everything from choosing the right plan to setting up your tenant domain.
   Perfect for beginners!
+image:
+  path: "/assets/wordpress-import/featured/2024/07/m3656-tenant-setup.jpg"
+  alt: Create a Microsoft 365 Tenant
 ---
 ## Introduction
 

@@ -11,6 +11,9 @@ permalink: "/mta-sts-tls-rpt-implementation-with-powerdmarc/"
 excerpt: Learn how to enhance your email security with MTA-STS and TLS-RPT using PowerDMARC.
   This guide covers the benefits, setup process, and best practices to ensure your
   emails are protected from interception and tampering.
+image:
+  path: "/assets/wordpress-import/featured/2025/01/Untitled-design.png"
+  alt: MTA-STS &amp; TLS-RPT Implementation with PowerDMARC
 ---
 ## Introduction
 

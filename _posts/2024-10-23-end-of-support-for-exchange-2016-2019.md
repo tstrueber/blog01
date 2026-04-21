@@ -13,6 +13,9 @@ excerpt: Learn about the upcoming end of support for Exchange Server 2016 and 20
   on October 14, 2025. Discover your migration options to Exchange Online or the new
   Exchange Server Subscription Edition (SE). Prepare your organization for a smooth
   transition.
+image:
+  path: "/assets/wordpress-import/featured/2024/10/end-of-support-exchange-2016-2019.png"
+  alt: End of Support for Exchange 2016 &amp; 2019
 ---
 The last few weeks have been stressful. I have been moving to a new home and there is still so much to do. However, I thought it might be important to share the latest post from the Exchange tech community with you:
 

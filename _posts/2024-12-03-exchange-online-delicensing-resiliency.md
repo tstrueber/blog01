@@ -11,6 +11,9 @@ tags:
 permalink: "/exchange-online-delicensing-resiliency/"
 excerpt: Learn about Exchange Online Delicensing Resiliency, a new feature by Microsoft
   that helps prevent accidental mailbox deletions by introducing a 30-day grace period.
+image:
+  path: "/assets/wordpress-import/featured/2024/12/image.webp"
+  alt: Exchange Online Delicensing Resiliency
 ---
 ## Introduction
 

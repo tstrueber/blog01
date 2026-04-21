@@ -12,6 +12,9 @@ permalink: "/smtp-dane-with-dnssec/"
 excerpt: Learn how to enhance your email security with SMTP DANE and DNSSEC. This
   article covers the basics, implementation steps, and benefits of using these technologies
   in Exchange Online.
+image:
+  path: "/assets/wordpress-import/featured/2024/11/man-in-the-middle.jpeg"
+  alt: SMTP DANE with DNSSEC
 ---
 ## Introduction
 

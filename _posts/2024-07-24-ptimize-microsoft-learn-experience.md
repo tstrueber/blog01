@@ -7,6 +7,9 @@ categories:
 tags:
 - Microsoft Learn
 permalink: "/ptimize-microsoft-learn-experience/"
+image:
+  path: "/assets/wordpress-import/featured/2024/07/3d-render-code-testing-functional-test-usability-scaled.jpg"
+  alt: Optimize the Microsoft Learn experience
 ---
 This is a short article - I just wanted to share this with you. There is a Add-on for Microsoft Edge to optimize Microsoft Learn pages. The Add-On is created by [Merill Fernando](https://merill.net/) who shares a lot of useful tools - check out his page!
 

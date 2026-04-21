@@ -11,6 +11,9 @@ permalink: "/how-to-set-up-sendgrid-smtp-relay-service/"
 excerpt: This guide will show how to set up the SendGrid SMTP Relay Service. I'll
   walk you through everything from subscribing to the service to configuring DNS records
   and creating an API key.
+image:
+  path: "/assets/wordpress-import/featured/2024/07/sg-twilio-lockup.jpg"
+  alt: How to set up SendGrid SMTP Relay Service
 ---
 ## Introduction
 

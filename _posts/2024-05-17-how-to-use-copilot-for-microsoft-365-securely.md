@@ -13,6 +13,9 @@ tags:
 permalink: "/how-to-use-copilot-for-microsoft-365-securely/"
 excerpt: Details about the risk of implementing Copilot for Microsoft 365 without
   implementing sufficient data security controls in advance.
+image:
+  path: "/assets/wordpress-import/featured/2024/05/securing-copilot.jpeg"
+  alt: How to use Copilot for Microsoft 365 securely
 ---
 ## Introduction
 

@@ -13,6 +13,9 @@ tags:
 permalink: "/writing-a-document-with-copilot/"
 excerpt: How To Guide describing the drafting functionality in Word using Copilot
   for Microsoft 365 for creating a document.
+image:
+  path: "/assets/wordpress-import/featured/2024/03/word-draft.jpg"
+  alt: Writing a Document with Copilot
 ---
 ## Introduction
 

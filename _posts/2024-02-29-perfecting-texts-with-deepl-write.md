@@ -10,6 +10,9 @@ tags:
 permalink: "/perfecting-texts-with-deepl-write/"
 excerpt: Perfecting texts with the Artificial Intelligence (AI) powered tool DeepL
   Write that is based on a Large Language Model.
+image:
+  path: "/assets/wordpress-import/featured/2024/02/deepl-logo.jpg"
+  alt: Perfecting texts with DeepL Write
 ---
 ## Introduction
 

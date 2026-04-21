@@ -12,6 +12,9 @@ tags:
 permalink: "/powershell-scripting-with-copilot/"
 excerpt: How to guide that shows the usage of Copilot for Microsoft 365 for creating
   a Powershell Script to solve a problem.
+image:
+  path: "/assets/wordpress-import/featured/2024/03/copilot-scripting.jpg"
+  alt: Powershell Scripting with Copilot
 ---
 ## Introduction
 

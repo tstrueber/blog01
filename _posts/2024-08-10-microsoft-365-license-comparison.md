@@ -5,6 +5,9 @@ date: 2024-08-10 10:00:42.000000000 +02:00
 permalink: "/microsoft-365-license-comparison/"
 excerpt: How to compare Microsoft 365 license plans with ease using the page M365
   Maps. Find the right plan for your company and employees.
+image:
+  path: "/assets/wordpress-import/featured/2024/08/DALL·E-2024-08-10-09.53.21-An-illustration-comparing-Microsoft-365-license-plans-featuring-a-detailed-comparison-chart.-The-chart-has-columns-for-different-license-plans_-Micro.webp"
+  alt: Microsoft 365 License Comparison
 ---
 ## Introduction
 

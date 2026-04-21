@@ -12,6 +12,9 @@ permalink: "/keepit-backup-for-microsoft-365/"
 excerpt: Discover how to implement Keepit Backup for Microsoft 365 to ensure data
   protection and compliance. Learn about the benefits, setup process, and key features
   of this cloud-native backup solution.
+image:
+  path: "/assets/wordpress-import/featured/2025/01/12953603_Data_security_15-scaled.jpg"
+  alt: Keepit Backup for Microsoft 365
 ---
 ## Introduction
 

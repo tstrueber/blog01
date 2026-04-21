@@ -14,6 +14,9 @@ permalink: "/disable-microsoft-365-copilot-self-service-purchase/"
 excerpt: Learn how to disable Microsoft 365 Copilot self-service purchase to maintain
   control over AI tool implementation in your organization. Follow our step-by-step
   guide to ensure data protection and compliance.
+image:
+  path: "/assets/wordpress-import/featured/2024/12/05c02c0f-67e2-41c2-8524-9ded60080784.webp"
+  alt: Disable Microsoft 365 Copilot Self-Service purchase
 ---
 As from the beginning of October, your customers will have the option of buying Microsoft 365 Copilot directly. Microsoft announced this new feature in [MC899941](https://mc.merill.net/message/MC899941). When it comes to tech like AI, it's really important to get your IT department on board. They can help you figure out what you need and get the green light from the right people in your company. When it comes to Microsoft 365 Copilot, it's important to first look into [Information Protection](https://strueber-it-consulting.de/how-to-use-copilot-for-microsoft-365-securely/) to make sure there's no data leakage. This technology also needs to be checked and approved by your workers council and data protection team.
 

@@ -12,6 +12,9 @@ permalink: "/exchange-online-migration-export-import-forwarders/"
 excerpt: How to export forwarders from onPrem Exchange Mailboxes prior to a migration
   to Exchange Online. Second how to import the forwarders to Exchange Online mailboxes
   after the migration.
+image:
+  path: "/assets/wordpress-import/featured/2024/02/forward-email.jpg"
+  alt: Exchange Online Migration - Export / Import Forwarders
 ---
 ## Introduction
 

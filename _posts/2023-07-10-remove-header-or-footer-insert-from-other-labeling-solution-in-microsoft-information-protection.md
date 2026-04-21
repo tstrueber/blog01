@@ -10,6 +10,9 @@ tags:
 permalink: "/remove-header-or-footer-insert-from-other-labeling-solution-in-microsoft-information-protection/"
 excerpt: How to remove a visual label inside the header or footer of an Word document
   with the function WordShapeNameToRemove in the AIP Unified Labeling client.
+image:
+  path: "/assets/wordpress-import/featured/2023/07/IMG_0359.jpeg"
+  alt: Remove visual marking label in Microsoft Information Protection
 ---
 ## Introduction
 

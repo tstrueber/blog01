@@ -12,6 +12,9 @@ tags:
 permalink: "/copilot-for-microsoft-365/"
 excerpt: Explanation of the architecture of Copilot for Microsoft 365 and how the
   process is working from prompt to answer.
+image:
+  path: "/assets/wordpress-import/featured/2024/05/pikaso_reimagine_digital-painting-A-friendlylooking-robot-with-a-ro.jpeg"
+  alt: How Copilot for Microsoft 365 works
 ---
 ## Introduction
 

@@ -12,6 +12,9 @@ tags:
 - Security
 - Zero Trust
 permalink: "/security-roadmap-for-companies/"
+image:
+  path: "/assets/wordpress-import/featured/2023/09/Podcast.jpg"
+  alt: Security Roadmap for Companies
 ---
 I have just been listening to a very good Practical 365 podcast series about Cyber Security:
 

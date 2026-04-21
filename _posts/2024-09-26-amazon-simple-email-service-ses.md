@@ -14,6 +14,9 @@ permalink: "/amazon-simple-email-service-ses/"
 excerpt: Learn how to set up Amazon Simple Email Service (SES) for cost-effective
   email marketing and transactional emails. Discover the technical and pricing benefits
   for small businesses and enterprises.
+image:
+  path: "/assets/wordpress-import/featured/2024/09/dalle-mail.jpeg"
+  alt: Amazon Simple Email Service (SES)
 ---
 ## Introduction
 

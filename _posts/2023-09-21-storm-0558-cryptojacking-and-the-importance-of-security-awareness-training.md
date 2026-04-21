@@ -13,6 +13,9 @@ tags:
 permalink: "/storm-0558-cryptojacking-and-the-importance-of-security-awareness-training/"
 excerpt: My key takeaways from a recent Practical 365 Podcast regarding Storm-0558,
   Cryptojacking and the importance of Security Awareness Training.
+image:
+  path: "/assets/wordpress-import/featured/2023/09/Podcast.jpg"
+  alt: Storm-0558, Cryptojacking and the importance of Security Awareness Training
 ---
 ## The recent Practical 365 Podcast
 

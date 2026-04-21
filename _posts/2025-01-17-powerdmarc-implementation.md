@@ -11,6 +11,9 @@ permalink: "/powerdmarc-implementation/"
 excerpt: Learn how to set up PowerDMARC to enhance your email security with SPF, DKIM,
   and DMARC. Follow this step-by-step guide to improve email deliverability and protect
   against phishing attacks.
+image:
+  path: "/assets/wordpress-import/featured/2025/01/erstell-ein-bild-welches-thema-e-mail-security-zeigt.jpg"
+  alt: PowerDMARC Implementation
 ---
 ## Introduction
 
