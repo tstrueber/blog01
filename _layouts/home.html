@@ -46,30 +46,33 @@ layout: default
   {% endfor %}
 {% endif %}
 
-{% assign featured_youtube_video = site.youtube.latest_short_video %}
+{% assign featured_youtube_video = site.youtube.latest_long_video %}
 <section class="mb-5">
   <p class="text-uppercase text-muted small mb-2">Modern Workplace Diaries auf YouTube</p>
-  <h1 class="mb-4">Das aktuellste Video direkt aus meinem YouTube-Kanal.</h1>
+  <h1 class="mb-3">Ich bin Microsoft 365 Consultant und selbstständig.</h1>
+  <p class="mb-4">
+    Auf YouTube und in diesem Blog teile ich meine Erfahrungen aus Kundenprojekten, dem Alltag als Consultant
+    und meinem Weg in die Selbstständigkeit. Hier findest du praktische Einblicke zu Microsoft 365, Security,
+    modernen Arbeitsweisen und den Themen, die mich in der Praxis gerade wirklich beschäftigen.
+  </p>
 
-  <a
-    class="youtube-feature-card"
-    href="{{ featured_youtube_video.url }}"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="{{ featured_youtube_video.title }}"
-  >
+  <div class="youtube-feature-card">
     <div class="youtube-feature-media">
-      <img
-        src="https://i.ytimg.com/vi/{{ featured_youtube_video.id }}/hqdefault.jpg"
-        alt="{{ featured_youtube_video.title }}"
-        loading="lazy"
-        decoding="async"
-      >
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/{{ featured_youtube_video.id }}"
+          title="{{ featured_youtube_video.title }}"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
     <div class="youtube-feature-copy">
       <h2 class="youtube-feature-title mb-0">{{ featured_youtube_video.title }}</h2>
     </div>
-  </a>
+  </div>
 </section>
 
 <h2 class="h5 mb-3 text-muted text-uppercase">Neu im Blog</h2>
