@@ -46,113 +46,30 @@ layout: default
   {% endfor %}
 {% endif %}
 
-{% assign latest_post = site.posts.first %}
-{% assign post_count = site.posts | size %}
+{% assign featured_youtube_video = site.youtube.latest_short_video %}
 <section class="mb-5">
   <p class="text-uppercase text-muted small mb-2">Modern Workplace Diaries auf YouTube</p>
-  <h1 class="mb-3">Ich teile mein Wissen zu Microsoft 365 und Selbstständigkeit jetzt noch stärker auf YouTube.</h1>
-  <p class="mb-4">
-    Auf meinem Kanal veröffentliche ich praktische Inhalte zu Microsoft 365, Security, modernen Arbeitsweisen
-    und meinem Weg in die Selbstständigkeit. Wenn du lieber Videos statt langer Fließtexte magst, findest du
-    hier direkt meine aktuellsten Formate.
-  </p>
+  <h1 class="mb-4">Das aktuellste Video direkt aus meinem YouTube-Kanal.</h1>
 
-  <div class="card border-0 shadow-sm overflow-hidden mb-4">
-    <div class="row g-0 align-items-center">
-      <div class="col-lg-7">
-        <div class="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/{{ site.youtube.latest_long_video.id }}"
-            title="{{ site.youtube.latest_long_video.title }}"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-      <div class="col-lg-5">
-        <div class="p-4 p-lg-5">
-          <p class="text-uppercase text-muted small mb-2">Neuestes langes Video</p>
-          <h2 class="h3 mb-3">{{ site.youtube.latest_long_video.title }}</h2>
-          <p class="mb-4">
-            Mein aktuelles Hauptvideo steht hier bewusst im Fokus. Darüber bekommst du den schnellsten Einstieg
-            in meine ausführlicheren Gedanken, Einordnungen und Praxiserfahrungen.
-          </p>
-          <div class="d-flex flex-wrap gap-2">
-            <a
-              class="btn btn-primary"
-              href="{{ site.youtube.latest_long_video.url }}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Langes Video ansehen
-            </a>
-            <a
-              class="btn btn-outline-secondary"
-              href="{{ site.youtube.channel_url }}/videos"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Alle Videos
-            </a>
-          </div>
-        </div>
-      </div>
+  <a
+    class="youtube-feature-card"
+    href="{{ featured_youtube_video.url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="{{ featured_youtube_video.title }}"
+  >
+    <div class="youtube-feature-media">
+      <img
+        src="https://i.ytimg.com/vi/{{ featured_youtube_video.id }}/hqdefault.jpg"
+        alt="{{ featured_youtube_video.title }}"
+        loading="lazy"
+        decoding="async"
+      >
     </div>
-  </div>
-
-  <div class="row g-4 align-items-center">
-    <div class="col-lg-7">
-      <p class="text-uppercase text-muted small mb-2">Kurzformat für schnelle Insights</p>
-      <h2 class="h3 mb-3">Dazwischen teile ich auf YouTube auch kurze, konkrete Impulse als Shorts.</h2>
-      <p class="mb-3">
-        Die Shorts sind für schnelle Tipps, kleine Aha-Momente und technische Beobachtungen aus dem Alltag.
-        So bekommst du auch zwischendurch kompaktes Wissen zu Microsoft 365 und angrenzenden Themen.
-      </p>
-      <p class="mb-4">
-        Das aktuelle Short auf der rechten Seite ist gerade:
-        <strong>{{ site.youtube.latest_short_video.title }}</strong>
-      </p>
-      <div class="d-flex flex-wrap gap-2">
-        <a
-          class="btn btn-outline-primary"
-          href="{{ site.youtube.latest_short_video.url }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Aktuelles Short ansehen
-        </a>
-        <a
-          class="btn btn-link ps-0"
-          href="{{ site.youtube.channel_url }}/shorts"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Alle Shorts
-        </a>
-        {% if latest_post %}
-          <a class="btn btn-link ps-0" href="{{ latest_post.url | relative_url }}">Neuester Blogbeitrag</a>
-        {% endif %}
-      </div>
-      <p class="text-muted small mb-0 mt-3">{{ post_count }} Beiträge im Blog · neue Videos auf {{ site.youtube.channel_handle }}</p>
+    <div class="youtube-feature-copy">
+      <h2 class="youtube-feature-title mb-0">{{ featured_youtube_video.title }}</h2>
     </div>
-
-    <div class="col-lg-5 d-flex justify-content-lg-end">
-      <div style="width: min(100%, 360px);">
-        <div class="ratio" style="--bs-aspect-ratio: 177.78%;">
-          <iframe
-            src="https://www.youtube.com/embed/{{ site.youtube.latest_short_video.id }}"
-            title="{{ site.youtube.latest_short_video.title }}"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
+  </a>
 </section>
 
 <h2 class="h5 mb-3 text-muted text-uppercase">Neu im Blog</h2>
