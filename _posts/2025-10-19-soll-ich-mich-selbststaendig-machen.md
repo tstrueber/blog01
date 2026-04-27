@@ -1,92 +1,44 @@
 ---
 layout: post
-title: Soll ich mich selbstständig machen?
-date: 2025-10-19 09:17:04.000000000 +02:00
+title: "Angestellt oder selbstständig? So entscheidest du richtig"
+date: 2025-10-19 12:00:00.000000000 +02:00
 categories:
 - YouTube
 tags:
 - Selbstständigkeit
 permalink: "/soll-ich-mich-selbststaendig-machen/"
-excerpt: "\"Soll ich mich selbständig machen?“ – Diese Frage stellen sich viele IT-Profis.
-  In diesem Beitrag teile ich meine Erfahrungen und Denkanstöße zur Entscheidung."
+excerpt: "Sollte ich mich selbständig machen? Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. In diesem Video teile ich meine eigenen..."
 image:
-  path: "/assets/wordpress-import/featured/2025/10/thumbnail.png"
-  alt: Soll ich mich selbstständig machen?
+  path: "/assets/img/youtube-thumbnails/KHbi4fifrPQ.jpg"
+  alt: "Angestellt oder selbstständig? So entscheidest du richtig"
 ---
-[Video ansehen](https://www.youtube.com/watch?v=KHbi4fifrPQ)
+<div class="ratio ratio-16x9 mb-4">
+  <iframe src="https://www.youtube.com/embed/KHbi4fifrPQ" title="Angestellt oder selbstständig? So entscheidest du richtig" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-Vielleicht geht’s dir gerade wie mir vor ein paar Jahren.
+In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Angestellt oder selbstständig? So entscheidest du richtig** zusammen.
 
-Du hast ein paar Jahre Berufserfahrung gesammelt, bist gut in dem, was du tust – aber irgendwie spürst du: da kommt noch was.
+Sollte ich mich selbständig machen?
 
-Die große Frage ist nur: **Wie soll’s weitergehen?**
+Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. In diesem Video teile ich meine eigenen Erfahrungen auf dem Weg in die Selbstständigkeit als IT-Freelancer.
 
-Machst du Karriere in einem Unternehmen – oder wagst du den Schritt in die Selbständigkeit?
+## Darum geht es
 
-Genau darüber spreche ich auch in meinem neuen YouTube-Video. Dort bekommst du ein paar **Denkanstöße aus meiner eigenen Erfahrung** und Impulse, die dir helfen sollen, diese Frage für dich selbst zu beantworten.
+- So Good They Can’t Ignore You: Why Skills Trump Passion in the Quest for Work You Love
+- Deep Work: Rules for Focused Success in a Distracted World
+- Slow Productivity: The Lost Art of Accomplishment Without Burnout
+- Podcast von Cal Newport:
+- Nach 7 Jahren im Schnitt Selbständig:
+- Marktstudie - Freelancer Kompass 2025:
 
-* * *
+## Einordnung
 
-### Der Auslöser
-Vor einiger Zeit habe ich eine Nachricht von _Daniel_ bekommen, einem Zuschauer, der mir von seiner aktuellen Situation erzählt hat.
+Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
 
-Er steht genau an diesem Punkt: gute Position, solide Karriere, aber der Gedanke an die Selbständigkeit lässt ihn nicht los.
+## Links aus der Beschreibung
 
-Wir haben uns dazu ausgetauscht – und ich dachte mir: das Thema betrifft so viele, dass es sich lohnt, es auch hier mit euch zu teilen.
-
-* * *
-
-### Warum überhaupt Selbständigkeit?
-Selbständigkeit bedeutet Freiheit, Verantwortung und Gestaltungsraum.
-
-Du entscheidest, **was du machst, mit wem du arbeitest und wohin du dein Unternehmen entwickeln willst**.
-
-Das ist unglaublich motivierend – aber es bringt auch Unsicherheit mit sich.
-
-Kein geregeltes Einkommen, kein bezahlter Urlaub, keine „Sicherheit“ im klassischen Sinn.
-
-Wenn du also überlegst, dich selbständig zu machen, stell dir ehrlich die Frage:
-
-👉 _Warum will ich das eigentlich?_
-
-Ist es Unzufriedenheit im Job? Der Wunsch nach mehr Selbstbestimmung? Oder der Drang, etwas Eigenes aufzubauen?
-
-* * *
-
-### Meine Erfahrung
-Ich selbst habe mich vor ein paar Jahren genau das gefragt.
-
-Damals war ich angestellt, hatte spannende Projekte, aber irgendwann war klar: **ich will mein eigenes Ding machen**.
-
-Heute – als IT-Consultant und Gründer meiner eigenen GmbH – kann ich sagen: es war einer der besten Schritte meines Lebens.
-
-Nicht, weil alles einfach war, sondern weil ich unglaublich viel gelernt habe – über Business, über Menschen und über mich selbst.
-
-* * *
-
-### Mein Tipp an dich
-Wenn du aktuell an diesem Punkt stehst, nimm dir Zeit, über dich selbst nachzudenken.
-
-Mach eine ehrliche Bestandsaufnahme:
-
-- Welche Stärken bringst du mit?
-- Wie ist dein finanzielles Polster?
-- Welche Art von Kunden willst du ansprechen?
-- Und: bist du bereit, auch mal Phasen der Unsicherheit auszuhalten?
-
-Wenn du das mit einem klaren _Ja_ beantworten kannst – dann ist das ein starkes Zeichen.
-
-* * *
-
-### Fazit
-Selbständigkeit ist kein einfacher Weg, aber ein unglaublich lohnender.
-
-Wenn du dir vorstellen kannst, Verantwortung zu übernehmen und bereit bist, zu lernen und zu wachsen – **go for it**.
-
-Denn am Ende ist es deine Karriere, dein Leben, deine Entscheidung.
-
-Wenn du tiefer in das Thema einsteigen willst, schau dir gern mein neues YouTube-Video an:
-
-🎥 **„Soll ich mich selbständig machen?“**
-
-Darin erzähle ich ausführlicher, wie ich den Schritt gegangen bin und welche Erfahrungen ich gemacht habe.
+- [https://calnewport.com/writing/](https://calnewport.com/writing/)
+- [https://www.thedeeplife.com/listen/](https://www.thedeeplife.com/listen/)
+- [https://www.freelancermap.de/blog/freelancer-vs-angestellte-ein-gehaltsvergleich/](https://www.freelancermap.de/blog/freelancer-vs-angestellte-ein-gehaltsvergleich/)
+- [https://www.freelancermap.de/marktstudie](https://www.freelancermap.de/marktstudie)
+- [https://freetouse.com/music](https://freetouse.com/music)
