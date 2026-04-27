@@ -9,20 +9,18 @@ tags:
 - Security
 - Modern Work
 permalink: "/exchange-sicherheitslucke-sind-deine-server-betroffen/"
-excerpt: "Exchange-Sicherheitslücke 2025 – In diesem Video erfährst du, wie du die neu entdeckte Schwachstelle in Microsoft Exchange sicher schließt. Ideal für IT-Administratoren, die..."
+excerpt: "Exchange-Sicherheitslücke 2025 – Hier erfährst du, wie du die neu entdeckte Schwachstelle in Microsoft Exchange sicher schließt. Ideal für IT-Administratoren, die..."
 image:
   path: "/assets/img/youtube-thumbnails/0aZWKtFXd1Y.jpg"
   alt: "Exchange Sicherheitslücke: Sind deine Server betroffen?"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/0aZWKtFXd1Y" title="Exchange Sicherheitslücke: Sind deine Server betroffen?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Exchange Sicherheitslücke: Sind deine Server betroffen?** zusammen.
-
-Exchange-Sicherheitslücke 2025 – In diesem Video erfährst du, wie du die neu entdeckte Schwachstelle in Microsoft Exchange sicher schließt. Ideal für IT-Administratoren, die ihre Systeme vor Angriffen schützen wollen.
+Exchange-Sicherheitslücke 2025 – Hier erfährst du, wie du die neu entdeckte Schwachstelle in Microsoft Exchange sicher schließt. Ideal für IT-Administratoren, die ihre Systeme vor Angriffen schützen wollen.
 
 Wir gehen Schritt für Schritt durch: 1⃣ Worum es bei der aktuellen Sicherheitslücke CVE-2025-53786 geht 2⃣ Welche Exchange-Umgebungen betroffen sind 3⃣ Wie du die Sicherheitslücke korrekt schließt 4⃣ Tipps was dabei zu beachten ist
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/0aZWKtFXd1Y" title="Exchange Sicherheitslücke: Sind deine Server betroffen?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -33,11 +31,11 @@ Wir gehen Schritt für Schritt durch: 1⃣ Worum es bei der aktuellen Sicherheit
 - Hinweis: Diese Anleitung basiert auf aktuellen Microsoft-Sicherheitsinformationen und hilft dir, schnell auf das Risiko zu reagieren.
 - Nützliche Links:
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich zeige, worauf Administratoren jetzt achten sollten und welche nächsten Schritte sinnvoll sind. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://www.heise.de/news/Jetzt-absichern-Microsoft-Exchange-ist-im-hybriden-Betrieb-verwundbar-10512743.html](https://www.heise.de/news/Jetzt-absichern-Microsoft-Exchange-ist-im-hybriden-Betrieb-verwundbar-10512743.html)
 - [https://msrc.microsoft.com/update-guide/advisory/CVE-2025-53786](https://msrc.microsoft.com/update-guide/advisory/CVE-2025-53786)

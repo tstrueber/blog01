@@ -13,15 +13,13 @@ image:
   path: "/assets/img/youtube-thumbnails/__JD1J6qed0.jpg"
   alt: "Selbstständig & Vater: Was sich wirklich verändert"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/__JD1J6qed0" title="Selbstständig & Vater: Was sich wirklich verändert" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Selbstständig & Vater: Was sich wirklich verändert** zusammen.
-
 In dieser Folge sprechen wir offen über ein Thema, das viele Selbstständige früher oder später betrifft: Vater werden und gleichzeitig ein eigenes Business führen.
 
 - Wie verändert ein Kind den Alltag? - Wird man produktiver oder gestresster? - Wie geht man mit Verantwortung, Zeitdruck und finanziellen Themen um?
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/__JD1J6qed0" title="Selbstständig & Vater: Was sich wirklich verändert" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -32,11 +30,11 @@ In dieser Folge sprechen wir offen über ein Thema, das viele Selbstständige fr
 - Vater werden als Selbstständiger
 - Fokus & Produktivität mit Familie
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile hier meine Erfahrungen und Gedanken aus dem Alltag als Selbstständiger und IT-Berater. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://strueberit.de](https://strueberit.de)
 - [https://canatamer.com/](https://canatamer.com/)

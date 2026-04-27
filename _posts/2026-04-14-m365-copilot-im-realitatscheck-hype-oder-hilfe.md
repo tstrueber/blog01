@@ -13,15 +13,13 @@ image:
   path: "/assets/img/youtube-thumbnails/5FiSO0wKdnQ.jpg"
   alt: "M365 Copilot im Realitätscheck: Hype oder Hilfe?"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/5FiSO0wKdnQ" title="M365 Copilot im Realitätscheck: Hype oder Hilfe?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **M365 Copilot im Realitätscheck: Hype oder Hilfe?** zusammen.
-
-In dieser Podcast-Folge sprechen wir über unsere Erfahrungen mit Microsoft 365 Copilot und die Entwicklung der KI im Modern Workplace. Vom ersten Hype rund um ChatGPT über die Einführung von Microsoft 365 Copilot bis hin zu aktuellen Features, Agenten und der Zukunft der KI-gestützten Arbeit – wir werfen einen ehrlichen...
+In dieser Podcast-Folge sprechen wir über unsere Erfahrungen mit Microsoft 365 Copilot und die Entwicklung der KI im Modern Workplace. Vom ersten Hype rund um ChatGPT über die Einführung von Microsoft 365 Copilot bis hin zu aktuellen Features, Agenten und der Zukunft der KI-gestützten Arbeit – wir werfen einen ehrlichen Blick auf Chancen, Probleme und...
 
 - Was funktioniert heute wirklich gut? - Wo waren unsere Erwartungen zu hoch? - Und lohnt sich Microsoft 365 Copilot für Unternehmen überhaupt?
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/5FiSO0wKdnQ" title="M365 Copilot im Realitätscheck: Hype oder Hilfe?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -30,6 +28,6 @@ In dieser Podcast-Folge sprechen wir über unsere Erfahrungen mit Microsoft 365 
 - Und lohnt sich Microsoft 365 Copilot für Unternehmen überhaupt?
 - Wenn du dich mit Microsoft 365, Copilot oder KI im Arbeitsalltag beschäftigst, ist diese Folge genau richtig für dich.
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.

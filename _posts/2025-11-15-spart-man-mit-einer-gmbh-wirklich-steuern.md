@@ -13,15 +13,13 @@ image:
   path: "/assets/img/youtube-thumbnails/--ohzmsDtpU.jpg"
   alt: "Spart man mit einer GmbH wirklich Steuern?"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/--ohzmsDtpU" title="Spart man mit einer GmbH wirklich Steuern?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Spart man mit einer GmbH wirklich Steuern?** zusammen.
-
 In dieser Folge des Modern Workplace Diaries Podcasts sprechen wir über meine Entscheidung, eine GmbH zu gründen – mit dem Ziel, meine Steuerlast zu optimieren.
 
 Wir gehen offen und ehrlich durch meine Erfahrungen als Selbstständiger und klären: - Warum ich mich für die GmbH entschieden habe - Welche steuerlichen Vorteile das wirklich bringt - Was sich durch die neue Unternehmensform verändert hat - Welche Fallstricke es gibt – und worauf man achten sollte
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/--ohzmsDtpU" title="Spart man mit einer GmbH wirklich Steuern?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -32,11 +30,11 @@ Wir gehen offen und ehrlich durch meine Erfahrungen als Selbstständiger und kl�
 - Jetzt reinhören – egal ob du ganz am Anfang stehst oder schon mitten im Unternehmer-Dasein bist.
 - � Schreib uns in die Kommentare:
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile hier meine Erfahrungen und Gedanken aus dem Alltag als Selbstständiger und IT-Berater. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://unternehmergold.de/buecher-von-alexander-keck/](https://unternehmergold.de/buecher-von-alexander-keck/)
 - [https://strueberit.de/](https://strueberit.de/)

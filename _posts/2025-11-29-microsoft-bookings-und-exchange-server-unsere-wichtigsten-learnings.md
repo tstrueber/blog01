@@ -16,15 +16,13 @@ image:
   path: "/assets/img/youtube-thumbnails/ttUYKDriQeI.jpg"
   alt: "Microsoft Bookings & Exchange Server: Unsere wichtigsten Learnings"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/ttUYKDriQeI" title="Microsoft Bookings & Exchange Server: Unsere wichtigsten Learnings" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Microsoft Bookings & Exchange Server: Unsere wichtigsten Learnings** zusammen.
-
-� Microsoft Bookings, Exchange Server & Black Friday Deal Madness In dieser Podcast-Folge sprechen wir über spannende IT-Projekte und kreative Business-Themen: • Erfahrungen mit Microsoft Bookings Projekten • Herausforderungen beim On-Prem Exchange Server Setup • Wie man eine überzeugende Kundenreferenz auf der Homepage...
+� Microsoft Bookings, Exchange Server & Black Friday Deal Madness In dieser Podcast-Folge sprechen wir über spannende IT-Projekte und kreative Business-Themen: • Erfahrungen mit Microsoft Bookings Projekten • Herausforderungen beim On-Prem Exchange Server Setup • Wie man eine überzeugende Kundenreferenz auf der Homepage erstellt • Das Geheimnis hinter...
 
 Perfekt für alle, die sich für Microsoft-Projekte, Webentwicklung und IT-Business-Talks interessieren.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/ttUYKDriQeI" title="Microsoft Bookings & Exchange Server: Unsere wichtigsten Learnings" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -35,6 +33,6 @@ Perfekt für alle, die sich für Microsoft-Projekte, Webentwicklung und IT-Busin
 - Und natürlich: Black Friday Deal Madness – wer findet die besten IT-Deals?
 - Perfekt für alle, die sich für Microsoft-Projekte, Webentwicklung und IT-Business-Talks interessieren.
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.

@@ -7,20 +7,18 @@ categories:
 tags:
 - Selbstständigkeit
 permalink: "/soll-ich-mich-selbststaendig-machen/"
-excerpt: "Sollte ich mich selbständig machen? Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. In diesem Video teile ich meine eigenen..."
+excerpt: "Sollte ich mich selbständig machen? Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. Ich teile meine eigenen..."
 image:
   path: "/assets/img/youtube-thumbnails/KHbi4fifrPQ.jpg"
   alt: "Angestellt oder selbstständig? So entscheidest du richtig"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/KHbi4fifrPQ" title="Angestellt oder selbstständig? So entscheidest du richtig" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Angestellt oder selbstständig? So entscheidest du richtig** zusammen.
-
 Sollte ich mich selbständig machen?
 
-Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. In diesem Video teile ich meine eigenen Erfahrungen auf dem Weg in die Selbstständigkeit als IT-Freelancer.
+Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. Ich teile meine eigenen Erfahrungen auf dem Weg in die Selbstständigkeit als IT-Freelancer.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/KHbi4fifrPQ" title="Angestellt oder selbstständig? So entscheidest du richtig" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -31,11 +29,11 @@ Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahr
 - Nach 7 Jahren im Schnitt Selbständig:
 - Marktstudie - Freelancer Kompass 2025:
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile hier meine Erfahrungen und Gedanken aus dem Alltag als Selbstständiger und IT-Berater. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://calnewport.com/writing/](https://calnewport.com/writing/)
 - [https://www.thedeeplife.com/listen/](https://www.thedeeplife.com/listen/)

@@ -13,15 +13,13 @@ image:
   path: "/assets/img/youtube-thumbnails/HZ_zP9pU5ko.jpg"
   alt: "Was wir 2025 als IT-Berater gelernt haben"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/HZ_zP9pU5ko" title="Was wir 2025 als IT-Berater gelernt haben" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Was wir 2025 als IT-Berater gelernt haben** zusammen.
-
-Jahresrückblick 2025 – In dieser Episode blicken wir als IT-Berater auf ein spannendes Jahr voller Herausforderungen, Learnings und Entwicklungen zurück. Von der Optimierung von M365 Tenants über IT-Sicherheits-Checkups bis hin zur Skalierung unserer Dienstleistungen – wir teilen unsere persönlichen Erfahrungen, Rückschläge...
+Jahresrückblick 2025 – In dieser Episode blicken wir als IT-Berater auf ein spannendes Jahr voller Herausforderungen, Learnings und Entwicklungen zurück. Von der Optimierung von M365 Tenants über IT-Sicherheits-Checkups bis hin zur Skalierung unserer Dienstleistungen – wir teilen unsere persönlichen Erfahrungen, Rückschläge und Highlights. Auch unser...
 
 Was war dein größtes Learning 2025? Schreib’s in die Kommentare!
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/HZ_zP9pU5ko" title="Was wir 2025 als IT-Berater gelernt haben" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -29,9 +27,7 @@ Was war dein größtes Learning 2025? Schreib’s in die Kommentare!
 - Kundenpflege & individuelle IT-Schulungen
 - Sicherheitsbewusstsein in Unternehmen
 - Content Creation: YouTube, Podcast, Analytics
-- :00 Einführung und Jahresrückblick
-- :53 Skalierbarkeit und Beständigkeit im Business
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile hier meine Erfahrungen und Gedanken aus dem Alltag als Selbstständiger und IT-Berater. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.

@@ -13,15 +13,13 @@ image:
   path: "/assets/img/youtube-thumbnails/DsjrIUruhrk.jpg"
   alt: "Hybrid Work scheitert oft an der Technik – hier ist die Lösung"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/DsjrIUruhrk" title="Hybrid Work scheitert oft an der Technik – hier ist die Lösung" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Hybrid Work scheitert oft an der Technik – hier ist die Lösung** zusammen.
-
 In diesem zweiten Teil unseres Interviews mit Uwe Platz, Geschäftsführer der Horst Platz GmbH, sprechen wir über die konkreten technischen Lösungen für moderne Meetingräume und hybride Arbeitsplätze.
 
 Welche Produkte und Hersteller setzen Maßstäbe? Was ist der USP der Horst Platz GmbH? Wie sieht der Arbeitsplatz der Zukunft aus – und was fordern Kunden heute?
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/DsjrIUruhrk" title="Hybrid Work scheitert oft an der Technik – hier ist die Lösung" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -32,11 +30,11 @@ Welche Produkte und Hersteller setzen Maßstäbe? Was ist der USP der Horst Plat
 - Teil 1 des Interviews ansehen:
 - � Kontakt zur Horst Platz GmbH:
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile meine wichtigsten Gedanken und Erfahrungen zu diesem Thema. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://youtu.be/IFqLmvY-5js](https://youtu.be/IFqLmvY-5js)
 - [https://www.horst-platz.de/](https://www.horst-platz.de/)

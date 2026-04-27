@@ -14,15 +14,13 @@ image:
   path: "/assets/img/youtube-thumbnails/GXE1aka4zQM.jpg"
   alt: "So nutzt ein Unternehmen 23 AI Agents produktiv"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/GXE1aka4zQM" title="So nutzt ein Unternehmen 23 AI Agents produktiv" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **So nutzt ein Unternehmen 23 AI Agents produktiv** zusammen.
-
 Wie arbeiten moderne Unternehmen wirklich mit KI? In diesem Gespräch bekommst du einen Einblick in ein AI-Unternehmen, das bereits 23 AI-Agents produktiv im Einsatz hat – für Automatisierung, Wissensarbeit und skalierbare Prozesse.
 
 Wir sprechen darüber: - wie AI-Agents im Alltag eines Unternehmens eingesetzt werden - warum Agentic AI der nächste große Schritt nach ChatGPT ist - welche KI-Kompetenzen Unternehmen jetzt aufbauen müssen - und warum Weiterbildung im Bereich AI & Automatisierung immer wichtiger wird
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/GXE1aka4zQM" title="So nutzt ein Unternehmen 23 AI Agents produktiv" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -31,13 +29,12 @@ Wir sprechen darüber: - wie AI-Agents im Alltag eines Unternehmens eingesetzt w
 - welche KI-Kompetenzen Unternehmen jetzt aufbauen müssen
 - und warum Weiterbildung im Bereich AI & Automatisierung immer wichtiger wird
 - Außerdem schauen wir uns konkret an, wie ein eigener AI-Agent aufgebaut werden kann – inklusive Beispiel.
-- Academy4.ai  http://academy4.ai
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [http://academy4.ai](http://academy4.ai)
 - [https://bmds.bund.de/fileadmin/BMDS/Dokumente/CDR_CDR_251025_%C3%9Cbersicht_KI-Kompetenzaufbau_nach_AI_Act_Ma_BL_clean.pdf](https://bmds.bund.de/fileadmin/BMDS/Dokumente/CDR_CDR_251025_%C3%9Cbersicht_KI-Kompetenzaufbau_nach_AI_Act_Ma_BL_clean.pdf)

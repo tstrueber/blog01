@@ -7,35 +7,30 @@ categories:
 tags:
 - Security
 permalink: "/e-mail-sicherheit-2025-das-musst-du-jetzt-umsetzen/"
-excerpt: "E-Mail ist nach wie vor das wichtigste Kommunikationsmittel – und gleichzeitig Hauptziel von Cyberangriffen. In diesem Video erkläre ich dir die BSI-Empfehlungen für das E-Mail..."
+excerpt: "E-Mail ist nach wie vor das wichtigste Kommunikationsmittel – und gleichzeitig Hauptziel von Cyberangriffen. Ich erkläre dir die BSI-Empfehlungen für das E-Mail..."
 image:
   path: "/assets/img/youtube-thumbnails/TCKyWU2LP-k.jpg"
   alt: "E-Mail-Sicherheit 2025: Das musst du jetzt umsetzen"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/TCKyWU2LP-k" title="E-Mail-Sicherheit 2025: Das musst du jetzt umsetzen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **E-Mail-Sicherheit 2025: Das musst du jetzt umsetzen** zusammen.
-
-E-Mail ist nach wie vor das wichtigste Kommunikationsmittel – und gleichzeitig Hauptziel von Cyberangriffen. In diesem Video erkläre ich dir die BSI-Empfehlungen für das E-Mail Sicherheitsjahr 2025: SPF, DKIM, DMARC, MTA-STS, TLS-RPT und DANE over DNSSEC.
+E-Mail ist nach wie vor das wichtigste Kommunikationsmittel – und gleichzeitig Hauptziel von Cyberangriffen. Ich erkläre dir die BSI-Empfehlungen für das E-Mail Sicherheitsjahr 2025: SPF, DKIM, DMARC, MTA-STS, TLS-RPT und DANE over DNSSEC.
 
 Du lernst: • Wie du deine E-Mails vor Manipulation und Mitlesen schützt • Warum DMARC-Reports entscheidend für Unternehmen sind • Wie du Transportverschlüsselung mit MTA-STS & DANE over DNSSEC einrichtest
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/TCKyWU2LP-k" title="E-Mail-Sicherheit 2025: Das musst du jetzt umsetzen" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
 - Wie du deine E-Mails vor Manipulation und Mitlesen schützt
 - Warum DMARC-Reports entscheidend für Unternehmen sind
 - Wie du Transportverschlüsselung mit MTA-STS & DANE over DNSSEC einrichtest
-- BSI E-Mail Sicherheitsjahr:
-- Technische Richtlinien des BSI:
-- PowerDMARC:
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://strueberit.de](https://strueberit.de)
 - [https://www.bsi.bund.de/DE/Themen/Kampagne-einfach-absichern/EMSJ/Eckpunkte_EMSJ/Eckpunkte-EMSJ.html](https://www.bsi.bund.de/DE/Themen/Kampagne-einfach-absichern/EMSJ/Eckpunkte_EMSJ/Eckpunkte-EMSJ.html)

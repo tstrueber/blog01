@@ -13,21 +13,19 @@ image:
   path: "/assets/img/youtube-thumbnails/IFqLmvY-5js.jpg"
   alt: "Was ein Familienunternehmen wirklich erfolgreich macht"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/IFqLmvY-5js" title="Was ein Familienunternehmen wirklich erfolgreich macht" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Was ein Familienunternehmen wirklich erfolgreich macht** zusammen.
-
 Die Geschichte der Horst Platz GmbH – von der Gründung bis zur Gegenwart. In diesem Interview spreche ich mit dem Geschäftsführer Uwe Platz über die Entstehung des Familienunternehmens, seinen persönlichen Werdegang und die Entwicklung der Horst Platz GmbH über mehrere Jahrzehnte hinweg.
 
 Ob du gerade dabei bist, ein eigenes Unternehmen zu gründen, oder dich für den deutschen Mittelstand interessierst – dieses Video gibt dir Einblicke in unternehmerische Realität, Nachfolge und die Führung eines erfolgreichen Unternehmens.
 
-## Einordnung
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/IFqLmvY-5js" title="Was ein Familienunternehmen wirklich erfolgreich macht" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+## Meine Einordnung
 
-## Links aus der Beschreibung
+Ich teile hier meine Erfahrungen und Gedanken aus dem Alltag als Selbstständiger und IT-Berater. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
+
+## Links
 
 - [https://www.youtube.com/watch?v=DsjrIUruhrk&t=1415s](https://www.youtube.com/watch?v=DsjrIUruhrk&t=1415s)
 - [https://www.horst-platz.de/](https://www.horst-platz.de/)

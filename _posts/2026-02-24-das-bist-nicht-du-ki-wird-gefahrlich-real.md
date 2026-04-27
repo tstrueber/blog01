@@ -15,15 +15,13 @@ image:
   path: "/assets/img/youtube-thumbnails/D0fxpBEUM4o.jpg"
   alt: "Das bist nicht du – KI wird gefährlich real!"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/D0fxpBEUM4o" title="Das bist nicht du – KI wird gefährlich real!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Das bist nicht du – KI wird gefährlich real!** zusammen.
-
 Künstliche Intelligenz (KI) verändert unsere Arbeitswelt radikal – aber was bedeuten Deepfakes, KI-Scams und Jobverlust konkret für Unternehmen und den Arbeitsmarkt? In dieser Folge sprechen wir über Cybersecurity-Risiken, AI-Betrug, Voice Cloning und die realen Auswirkungen von Generative AI.
 
 KI steigert Produktivität, automatisiert Prozesse und verändert Geschäftsmodelle. Gleichzeitig entstehen neue Risiken: täuschend echte Deepfakes, skalierbare Phishing-Angriffe, KI-gestützte Social-Engineering-Scams und Unsicherheit rund um den Arbeitsplatz der Zukunft.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/D0fxpBEUM4o" title="Das bist nicht du – KI wird gefährlich real!" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -34,11 +32,11 @@ KI steigert Produktivität, automatisiert Prozesse und verändert Geschäftsmode
 - Welche Risiken Unternehmen bei unkontrollierter Copilot- und AI-Einführung eingehen
 - Dabei geht es nicht um Panikmache – sondern um eine faktenbasierte Einordnung zwischen Hype und Realität.
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://strueberit.de](https://strueberit.de)
 - [https://canatamer.com/](https://canatamer.com/)

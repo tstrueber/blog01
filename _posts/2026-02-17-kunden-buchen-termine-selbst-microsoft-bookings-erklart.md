@@ -9,20 +9,18 @@ tags:
 - Selbstständigkeit
 - Produktivität
 permalink: "/kunden-buchen-termine-selbst-microsoft-bookings-erklart/"
-excerpt: "Kunden sollen Termine online selbst buchen können – ohne endlose E-Mails und Kalenderabstimmungen? In diesem Video zeige ich dir, wie du mit Microsoft Bookings eine persönliche..."
+excerpt: "Kunden sollen Termine online selbst buchen können – ohne endlose E-Mails und Kalenderabstimmungen? Ich zeige dir, wie du mit Microsoft Bookings eine persönliche..."
 image:
   path: "/assets/img/youtube-thumbnails/H9Auxg9mvHM.jpg"
   alt: "Kunden buchen Termine selbst? Microsoft Bookings erklärt"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/H9Auxg9mvHM" title="Kunden buchen Termine selbst? Microsoft Bookings erklärt" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Kunden sollen Termine online selbst buchen können – ohne endlose E-Mails und Kalenderabstimmungen? Ich zeige dir, wie du mit Microsoft Bookings eine persönliche Buchungsseite erstellst, über die Kunden oder Kollegen freie Termine direkt bei dir buchen können.
+
+Du lernst, was Microsoft Bookings ist, welche Unterschiede es zwischen „Bookings with me“ und Shared Bookings gibt und wie die persönliche Buchungsseite funktioniert. Ich zeige dir, wie Buchungen automatisch in deinem Kalender landen und wie Einladungen an den Kunden versendet werden – auch dann, wenn dieser kein Microsoft 365 nutzt.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/H9Auxg9mvHM" title="Kunden buchen Termine selbst? Microsoft Bookings erklärt" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Kunden buchen Termine selbst? Microsoft Bookings erklärt** zusammen.
-
-Kunden sollen Termine online selbst buchen können – ohne endlose E-Mails und Kalenderabstimmungen? In diesem Video zeige ich dir, wie du mit Microsoft Bookings eine persönliche Buchungsseite erstellst, über die Kunden oder Kollegen freie Termine direkt bei dir buchen können.
-
-Du lernst, was Microsoft Bookings ist, welche Unterschiede es zwischen „Bookings with me“ und Shared Bookings gibt und wie die persönliche Buchungsseite funktioniert. Ich zeige dir, wie Buchungen automatisch in deinem Kalender landen und wie Einladungen an den Kunden versendet werden – auch dann, wenn dieser kein Microsoft...
 
 ## Darum geht es
 
@@ -33,6 +31,6 @@ Du lernst, was Microsoft Bookings ist, welche Unterschiede es zwischen „Bookin
 - Private Buchungslinks für spezielle Termine
 - Typische Use Cases aus der Praxis
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.

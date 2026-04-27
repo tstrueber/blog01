@@ -10,20 +10,18 @@ tags:
 - KI
 - Produktivität
 permalink: "/5x-schneller-scripten-mit-github-copilot/"
-excerpt: "5x schneller scripten mit GitHub Copilot – im Praxisbeispiel mit PowerShell 7, VS Code und einem DNS Audit für SPF, DKIM & DMARC. In diesem Video entwickle ich live ein..."
+excerpt: "5x schneller scripten mit GitHub Copilot – im Praxisbeispiel mit PowerShell 7, VS Code und einem DNS Audit für SPF, DKIM & DMARC. Ich entwickle live ein..."
 image:
   path: "/assets/img/youtube-thumbnails/DlAomkb2WsU.jpg"
   alt: "5x schneller scripten mit GitHub Copilot"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/DlAomkb2WsU" title="5x schneller scripten mit GitHub Copilot" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **5x schneller scripten mit GitHub Copilot** zusammen.
-
-5x schneller scripten mit GitHub Copilot – im Praxisbeispiel mit PowerShell 7, VS Code und einem DNS Audit für SPF, DKIM & DMARC. In diesem Video entwickle ich live ein PowerShell Script, das Email-Domains auf SPF, DKIM, DMARC, DNS-Einträge und offene Ports überprüft.
+5x schneller scripten mit GitHub Copilot – im Praxisbeispiel mit PowerShell 7, VS Code und einem DNS Audit für SPF, DKIM & DMARC. Ich entwickle live ein PowerShell Script, das Email-Domains auf SPF, DKIM, DMARC, DNS-Einträge und offene Ports überprüft.
 
 Statt abstraktem KI-Hype zeige ich einen realen Use Case aus dem IT-Alltag: Ein automatisiertes DNS- und Email-Security-Audit für Domains.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/DlAomkb2WsU" title="5x schneller scripten mit GitHub Copilot" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -34,10 +32,10 @@ Statt abstraktem KI-Hype zeige ich einen realen Use Case aus dem IT-Alltag: Ein 
 - optionale Port-Checks durchführt
 - veraltete oder unsichere Targets sichtbar macht
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich ordne ein, wo KI im Arbeitsalltag heute wirklich hilft und wo man genauer hinschauen sollte. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://strueberit.de](https://strueberit.de)

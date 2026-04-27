@@ -11,20 +11,16 @@ tags:
 - Selbstständigkeit
 - Produktivität
 permalink: "/was-macht-ein-modern-workplace-consultant-wirklich/"
-excerpt: "Schon mal gefragt: Was genau macht ein Modern Workplace Consultant? Dann bleib dran – in diesem Video bekommst du einen tiefen Einblick in meinen Alltag, meine Aufgaben und wie..."
+excerpt: "Ich gebe einen tiefen Einblick in meinen Alltag als Modern Workplace Consultant, meine Aufgaben und Wege in diesen spannenden Beruf..."
 image:
   path: "/assets/img/youtube-thumbnails/s4-TCbN5Mhs.jpg"
   alt: "Was macht ein Modern Workplace Consultant wirklich?"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/s4-TCbN5Mhs" title="Was macht ein Modern Workplace Consultant wirklich?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Schon mal gefragt: Was genau macht ein Modern Workplace Consultant? Ich gebe einen tiefen Einblick in meinen Alltag, meine Aufgaben und wie du selbst in diesen spannenden Beruf einsteigen kannst.
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/s4-TCbN5Mhs" title="Was macht ein Modern Workplace Consultant wirklich?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Was macht ein Modern Workplace Consultant wirklich?** zusammen.
-
-Schon mal gefragt: Was genau macht ein Modern Workplace Consultant? Dann bleib dran – in diesem Video bekommst du einen tiefen Einblick in meinen Alltag, meine Aufgaben und wie du selbst in diesen spannenden Beruf einsteigen kannst!
-
-Schon mal gefragt: Was genau macht ein Modern Workplace Consultant? Dann bleib dran – in diesem Video bekommst du einen tiefen Einblick in meinen Alltag, meine Aufgaben und wie du selbst in diesen spannenden Beruf einsteigen kannst!
 
 ## Darum geht es
 
@@ -35,11 +31,11 @@ Schon mal gefragt: Was genau macht ein Modern Workplace Consultant? Dann bleib d
 - Automatisierung & Effizienz: Power Platform (Power Automate/Power Apps), Prozessautomatisierung (z. B. On‑/Offboarding)
 - Ziel: Der digitale Arbeitsplatz der Zukunft – flexibel, sicher und produktiv.
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile hier meine Erfahrungen und Gedanken aus dem Alltag als Selbstständiger und IT-Berater. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://msjobstipendium.de/](https://msjobstipendium.de/)
 - [https://www.vwa-goettingen.de/de/44/Betriebswirt-in+VWA](https://www.vwa-goettingen.de/de/44/Betriebswirt-in+VWA)

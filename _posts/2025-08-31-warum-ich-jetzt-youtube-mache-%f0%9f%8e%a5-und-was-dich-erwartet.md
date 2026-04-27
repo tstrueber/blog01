@@ -14,15 +14,13 @@ image:
   path: "/assets/img/youtube-thumbnails/DdQbbEXsT20.jpg"
   alt: "Warum ich diesen YouTube-Kanal starte und was dich erwartet"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/DdQbbEXsT20" title="Warum ich diesen YouTube-Kanal starte und was dich erwartet" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **Warum ich diesen YouTube-Kanal starte und was dich erwartet** zusammen.
-
 Willkommen auf meinem Kanal! Ich nehme dich mit auf meine Reise als technischer IT-Berater mit Fokus auf Microsoft 365, persönliche Weiterentwicklung und den Weg in die Selbstständigkeit.
 
-In diesem Video erfährst du: • Warum ich diesen Kanal gestartet habe • Was dich in Zukunft hier erwartet • Welche Tools, Tipps & Fehler ich mit dir teile
+Hier erfährst du: • Warum ich diesen Kanal gestartet habe • Was dich in Zukunft hier erwartet • Welche Tools, Tipps & Fehler ich mit dir teile
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/DdQbbEXsT20" title="Warum ich diesen YouTube-Kanal starte und was dich erwartet" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -33,10 +31,10 @@ In diesem Video erfährst du: • Warum ich diesen Kanal gestartet habe • Was 
 - Selbstständig als IT-Berater
 - Produktivität, Gesundheit & Fokus
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile meine wichtigsten Gedanken und Erfahrungen zu diesem Thema. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
 
-## Links aus der Beschreibung
+## Links
 
 - [https://strueberit.de](https://strueberit.de)

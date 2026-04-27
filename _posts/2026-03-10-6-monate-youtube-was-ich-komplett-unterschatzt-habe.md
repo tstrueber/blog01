@@ -14,15 +14,13 @@ image:
   path: "/assets/img/youtube-thumbnails/64OKzVRW8Ak.jpg"
   alt: "6 Monate YouTube: Was ich komplett unterschätzt habe"
 ---
-<div class="ratio ratio-16x9 mb-4">
-  <iframe src="https://www.youtube.com/embed/64OKzVRW8Ak" title="6 Monate YouTube: Was ich komplett unterschätzt habe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-In diesem Beitrag fasse ich die wichtigsten Punkte aus dem Video **6 Monate YouTube: Was ich komplett unterschätzt habe** zusammen.
-
-Ich mache jetzt seit ungefähr 6 Monaten YouTube – und ehrlich gesagt habe ich komplett unterschätzt, wie schwer es ist, einen Channel aufzubauen. Vom ersten Video, das mehrere Monate gedauert hat, bis zu heute, wo ich immer noch mehrere Stunden pro Video investiere: In diesem Video teile ich meine ehrlichen Erfahrungen mit...
+Ich mache jetzt seit ungefähr 6 Monaten YouTube – und ehrlich gesagt habe ich komplett unterschätzt, wie schwer es ist, einen Channel aufzubauen. Vom ersten Video, das mehrere Monate gedauert hat, bis zu heute, wo ich immer noch mehrere Stunden pro Video investiere: Ich teile meine ehrlichen Erfahrungen mit YouTube als IT-Consultant und...
 
 Außerdem erzähle ich, was ich nach 6 Monaten heute anders mache als am Anfang und wie sich mein Content künftig entwickeln könnte. Mich würde auch interessieren: Wollt ihr mehr technische Deep-Dive Videos zu Modern Workplace und Exchange mehr Real-Life Einblicke als Freelancer oder Interviews mit Leuten aus der IT-Branche?
+
+<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
+  <iframe src="https://www.youtube.com/embed/64OKzVRW8Ak" title="6 Monate YouTube: Was ich komplett unterschätzt habe" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Darum geht es
 
@@ -33,6 +31,6 @@ Außerdem erzähle ich, was ich nach 6 Monaten heute anders mache als am Anfang 
 - warum ich trotzdem weiter YouTube mache, obwohl ich kein Geld damit verdiene
 - Außerdem erzähle ich, was ich nach 6 Monaten heute anders mache als am Anfang und wie sich mein Content künftig entwickeln könnte.
 
-## Einordnung
+## Meine Einordnung
 
-Die Folge richtet sich an alle, die moderne Arbeit, Microsoft 365, IT-Beratung oder den Weg in die Selbstständigkeit praxisnah betrachten wollen. Statt Theorie steht der konkrete Blick aus dem Alltag im Vordergrund: Was funktioniert, worauf sollte man achten und welche nächsten Schritte ergeben sich daraus?
+Ich teile meine wichtigsten Gedanken und Erfahrungen zu diesem Thema. Mir geht es dabei nicht um Theorie, sondern um konkrete Erfahrungen, Learnings und Entscheidungen, die im Arbeitsalltag wirklich relevant werden.
