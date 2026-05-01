@@ -17,9 +17,7 @@ Vibecoding: Der neue Weg zur App? Can hat’s getestet! In dieser ersten Episode
 
 Was ist Vibecoding? Wie funktioniert App-Entwicklung ohne klassische Programmierung? Welche Hürden & Aha-Momente gab es? Can teilt seine Erfahrungen, Learnings & erste Ergebnisse!
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/1O4mKoJ2xO4" title="Vibecoding: App bauen ohne Code?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="1O4mKoJ2xO4" title="Vibecoding: App bauen ohne Code?" %}
 
 ## Darum geht es
 

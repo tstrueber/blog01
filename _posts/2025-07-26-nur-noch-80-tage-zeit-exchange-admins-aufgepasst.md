@@ -18,9 +18,7 @@ Der Support für Exchange Server 2016 & 2019 endet am 14. Oktober 2025 – bist 
 
 Was bedeutet das Extended Security Update Program? Welche Migrationspfade gibt es – SE, Hybrid oder Cloud only? Was müssen Admins bis Oktober 2025 unbedingt erledigen?
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/RM99YMoVNZA" title="Nur noch 80 Tage Zeit - Exchange Admins aufgepasst!" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="RM99YMoVNZA" title="Nur noch 80 Tage Zeit - Exchange Admins aufgepasst!" %}
 
 ## Meine Einordnung
 

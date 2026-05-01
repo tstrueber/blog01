@@ -16,9 +16,7 @@ Sollte ich mich selbständig machen?
 
 Diese Frage stellen sich viele – vor allem, wenn man einige Jahre Berufserfahrung gesammelt hat. Ich teile meine eigenen Erfahrungen auf dem Weg in die Selbstständigkeit als IT-Freelancer.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/KHbi4fifrPQ" title="Angestellt oder selbstständig? So entscheidest du richtig" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="KHbi4fifrPQ" title="Angestellt oder selbstständig? So entscheidest du richtig" %}
 
 ## Darum geht es
 

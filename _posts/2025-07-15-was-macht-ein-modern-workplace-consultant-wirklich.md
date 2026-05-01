@@ -18,9 +18,7 @@ image:
 ---
 Schon mal gefragt: Was genau macht ein Modern Workplace Consultant? Ich gebe einen tiefen Einblick in meinen Alltag, meine Aufgaben und wie du selbst in diesen spannenden Beruf einsteigen kannst.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/s4-TCbN5Mhs" title="Was macht ein Modern Workplace Consultant wirklich?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="s4-TCbN5Mhs" title="Was macht ein Modern Workplace Consultant wirklich?" %}
 
 ## Darum geht es
 

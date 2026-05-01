@@ -26,6 +26,18 @@
           <span>ABOUT</span>
         </a>
       </li>
+      <li class="nav-item{% if page.url == '/impressum/' %} active{% endif %}">
+        <a href="{{ '/impressum/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-balance-scale"></i>
+          <span>IMPRESSUM</span>
+        </a>
+      </li>
+      <li class="nav-item{% if page.url == '/datenschutz/' %} active{% endif %}">
+        <a href="{{ '/datenschutz/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-shield-alt"></i>
+          <span>DATENSCHUTZ</span>
+        </a>
+      </li>
     </ul>
   </nav>
 

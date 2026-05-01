@@ -18,9 +18,7 @@ KI im Büro – wie nutzen wir künstliche Intelligenz wirklich im Alltag? � I
 
 Erfahre, welche Tools uns wirklich Zeit sparen, wo KI an ihre Grenzen stößt und warum „smarter statt härter“ das neue Motto ist.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/9kLJGoEEURA" title="KI im Arbeitsalltag: Was wirklich funktioniert" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="9kLJGoEEURA" title="KI im Arbeitsalltag: Was wirklich funktioniert" %}
 
 ## Darum geht es
 

@@ -17,9 +17,7 @@ Ich zeige dir, wie du herausfindest, welche Anwendungen in deinem Microsoft 365 
 
 Microsoft wird EWS in Exchange Online abschalten. Viele Unternehmen haben jedoch noch Anwendungen im Einsatz, die diese Schnittstelle nutzen. Genau hier wird es kritisch: Wenn du diese Apps nicht rechtzeitig identifizierst und umstellst, können Prozesse und Integrationen plötzlich nicht mehr funktionieren.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/XhNo_uC4G4o" title="EWS Abschaltung: So findest du betroffene Apps" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="XhNo_uC4G4o" title="EWS Abschaltung: So findest du betroffene Apps" %}
 
 ## Darum geht es
 

@@ -18,9 +18,7 @@ Ich mache jetzt seit ungefähr 6 Monaten YouTube – und ehrlich gesagt habe ich
 
 Außerdem erzähle ich, was ich nach 6 Monaten heute anders mache als am Anfang und wie sich mein Content künftig entwickeln könnte. Mich würde auch interessieren: Wollt ihr mehr technische Deep-Dive Videos zu Modern Workplace und Exchange mehr Real-Life Einblicke als Freelancer oder Interviews mit Leuten aus der IT-Branche?
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/64OKzVRW8Ak" title="6 Monate YouTube: Was ich komplett unterschätzt habe" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="64OKzVRW8Ak" title="6 Monate YouTube: Was ich komplett unterschätzt habe" %}
 
 ## Darum geht es
 

@@ -17,9 +17,7 @@ In dieser Folge sprechen wir über effektive Methoden zur Selbstorganisation, de
 
 Wir diskutieren Tools wie Notion, Microsoft Loop und Lists, deren Vor- und Nachteile im Team-Einsatz und geben dir Tipps zur Tool-Auswahl und Bewertung. Auch persönliche Themen wie gesunder Schlaf, YouTube-Gewohnheiten, Blog- und RSS-Feeds, sowie digitale Routinen kommen nicht zu kurz.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/F_qfiWQ91UE" title="Produktivität, KI & Tools – So organisierst du dich 2026 effektiv" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="F_qfiWQ91UE" title="Produktivität, KI & Tools – So organisierst du dich 2026 effektiv" %}
 
 ## Meine Einordnung
 

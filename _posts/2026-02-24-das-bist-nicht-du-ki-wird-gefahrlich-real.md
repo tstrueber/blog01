@@ -19,9 +19,7 @@ Künstliche Intelligenz (KI) verändert unsere Arbeitswelt radikal – aber was 
 
 KI steigert Produktivität, automatisiert Prozesse und verändert Geschäftsmodelle. Gleichzeitig entstehen neue Risiken: täuschend echte Deepfakes, skalierbare Phishing-Angriffe, KI-gestützte Social-Engineering-Scams und Unsicherheit rund um den Arbeitsplatz der Zukunft.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/D0fxpBEUM4o" title="Das bist nicht du – KI wird gefährlich real!" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="D0fxpBEUM4o" title="Das bist nicht du – KI wird gefährlich real!" %}
 
 ## Darum geht es
 

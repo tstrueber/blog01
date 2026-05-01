@@ -76,6 +76,8 @@ layout: compress
       {% include {{ _include_path }} %}
     {% endfor %}
 
+    <script defer src="{{ '/assets/js/youtube-consent.js' | relative_url }}"></script>
+
     {% include_cached search-loader.html lang=lang %}
   </body>
 </html>

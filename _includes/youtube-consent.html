@@ -1,0 +1,25 @@
+{% assign youtube_id = include.id | strip %}
+{% assign youtube_title = include.title | default: 'YouTube-Video' | escape %}
+
+<div class="youtube-consent" data-youtube-id="{{ youtube_id }}" data-youtube-title="{{ youtube_title }}">
+  <div class="youtube-consent__inner">
+    <p class="youtube-consent__title">{{ youtube_title }}</p>
+    <p class="youtube-consent__copy">
+      Dieses Video wird erst nach deiner Zustimmung von YouTube geladen. Dabei können personenbezogene Daten an Google
+      übertragen und Cookies oder ähnliche Technologien gesetzt werden.
+    </p>
+    <div class="youtube-consent__actions">
+      <button type="button" class="youtube-consent__button" data-youtube-load>
+        Video laden
+      </button>
+      <a
+        href="https://www.youtube.com/watch?v={{ youtube_id }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="youtube-consent__link"
+      >
+        Auf YouTube öffnen
+      </a>
+    </div>
+  </div>
+</div>

@@ -19,9 +19,7 @@ Ich habe mir ein neues MacBook Pro 2026 mit M5 Pro gekauft – ich packe es aus 
 
 Mein bisheriges MacBook Air mit M2 kam beim Videoschnitt zunehmend an seine Grenzen. Deshalb habe ich mich für ein stärkeres Setup entschieden, das vor allem für Content Creation, DaVinci Resolve und zukünftige KI-Workloads geeignet sein soll.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/f7GTga5jhuI" title="MacBook Pro 2026 M5 Pro - Unboxing & erster Eindruck" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="f7GTga5jhuI" title="MacBook Pro 2026 M5 Pro - Unboxing & erster Eindruck" %}
 
 ## Darum geht es
 

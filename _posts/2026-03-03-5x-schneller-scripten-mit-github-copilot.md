@@ -19,9 +19,7 @@ image:
 
 Statt abstraktem KI-Hype zeige ich einen realen Use Case aus dem IT-Alltag: Ein automatisiertes DNS- und Email-Security-Audit für Domains.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/DlAomkb2WsU" title="5x schneller scripten mit GitHub Copilot" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="DlAomkb2WsU" title="5x schneller scripten mit GitHub Copilot" %}
 
 ## Darum geht es
 

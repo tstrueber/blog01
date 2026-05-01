@@ -17,9 +17,7 @@ In diesem zweiten Teil unseres Interviews mit Uwe Platz, Geschäftsführer der H
 
 Welche Produkte und Hersteller setzen Maßstäbe? Was ist der USP der Horst Platz GmbH? Wie sieht der Arbeitsplatz der Zukunft aus – und was fordern Kunden heute?
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/DsjrIUruhrk" title="Hybrid Work scheitert oft an der Technik – hier ist die Lösung" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="DsjrIUruhrk" title="Hybrid Work scheitert oft an der Technik – hier ist die Lösung" %}
 
 ## Darum geht es
 

@@ -20,9 +20,7 @@ image:
 
 Perfekt für alle, die sich für Microsoft-Projekte, Webentwicklung und IT-Business-Talks interessieren.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/ttUYKDriQeI" title="Microsoft Bookings & Exchange Server: Unsere wichtigsten Learnings" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="ttUYKDriQeI" title="Microsoft Bookings & Exchange Server: Unsere wichtigsten Learnings" %}
 
 ## Darum geht es
 

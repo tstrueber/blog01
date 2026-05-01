@@ -17,9 +17,7 @@ Jahresrückblick 2025 – In dieser Episode blicken wir als IT-Berater auf ein s
 
 Was war dein größtes Learning 2025? Schreib’s in die Kommentare!
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/HZ_zP9pU5ko" title="Was wir 2025 als IT-Berater gelernt haben" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="HZ_zP9pU5ko" title="Was wir 2025 als IT-Berater gelernt haben" %}
 
 ## Darum geht es
 

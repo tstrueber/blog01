@@ -17,9 +17,7 @@ Die Geschichte der Horst Platz GmbH – von der Gründung bis zur Gegenwart. In 
 
 Ob du gerade dabei bist, ein eigenes Unternehmen zu gründen, oder dich für den deutschen Mittelstand interessierst – dieses Video gibt dir Einblicke in unternehmerische Realität, Nachfolge und die Führung eines erfolgreichen Unternehmens.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/IFqLmvY-5js" title="Was ein Familienunternehmen wirklich erfolgreich macht" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="IFqLmvY-5js" title="Was ein Familienunternehmen wirklich erfolgreich macht" %}
 
 ## Meine Einordnung
 

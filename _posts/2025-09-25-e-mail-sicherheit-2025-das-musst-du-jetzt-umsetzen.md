@@ -16,9 +16,7 @@ E-Mail ist nach wie vor das wichtigste Kommunikationsmittel – und gleichzeitig
 
 Du lernst: • Wie du deine E-Mails vor Manipulation und Mitlesen schützt • Warum DMARC-Reports entscheidend für Unternehmen sind • Wie du Transportverschlüsselung mit MTA-STS & DANE over DNSSEC einrichtest
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/TCKyWU2LP-k" title="E-Mail-Sicherheit 2025: Das musst du jetzt umsetzen" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="TCKyWU2LP-k" title="E-Mail-Sicherheit 2025: Das musst du jetzt umsetzen" %}
 
 ## Darum geht es
 

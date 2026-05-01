@@ -17,9 +17,7 @@ In dieser Folge sprechen wir offen über ein Thema, das viele Selbstständige fr
 
 - Wie verändert ein Kind den Alltag? - Wird man produktiver oder gestresster? - Wie geht man mit Verantwortung, Zeitdruck und finanziellen Themen um?
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/__JD1J6qed0" title="Selbstständig & Vater: Was sich wirklich verändert" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="__JD1J6qed0" title="Selbstständig & Vater: Was sich wirklich verändert" %}
 
 ## Darum geht es
 

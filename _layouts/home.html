@@ -58,16 +58,7 @@ layout: default
 
   <div class="youtube-feature-card">
     <div class="youtube-feature-media">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://www.youtube.com/embed/{{ featured_youtube_video.id }}"
-          title="{{ featured_youtube_video.title }}"
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
+      {% include youtube-consent.html id=featured_youtube_video.id title=featured_youtube_video.title %}
     </div>
     <div class="youtube-feature-copy">
       <h2 class="youtube-feature-title mb-0">{{ featured_youtube_video.title }}</h2>

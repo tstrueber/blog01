@@ -19,9 +19,7 @@ Als Freelancer oder IT-Consultant kommt man am richtigen Tool-Stack nicht vorbei
 
 In dieser Podcast-Folge sprechen Can und Timo offen und praxisnah über ihren persönlichen Tool-Stack, ihre Workflows und Learnings aus dem Alltag als Selbstständige. Es geht nicht um Hochglanz-Theorie, sondern um echte Erfahrungen: Was funktioniert wirklich? Wo lohnt sich Automatisierung – und wo nicht? Welche Tools helfen, Struktur reinzubringen, ohne...
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/t96qAdFzugU" title="Tool-Stack für Freelancer & IT-Consultants: Buchhaltung, Automatisierung, Security & Workflows" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="t96qAdFzugU" title="Tool-Stack für Freelancer & IT-Consultants: Buchhaltung, Automatisierung, Security & Workflows" %}
 
 ## Darum geht es
 

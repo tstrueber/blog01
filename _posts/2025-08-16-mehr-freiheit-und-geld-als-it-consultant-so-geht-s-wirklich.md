@@ -16,9 +16,7 @@ Du willst raus aus dem 9-to-5 und dich als IT-Berater selbstständig machen? In 
 
 Wir sprechen über: - Den Start in die Selbstständigkeit (nebenberuflich oder direkt?) - Kundenakquise, Tools & Alltag als IT-Consultant - Finanzen, Versicherungen & Preisgestaltung - Die größten Fehler & wichtigsten Learnings im ersten Jahr - Konkrete Tipps für alle, die 2025 durchstarten wollen!
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/i_hYhh_Rbvo" title="Mehr Freiheit & Geld als IT-Consultant? So geht's wirklich!" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="i_hYhh_Rbvo" title="Mehr Freiheit & Geld als IT-Consultant? So geht's wirklich!" %}
 
 ## Darum geht es
 

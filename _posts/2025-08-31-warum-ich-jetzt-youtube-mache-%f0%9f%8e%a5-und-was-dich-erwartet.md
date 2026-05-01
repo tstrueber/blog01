@@ -18,9 +18,7 @@ Willkommen auf meinem Kanal! Ich nehme dich mit auf meine Reise als technischer 
 
 Hier erfährst du: • Warum ich diesen Kanal gestartet habe • Was dich in Zukunft hier erwartet • Welche Tools, Tipps & Fehler ich mit dir teile
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/DdQbbEXsT20" title="Warum ich diesen YouTube-Kanal starte und was dich erwartet" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="DdQbbEXsT20" title="Warum ich diesen YouTube-Kanal starte und was dich erwartet" %}
 
 ## Darum geht es
 

@@ -17,9 +17,7 @@ In dieser Folge des Modern Workplace Diaries Podcasts sprechen wir über meine E
 
 Wir gehen offen und ehrlich durch meine Erfahrungen als Selbstständiger und klären: - Warum ich mich für die GmbH entschieden habe - Welche steuerlichen Vorteile das wirklich bringt - Was sich durch die neue Unternehmensform verändert hat - Welche Fallstricke es gibt – und worauf man achten sollte
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/--ohzmsDtpU" title="Spart man mit einer GmbH wirklich Steuern?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="--ohzmsDtpU" title="Spart man mit einer GmbH wirklich Steuern?" %}
 
 ## Darum geht es
 

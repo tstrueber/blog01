@@ -17,9 +17,7 @@ Wie wird man IT-Consultant? Ich spreche mit Phillipp Jansen, Junior Consultant b
 
 Du erfährst: • Warum sich Philipp für eine Ausbildung in der IT entschieden hat • Welche Erfahrungen er während seiner Ausbildung gesammelt hat • Wie der Einstieg ins Berufsleben als Junior Consultant ablief • Welche Skills, Einstellungen und Werte heute in der IT wirklich zählen • Warum Teamarbeit, Mentoring und kontinuierliches Lernen der Schlüssel zum...
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/yaHrKg8qGz8" title="So wirst du IT-Consultant – vom Azubi zum Berufseinstieg" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="yaHrKg8qGz8" title="So wirst du IT-Consultant – vom Azubi zum Berufseinstieg" %}
 
 ## Darum geht es
 

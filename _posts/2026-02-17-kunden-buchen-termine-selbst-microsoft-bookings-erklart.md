@@ -18,9 +18,7 @@ Kunden sollen Termine online selbst buchen können – ohne endlose E-Mails und 
 
 Du lernst, was Microsoft Bookings ist, welche Unterschiede es zwischen „Bookings with me“ und Shared Bookings gibt und wie die persönliche Buchungsseite funktioniert. Ich zeige dir, wie Buchungen automatisch in deinem Kalender landen und wie Einladungen an den Kunden versendet werden – auch dann, wenn dieser kein Microsoft 365 nutzt.
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/H9Auxg9mvHM" title="Kunden buchen Termine selbst? Microsoft Bookings erklärt" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="H9Auxg9mvHM" title="Kunden buchen Termine selbst? Microsoft Bookings erklärt" %}
 
 ## Darum geht es
 

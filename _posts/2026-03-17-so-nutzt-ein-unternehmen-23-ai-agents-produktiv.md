@@ -18,9 +18,7 @@ Wie arbeiten moderne Unternehmen wirklich mit KI? In diesem Gespräch bekommst d
 
 Wir sprechen darüber: - wie AI-Agents im Alltag eines Unternehmens eingesetzt werden - warum Agentic AI der nächste große Schritt nach ChatGPT ist - welche KI-Kompetenzen Unternehmen jetzt aufbauen müssen - und warum Weiterbildung im Bereich AI & Automatisierung immer wichtiger wird
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/GXE1aka4zQM" title="So nutzt ein Unternehmen 23 AI Agents produktiv" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="GXE1aka4zQM" title="So nutzt ein Unternehmen 23 AI Agents produktiv" %}
 
 ## Darum geht es
 

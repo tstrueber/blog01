@@ -18,9 +18,7 @@ Die IT-Welt verändert sich schneller als je zuvor. Doch eine Frage wird immer w
 
 In dieser Folge sprechen wir offen darüber, wie man sich in der IT wirklich weiterentwickelt – ohne in der Masse unterzugehen. Wir teilen unsere eigenen Erfahrungen aus der Praxis und zeigen: - warum viele ITler langfristig austauschbar werden - welche Rolle Spezialisierung wirklich spielt - wie du mit gezielter Weiterbildung deinen Marktwert steigerst -...
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/2XdDkgWIOBY" title="Generalist vs Spezialist – wer gewinnt wirklich?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="2XdDkgWIOBY" title="Generalist vs Spezialist – wer gewinnt wirklich?" %}
 
 ## Darum geht es
 

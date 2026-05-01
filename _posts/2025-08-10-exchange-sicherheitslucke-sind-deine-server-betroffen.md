@@ -18,9 +18,7 @@ Exchange-Sicherheitslücke 2025 – Hier erfährst du, wie du die neu entdeckte 
 
 Wir gehen Schritt für Schritt durch: 1⃣ Worum es bei der aktuellen Sicherheitslücke CVE-2025-53786 geht 2⃣ Welche Exchange-Umgebungen betroffen sind 3⃣ Wie du die Sicherheitslücke korrekt schließt 4⃣ Tipps was dabei zu beachten ist
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/0aZWKtFXd1Y" title="Exchange Sicherheitslücke: Sind deine Server betroffen?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="0aZWKtFXd1Y" title="Exchange Sicherheitslücke: Sind deine Server betroffen?" %}
 
 ## Darum geht es
 

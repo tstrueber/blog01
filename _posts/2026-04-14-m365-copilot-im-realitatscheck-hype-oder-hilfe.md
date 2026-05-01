@@ -17,9 +17,7 @@ In dieser Podcast-Folge sprechen wir über unsere Erfahrungen mit Microsoft 365 
 
 - Was funktioniert heute wirklich gut? - Wo waren unsere Erwartungen zu hoch? - Und lohnt sich Microsoft 365 Copilot für Unternehmen überhaupt?
 
-<div style="width: 100%; aspect-ratio: 16 / 9; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/5FiSO0wKdnQ" title="M365 Copilot im Realitätscheck: Hype oder Hilfe?" style="width: 100%; height: 100%; border: 0; display: block;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube-consent.html id="5FiSO0wKdnQ" title="M365 Copilot im Realitätscheck: Hype oder Hilfe?" %}
 
 ## Darum geht es
 
