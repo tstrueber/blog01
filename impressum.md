@@ -24,6 +24,7 @@ Timo Strüber
 
 Telefon: +49 151 44222945  
 E-Mail: info@strueberit.de  
+E-Mail: [info@modernworkplacediaries.de](mailto:info@modernworkplacediaries.de)<br>
 Web: [strueberit.de](https://strueberit.de/)
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
