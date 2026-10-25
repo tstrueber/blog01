@@ -44,7 +44,7 @@ script_includes:
 
         <div class="mt-3 mb-3">
           <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" loading="eager" decoding="async" {{ lqip }}>
-          {%- if page.image.alt -%}
+          {%- if page.image.alt and page.image.alt != page.title -%}
             <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
           {%- endif -%}
         </div>
